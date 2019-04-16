@@ -1,9 +1,10 @@
 # Summary
 
-... 1-2 sentences (see [release checklist](http://universaldependencies.org/release_checklist.html#the-readme-file) for README guidelines) ...
+The UD_Italian-VIT corpus, annotated according to the UD annotation scheme, was obtained by conversion from VIT (Venice Italian Treebank), developed at the Laboratory of Computational Linguistics of the Università Ca' Foscari in Venice (Del Monte, Bristot, Tonelli, 2008).
 
 # Introduction
 
+... 1-2 sentences (see [release checklist](http://universaldependencies.org/release_checklist.html#the-readme-file) for README guidelines) 
 ...
 
 # Acknowledgments
@@ -12,12 +13,14 @@
 
 ## References
 
-* (citation)
+* Delmonte R. Bristot A., Tonelli S., VIT - Venice Italian Treebank: Syntactic and Quantitative
+Features, in K. De Smedt, Jan Hajic, Sandra Kübler(Eds.), Proc. Sixth International Workshop on
+Treebanks and Linguistic Theories, Nealt Proc. Series Vol.1. 2008.
 
 <pre>
 === Machine-readable metadata (DO NOT REMOVE!) ================================
 Data available since: UD v2.4
-License: CC BY-SA 4.0
+License: CC BY-NC-SA 3.0
 Includes text: yes
 Genre: nonfiction news
 Lemmas: converted from manual
