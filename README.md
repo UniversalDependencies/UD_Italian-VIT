@@ -4,6 +4,11 @@ The UD_Italian-VIT corpus, annotated according to the UD annotation scheme, was 
 
 # Introduction
 
+    A description of the treebank and its origin (creation method, data sources, etc.)
+    A description of how the data was split into training, development and test sets
+    If there are multiple genres/domains, can they be told apart by sentence ids? Does the treebank consist of complete documents, or just randomly shuffled sentences?
+    Acknowledgments and references that should be cited when using the treebank
+
 ... 1-2 sentences (see [release checklist](http://universaldependencies.org/release_checklist.html#the-readme-file) for README guidelines) 
 ...
 
