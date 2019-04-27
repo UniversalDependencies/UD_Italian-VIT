@@ -1,20 +1,20 @@
 # Summary
 
-The UD_Italian-VIT corpus, annotated according to the UD annotation scheme, was obtained by conversion from VIT (Venice Italian Treebank), developed at the Laboratory of Computational Linguistics of the Università Ca' Foscari in Venice  (Delmonte et al. 2007; Delmonte 2009).
+The UD_Italian-VIT corpus, annotated according to the UD annotation scheme, was obtained by conversion from VIT (Venice Italian Treebank), developed at the Laboratory of Computational Linguistics of the Università Ca' Foscari in Venice (Delmonte et al. 2007; Delmonte 2009).
 
 # Introduction
 
-    A description of the treebank and its origin (creation method, data sources, etc.)
-    A description of how the data was split into training, development and test sets
-    If there are multiple genres/domains, can they be told apart by sentence ids? Does the treebank consist of complete documents, or just randomly shuffled sentences?
-    Acknowledgments and references that should be cited when using the treebank
+VIT originated as a constituency based treebank following the theoretical framework described in (Delmonte et al. 2007), and was later on converted into a dependency representation in ConLL-X format (Delmonte 2009).
 
-... 1-2 sentences (see [release checklist](http://universaldependencies.org/release_checklist.html#the-readme-file) for README guidelines) 
-...
+VIT includes linguistic materials of diverse nature, extracted from five different text genres: news, burocratic, political, scientific and literary genres (Delmonte et al. 2007).
+
+Similarly to what we did for other Italian treebanks, the UD version of the VIT treebank was obtained by first converting to an unriched version of the MIDT (Merged Italian Dependency Treebank) scheme, and then by means of a further conversion step from MIDT+ to UD v2. conversion was followed by a series of semi-automatic harmonization steps, in order to compensate for several differences in the use of the target annotation scheme with respect to the other Italian treebanks.
+
+The splitting into training, devel and test was done maintaining as much as possible the original sequence and respecting the proportions indicated in the guidelines (80%, 10%, 10%).
 
 # Acknowledgments
 
-We would like to acknowledge Linda Alfieri and Elzara Khaialieva who made the biggest work in the VIT conversion process by setting up the automatic conversion rules and by checking the treebank manually.
+We are indebted to Rodolfo Del Monte and his collaborators, Antonella Bristot and Sara Tonelli, for the initial work on the VIT treebank; we also acknowledge the contribution of Linda Alfieri and Elzara Khaialieva who implmented the conversion process from VIT to MIDT+, setting up the automatic conversion rules and checking the treebank manually.
 
 ## References
 
