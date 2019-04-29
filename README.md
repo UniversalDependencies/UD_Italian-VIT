@@ -4,7 +4,7 @@ The UD_Italian-VIT corpus was obtained by conversion from VIT (Venice Italian Tr
 
 # Introduction
 
-VIT originated as a constituency based treebank following the theoretical framework described in (Delmonte et al. 2007), and was later on converted into a dependency representation in ConLL-X format (Delmonte 2009).
+VIT originated as a constituency based treebank following the theoretical framework described in (Delmonte et al. 2007), and was later converted into a dependency representation in ConLL-X format (Delmonte 2009).
 
 VIT includes linguistic materials of diverse nature, extracted from five different text genres: news, burocratic, political, scientific and literary genres (Delmonte et al. 2007).
 
@@ -14,7 +14,7 @@ The splitting into training, devel and test was done maintaining as much as poss
 
 # Acknowledgments
 
-We are indebted to Rodolfo Del Monte and his collaborators, Antonella Bristot and Sara Tonelli, for the initial work on the VIT treebank; we also acknowledge the contribution of Linda Alfieri and Elzara Khaialieva to the implementation of the conversion process from VIT to MIDT+, in setting up the automatic conversion rules and in checking the treebank manually.
+We are indebted to Rodolfo Del Monte and his collaborators, Antonella Bristot and Sara Tonelli, for the initial work on the VIT treebank; we also acknowledge the contribution of Linda Alfieri and Elzara Khaialieva to the implementation of the conversion process from VIT to MIDT+, which consisted in setting up the automatic conversion rules and in checking the treebank manually.
 
 ## References
 
