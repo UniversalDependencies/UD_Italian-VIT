@@ -3712,17 +3712,17 @@
 
 # sent_id = VIT-4856
 # text = Relativamente ai punti 1 e 2 per ogni comune e per i comuni che comprendono più distretti per ogni distretto), lo scorrimento delle scuole per l'assegnazione delle cattedre avviene nel seguente ordine:
-1	Relativamente	relativo	ADV	B	_	10	advmod	_	_
+1	Relativamente	relativo	ADV	B	_	4	mark	_	_
 2-3	ai	_	_	_	_	_	_	_	_
-2	a	a	ADP	E	_	4	case	_	_
+2	a	a	ADP	E	_	1	fixed	_	_
 3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
-4	punti	punto	NOUN	S	Gender=Masc|Number=Plur	1	obl	_	_
-5	1	1	ADJ	NO	NumType=Ord	4	amod	_	_
+4	punti	punto	NOUN	S	Gender=Masc|Number=Plur	35	obl	_	_
+5	1	1	NUM	N	NumType=Card	4	nummod	_	_
 6	e	e	CCONJ	CC	_	7	cc	_	_
-7	2	2	ADJ	NO	NumType=Ord	5	conj	_	_
+7	2	2	NUM	N	NumType=Card	5	conj	_	_
 8	per	per	ADP	E	_	10	case	_	_
 9	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	10	det	_	_
-10	comune	comune	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+10	comune	comune	NOUN	S	Gender=Masc|Number=Sing	35	obl	_	_
 11	e	e	CCONJ	CC	_	14	cc	_	_
 12	per	per	ADP	E	_	14	case	_	_
 13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
@@ -3737,7 +3737,7 @@
 22	)	)	PUNCT	FB	_	10	punct	_	SpaceAfter=No
 23	,	,	PUNCT	FF	_	10	punct	_	_
 24	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
-25	scorrimento	scorrimento	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	_
+25	scorrimento	scorrimento	NOUN	S	Gender=Masc|Number=Sing	35	nsubj	_	_
 26-27	delle	_	_	_	_	_	_	_	_
 26	di	di	ADP	E	_	28	case	_	_
 27	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	28	det	_	_
@@ -3749,13 +3749,13 @@
 32	di	di	ADP	E	_	34	case	_	_
 33	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	34	det	_	_
 34	cattedre	cattedra	NOUN	S	Gender=Fem|Number=Plur	31	nmod	_	_
-35	avviene	avvenire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	case	_	_
+35	avviene	avvenire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 36-37	nel	_	_	_	_	_	_	_	_
 36	in	in	ADP	E	_	39	case	_	_
 37	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
 38	seguente	seguente	ADJ	A	Number=Sing	39	amod	_	_
-39	ordine	ordine	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
-40	:	:	PUNCT	FC	_	10	punct	_	_
+39	ordine	ordine	NOUN	S	Gender=Masc|Number=Sing	35	obl	_	SpaceAfter=No
+40	:	:	PUNCT	FC	_	35	punct	_	_
 
 # sent_id = VIT-4857
 # text = 1) scuole a tempo normale cattedre interne alla scuola 2) scuole a tempo prolungato cattedre interne alla scuola 3) scuole a tempo normale cattedre orario esterne stessa sede 4) scuole a tempo prolungato cattedre orario esterne stessa sede 5) scuole a tempo normale cattedre orario esterne fuori sede 6) scuole a tempo prolungato cattedre orario esterne fuori sede.
@@ -6311,12 +6311,12 @@
 
 # sent_id = VIT-9246
 # text = E mentre dormivo in hotel, mia moglie Paolinha ha risposto al telefono.
-1	E	e	CCONJ	CC	_	11	cc	_	_
-2	mentre	mentre	VERB	V	_	11	advcl	_	_
-3	dormivo	dormire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	2	advcl	_	_
+1	E	e	CCONJ	CC	_	3	cc	_	_
+2	mentre	mentre	SCONJ	CS	_	3	mark	_	_
+3	dormivo	dormire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	11	advcl	_	_
 4	in	in	ADP	E	_	5	case	_	_
 5	hotel	hotel	NOUN	S	Gender=Masc	3	obl	_	SpaceAfter=No
-6	,	,	PUNCT	FC	_	11	punct	_	_
+6	,	,	PUNCT	FC	_	3	punct	_	_
 7	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	_
 8	moglie	moglie	NOUN	S	Gender=Fem|Number=Sing	11	nsubj	_	_
 9	Paolinha	Paolinha	PROPN	SP	_	8	nmod	_	_
@@ -23599,7 +23599,7 @@
 1	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
 2	e	e	CCONJ	CC	_	3	cc	_	_
 3	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	5	nsubj	_	_
-4	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	case	_	_
+4	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
 5	uno	uno	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	0	root	_	_
 6-7	dei	_	_	_	_	_	_	_	_
 6	di	di	ADP	E	_	8	case	_	_
@@ -23608,7 +23608,7 @@
 9	per	per	ADP	E	_	10	case	_	_
 10	cui	cui	PRON	PR	PronType=Rel	11	obl	_	_
 11	desidero	desiderare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
-12	parlare	parlare	VERB	V	VerbForm=Inf	11	ccomp	_	_
+12	parlare	parlare	VERB	V	VerbForm=Inf	11	xcomp	_	_
 13	con	con	ADP	E	_	14	case	_	_
 14	voi	voi	PRON	PE	Number=Plur|Person=2|PronType=Prs	12	obl	_	SpaceAfter=No
 15	.	.	PUNCT	FS	_	5	punct	_	_
@@ -29030,8 +29030,8 @@
 13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	bambino	bambino	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
 15	,	,	PUNCT	FC	_	2	punct	_	_
-16	mentre	mentre	VERB	V	_	17	advcl	_	_
-17	salgono	salire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+16	mentre	mentre	CCONJ	CC	_	17	cc	_	_
+17	salgono	salire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
 18	rapidamente	rapidamente	ADV	B	_	17	advmod	_	_
 19	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
 20	costi	costo	NOUN	S	Gender=Masc|Number=Plur	17	nsubj	_	_
@@ -30319,7 +30319,7 @@
 25	rosa	rosa	NOUN	S	Gender=Fem|Number=Sing	22	nmod	_	SpaceAfter=No
 26	"	"	PUNCT	FB	_	22	punct	_	_
 27	di	di	ADP	E	_	28	case	_	_
-28	Stefano	Stefano	PROPN	SP	_	1	obl:agent	_	_
+28	Stefano	Stefano	PROPN	SP	_	1	obl	_	_
 29	Bartezzaghi	Bartezzaghi	PROPN	SP	_	28	flat:name	_	SpaceAfter=No
 30	.	.	PUNCT	FS	_	1	punct	_	_
 
