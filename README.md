@@ -4,7 +4,7 @@ The UD_Italian-VIT corpus was obtained by conversion from VIT (Venice Italian Tr
 
 # Introduction
 
-The VIT is the effort of the collaboration of people working at the Laboratory of Computational Linguistics (LCL) of the University of Venice in the years 1995-2005. It is partly the result of annotation carried out and partly related to the development of a lexicon, a morphological analyzer, a tagger, a deep parser of Italian. All these resources were finally ready at the beginning of the 90s when the LCL got involved in the first Italian national projects. 
+The VIT is the effort of the collaboration of people working at the Laboratory of Computational Linguistics (LCL) of the University of Venice in the years 1995-2005. It is partly the result of annotation carried out and partly related to the development of a lexicon, a morphological analyzer, a tagger, a deep parser of Italian. All these resources were finally ready at the beginning of the 90s when the LCL got involved in the first Italian national projects.
 
 VIT originated as a constituency based treebank following the theoretical framework described in (Delmonte et al. 2007), and was later converted into a dependency representation in ConLL-X format (Delmonte 2009). The annotation follows general X-bar criteria with 29 constituency labels and 102 PoS tags. VIT is also made available in a broad annotation version with 10 constituency labels and 22 PoS tags for machine learning purposes. The format is plain text with square bracketing and a UPenn style version which is readable by the open source query language has been also provided. The VIT contains about 272,000 words distributed over six different domains, and this is what makes it so relevant for the study of the structure of Italian language. VIT includes linguistic materials of diverse nature, extracted from five different text genres: news (170,000 words), burocratic (20,000 words), political (40,000 words), Economic and financial (12,000 words), scientific (20,000 words) and literary (10,000 words) genres (Delmonte et al. 2007). In addition, some 60,000 tokens of spoken dialogues in different Italian varieties were annotated.
 
@@ -17,26 +17,32 @@ We are indebted to Rodolfo Del Monte and his collaborators, Antonella Bristot an
 
 ## References
 
- * Alfieri L., Tamburini F. (2016). (Almost) Automatic Conversion of the 
- Venice Italian Treebank into the Merged Italian Dependency Treebank 
- Format. In Proc. of the Third Italian Conference on Computational 
+ * Alfieri L., Tamburini F. (2016). (Almost) Automatic Conversion of the
+ Venice Italian Treebank into the Merged Italian Dependency Treebank
+ Format. In Proc. of the Third Italian Conference on Computational
  Linguistics - CLiC-IT 2016, Napoli, 5-6 December 2016, 19-23.
- 
+
 * Bosco C., Montemagni S., Simi, M. (2012) Harmonization and Merging of two Italian Dependency Treebanks, Workshop on Merging of Language Resources, in Proceedings of LREC 2012, Workshop on Language Resource Merging, Instanbul, May 2012, ELRA, pp. 23-30.
- 
-* Rodolfo Delmonte, Antonella Bristot, and Sara Tonelli (2007). VIT - 
- Venice Italian Treebank: Syntactic and Quantitative Features. In Proc. 
+
+* Rodolfo Delmonte, Antonella Bristot, and Sara Tonelli (2007). VIT -
+ Venice Italian Treebank: Syntactic and Quantitative Features. In Proc.
  Sixth International Workshop on Treebanks and Linguistic Theories.
- 
-* Delmonte, R. (2009). Treebanking in VIT: from Phrase Structure to 
- Dependency Representation. In Sergei Nirenburg (ed.) Language 
- Engineering for Lesser-Studied Languages, pages 51–81. IOS Press, 
+
+* Delmonte, R. (2009). Treebanking in VIT: from Phrase Structure to
+ Dependency Representation. In Sergei Nirenburg (ed.) Language
+ Engineering for Lesser-Studied Languages, pages 51–81. IOS Press,
  Amsterdam, The Netherlands.
- 
-* Tamburini F. (2017). Semgrex-Plus: a Tool for Automatic 
- Dependency-Graph Rewriting In Proc. of the Fourth International 
- Conference on Dependency Linguistics - Depling 2017, Pisa, 18-20 
+
+* Tamburini F. (2017). Semgrex-Plus: a Tool for Automatic
+ Dependency-Graph Rewriting In Proc. of the Fourth International
+ Conference on Dependency Linguistics - Depling 2017, Pisa, 18-20
  September 2017, 248-254.
+
+
+# Changelog
+
+* 2019-05-15 v2.4
+  * Initial release in Universal Dependencies.
 
 <pre>
 === Machine-readable metadata (DO NOT REMOVE!) ================================
