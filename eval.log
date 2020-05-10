@@ -3,9 +3,9 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_Italian-VIT:
-commit 882ace4855a9c9eee98711edd139853991f157e2
-Merge: 688beac 30f9997
+commit 5290cb46037bc90fc7da345b7fa19e03cc059bfc
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Tue Nov 12 17:20:23 2019 +0100
 Size: counted 279840 of 279840 words (nodes).
 Size: min(0, log((N/1000)**2)) = 11.2684360225406.
 Size: maximum value 13.815511 is for 1000000 words or more.
