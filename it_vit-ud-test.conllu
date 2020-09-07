@@ -13962,7 +13962,7 @@
 16	di	di	ADP	E	_	17	case	_	_
 17	più	più	ADV	B	_	15	advmod	_	_
 18	Beppe	Beppe	PROPN	SP	_	15	nsubj	_	SpaceAfter=No
-19	"	"	PUNCT	FB	_	17	punct	_	SpaceAfter=No
+19	"	"	PUNCT	FB	_	15	punct	_	SpaceAfter=No
 20	.	.	PUNCT	FS	_	3	punct	_	_
 
 # sent_id = VIT-9527
@@ -16383,7 +16383,7 @@
 
 # sent_id = VIT-9623
 # text = "bisognerà impegnarsi per una legge che disciplini il mondo sempre più complesso delle tv tenendo conto sia della corte costituzionale, sia dell'esito dei referendum sia infine delle reali condizioni del mercato, che già non è in grado di assicurare risorse finanziarie indispensabili alla vita delle attuali 12 reti, figuriamoci se potrà farlo per 15.
-1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
 2	bisognerà	bisognare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 3-4	impegnarsi	_	_	_	_	_	_	_	_
 3	impegnar	impegnare	VERB	V	VerbForm=Inf	2	ccomp	_	_
@@ -22455,7 +22455,7 @@
 2	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 3	d'	di	ADP	E	_	4	case	_	SpaceAfter=No
 4	accordo	accordo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
-5	,	,	PUNCT	FF	_	7	punct	_	_
+5	,	,	PUNCT	FF	_	6	punct	_	_
 6	bisogna	bisognare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
 7	stare	stare	VERB	V	VerbForm=Inf	6	ccomp	_	_
 8	attenti	attento	ADJ	A	Gender=Masc|Number=Plur	7	amod	_	_
