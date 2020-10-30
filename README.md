@@ -41,6 +41,9 @@ We are indebted to Rodolfo Del Monte and his collaborators, Antonella Bristot an
 
 # Changelog
 
+* 2020-11-01 v2.6
+  * corrected some aspects of the morphology
+  
 * 2019-05-15 v2.4
   * Initial release in Universal Dependencies.
 
