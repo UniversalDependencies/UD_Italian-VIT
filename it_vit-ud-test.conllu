@@ -22468,7 +22468,7 @@
 2	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 3	d'	di	ADP	E	_	4	case	_	SpaceAfter=No
 4	accordo	accordo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
-5	,	,	PUNCT	FF	_	4	punct	_	_
+5	,	,	PUNCT	FF	_	6	punct	_	_
 6	bisogna	bisognare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
 7	stare	stare	VERB	V	VerbForm=Inf	6	ccomp	_	_
 8	attenti	attento	ADJ	A	Gender=Masc|Number=Plur	7	amod	_	_
