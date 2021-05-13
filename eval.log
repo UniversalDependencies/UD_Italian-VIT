@@ -1,0 +1,44 @@
+Running the following version of UD tools:
+commit ca3b862e9e2871c76cd91bf78ffb089c0c60184d
+Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Thu May 6 20:16:19 2021 +0200
+Evaluating the following revision of UD_Italian-VIT:
+commit 7d3a7fef659529fce18d0efcf3a9aaceaef4a35a
+Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Wed May 12 21:01:38 2021 +0200
+Size: counted 279984 of 279984 words (nodes).
+Size: min(0, log((N/1000)**2)) = 11.2694649173588.
+Size: maximum value 13.815511 is for 1000000 words or more.
+Split: Found more than 10000 training words.
+Split: Found at least 10000 development words.
+Split: Found at least 10000 test words.
+Lemmas: source of annotation (from README) factor is 0.8.
+Universal POS tags: 17 out of 17 found in the corpus.
+Universal POS tags: source of annotation (from README) factor is 0.8.
+Features: 169263 out of 279984 total words have one or more features.
+Features: source of annotation (from README) factor is 0.8.
+Universal relations: 34 out of 37 found in the corpus.
+Universal relations: source of annotation (from README) factor is 0.8.
+Udapi:
+               TOTAL       1007
+Udapi: found 1007 bugs.
+Udapi: worst expected case (threshold) is one bug per 10 words. There are 279984 words.
+Genres: found 2 out of 17 known.
+validate.py --lang it --max-err=10 UD_Italian-VIT/it_vit-ud-dev.conllu
+*** PASSED ***
+validate.py --lang it --max-err=10 UD_Italian-VIT/it_vit-ud-test.conllu
+*** PASSED ***
+validate.py --lang it --max-err=10 UD_Italian-VIT/it_vit-ud-train.conllu
+*** PASSED ***
+Validity: 1
+(weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
+(weight=0.0769230769230769) * (score{genres}=0.117647058823529) = 0.00904977375565611
+(weight=0.0769230769230769) * (score{lemmas}=0.8) = 0.0615384615384615
+(weight=0.256410256410256) * (score{size}=0.815711071268534) = 0.20915668494065
+(weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
+(weight=0.0769230769230769) * (score{tags}=0.8) = 0.0615384615384615
+(weight=0.307692307692308) * (score{udapi}=0.964033659066232) = 0.296625741251148
+(weight=0.0769230769230769) * (score{udeprels}=0.735135135135135) = 0.0565488565488566
+(TOTAL score=0.807278492393747) * (availability=1) * (validity=1) = 0.807278492393747
+STARS = 4
+UD_Italian-VIT	0.807278492393747	4
