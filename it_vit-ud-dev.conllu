@@ -1367,7 +1367,7 @@
 81	e	e	CCONJ	CC	_	82	cc	_	_
 82-83	rispedirla	_	_	_	_	_	_	_	_
 82	rispedir	rispedire	VERB	V	VerbForm=Inf	8	conj	_	_
-83	la	la	ADJ	A	Gender=Fem|Number=Sing|Person=3	82	amod	_	_
+83	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	82	obj	_	_
 84-85	al	_	_	_	_	_	_	_	_
 84	a	a	ADP	E	_	86	case	_	_
 85	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	86	det	_	_
@@ -4524,7 +4524,7 @@
 18	e	e	CCONJ	CC	_	19	cc	_	_
 19-20	tenerla	_	_	_	_	_	_	_	_
 19	tener	tenere	VERB	V	VerbForm=Inf	15	conj	_	_
-20	la	la	ADJ	A	Gender=Fem|Number=Sing|Person=3	19	amod	_	_
+20	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	obj	_	_
 21	a	a	ADP	E	_	24	case	_	_
 22	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
 23	elevato	elevato	ADJ	A	Gender=Masc|Number=Sing	24	amod	_	_
