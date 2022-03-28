@@ -23571,7 +23571,7 @@
 6	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
 7	autosufficienti	autosufficiente	ADJ	A	Number=Plur	5	amod	_	_
 8	con	con	ADP	E	_	9	case	_	_
-9	protesi	protesi	NOUN	S	Gender=Fem	7	obl	_	_
+9	protesi	protesi	NOUN	S	Gender=Fem	5	nmod	_	_
 10-11	agli	_	_	_	_	_	_	_	_
 10	a	a	ADP	E	_	12	case	_	_
 11	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
