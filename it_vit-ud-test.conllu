@@ -18,7 +18,7 @@
 14	.	.	PUNCT	FS	_	3	punct	_	_
 
 # sent_id = VIT-4753
-# text = È consentita inoltre la partecipazione provvisoria sempre per una sola provincia e per non più di 20 preferenze, agli insegnanti che hanno titolo a partecipare ai trasferimenti di cui alle precedenti ii e iii fase, sia che abbiano ottenuto il trasferimento, sia che non abbiano prodotto domanda di trasferimento nei termini stabiliti dalla presente ordinanza, anche per preferenze diverse da quelle richieste per trasferimento, qualora siano sopraggiunti gravi motivi compresi, ovviamente, tra quelli previsti dall'art 59 della legge n 312 e di cui al precedente art 70, che giustificano la richiesta.
+# text = È consentita inoltre la partecipazione provvisoria sempre per una sola provincia e per non più di 20 preferenze, agli insegnanti che hanno titolo a partecipare ai trasferimenti di cui alle precedenti II e III fase, sia che abbiano ottenuto il trasferimento, sia che non abbiano prodotto domanda di trasferimento nei termini stabiliti dalla presente ordinanza, anche per preferenze diverse da quelle richieste per trasferimento, qualora siano sopraggiunti gravi motivi compresi, ovviamente, tra quelli previsti dall'art 59 della legge n 312 e di cui al precedente art 70, che giustificano la richiesta.
 1	È	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux:pass	_	_
 2	consentita	consentire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 3	inoltre	inoltre	ADV	B	_	2	advmod	_	_
@@ -57,9 +57,9 @@
 33	a	a	ADP	E	_	39	case	_	_
 34	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	39	det	_	_
 35	precedenti	precedente	ADJ	A	Gender=Masc|Number=Plur	39	amod	_	_
-36	ii	ii	ADJ	NO	NumType=Ord	39	amod	_	_
+36	II	II	ADJ	NO	NumType=Ord	39	amod	_	_
 37	e	e	CCONJ	CC	_	38	cc	_	_
-38	iii	iii	ADJ	NO	NumType=Ord	36	conj	_	_
+38	III	III	ADJ	NO	NumType=Ord	36	conj	_	_
 39	fase	fase	NOUN	S	Gender=Fem|Number=Sing	30	nmod	_	SpaceAfter=No
 40	,	,	PUNCT	FC	_	44	punct	_	_
 41	sia	sia	CCONJ	CC	_	44	cc	_	_
@@ -1566,9 +1566,9 @@
 28	.	.	PUNCT	FS	_	18	punct	_	_
 
 # sent_id = VIT-4802
-# text = I Passaggi di cattedra, previsti dall'art 75 del DPR numero 417/74 e dalla tabella g ad esso allegata modificata e integrata dal dm 1 dicembre 1983 saranno disposti, per ciascuna classe di concorso, in numero non superiore ad un quinto del numero complessivo delle cattedre e posti di insegnamento disponibili per i trasferimenti interprovinciali di cui al precedente articolo 13 e non utilizzabili per i trasferimenti interprovinciali medesimi.
+# text = I passaggi di cattedra, previsti dall'art 75 del DPR numero 417/74 e dalla tabella g ad esso allegata modificata e integrata dal dm 1 dicembre 1983 saranno disposti, per ciascuna classe di concorso, in numero non superiore ad un quinto del numero complessivo delle cattedre e posti di insegnamento disponibili per i trasferimenti interprovinciali di cui al precedente articolo 13 e non utilizzabili per i trasferimenti interprovinciali medesimi.
 1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
-2	Passaggi	Passaggi	PROPN	SP	_	34	nsubj:pass	_	_
+2	passaggi	passaggi	NOUN	S	Gender=Masc|Number=Plur	34	nsubj:pass	_	_
 3	di	di	ADP	E	_	4	case	_	_
 4	cattedra	cattedra	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
 5	,	,	PUNCT	FF	_	2	punct	_	_
@@ -3580,7 +3580,7 @@
 10	;	;	PUNCT	FS	_	4	punct	_	_
 
 # sent_id = VIT-4853
-# text = 2) in scuole di comune viciniore secondo la tabella di viciniorità di cui al precedente comma iii;
+# text = 2) in scuole di comune viciniore secondo la tabella di viciniorità di cui al precedente comma III;
 1	2	2	NUM	N	NumType=Card	4	nummod	_	SpaceAfter=No
 2	)	)	PUNCT	FB	_	1	punct	_	_
 3	in	in	ADP	E	_	4	case	_	_
@@ -3600,7 +3600,7 @@
 16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
 17	precedente	precedente	ADJ	A	Number=Sing	18	amod	_	_
 18	comma	comma	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	_
-19	iii	iii	NUM	N	NumType=Card	18	nummod	_	SpaceAfter=No
+19	III	III	ADJ	NO	Number=Sing|NumType=Ord	18	amod	_	SpaceAfter=No
 20	;	;	PUNCT	FS	_	4	punct	_	_
 
 # sent_id = VIT-4854
@@ -4413,7 +4413,7 @@
 
 # sent_id = VIT-4875
 # text = A questo si aggiunga la tendenza della fisica moderna all'unificazione delle forze fondamentali, che porta anche un avvicinamento dei vari settori.
-1	A	A	ADP	E	_	2	case	_	_
+1	A	a	ADP	E	_	2	case	_	_
 2	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	4	obl	_	_
 3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
 4	aggiunga	aggiungere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -4591,7 +4591,7 @@
 
 # sent_id = VIT-4880
 # text = In conclusione, tutto un nuovo avvicinamento fra l'astrofisica, la fisica delle particelle e la fisica dei nuclei e della materia.
-1	In	In	ADP	E	_	2	case	_	_
+1	In	in	ADP	E	_	2	case	_	_
 2	conclusione	conclusione	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
 3	,	,	PUNCT	FF	_	2	punct	_	_
 4	tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Ind	7	det:predet	_	_
@@ -6192,8 +6192,8 @@
 19	.	.	PUNCT	FS	_	4	punct	_	_
 
 # sent_id = VIT-9241
-# text = a 15 anni, quando ho visto la strada, ho pianto e non ho potuto mangiare per un giorno intero.
-1	a	a	ADP	E	_	3	case	_	_
+# text = A 15 anni, quando ho visto la strada, ho pianto e non ho potuto mangiare per un giorno intero.
+1	A	a	ADP	E	_	3	case	_	_
 2	15	15	NUM	N	NumType=Card	3	nummod	_	_
 3	anni	anno	NOUN	S	Gender=Masc|Number=Plur	12	obl	_	SpaceAfter=No
 4	,	,	PUNCT	FF	_	3	punct	_	_
@@ -19756,8 +19756,8 @@
 3	?	?	PUNCT	FS	_	1	punct	_	_
 
 # sent_id = VIT-9737
-# text = a me pare proprio di no, è un grande passo avanti, e dobbiamo imparare a giudicare le cose dandogli gli il valore che hanno".
-1	a	a	ADP	E	_	2	case	_	_
+# text = A me pare proprio di no, è un grande passo avanti, e dobbiamo imparare a giudicare le cose dandogli gli il valore che hanno".
+1	A	a	ADP	E	_	2	case	_	_
 2	me	me	PRON	PE	Number=Sing|Person=3|PronType=Prs	3	obl	_	_
 3	pare	parere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	proprio	proprio	ADV	B	_	3	advmod	_	_
@@ -22283,7 +22283,7 @@
 5	di	di	ADP	E	_	7	case	_	_
 6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	Ministero	Ministero	PROPN	SP	_	4	nmod	_	_
-8	Per	Per	PROPN	SP	_	7	flat:name	_	_
+8	Per	per	PROPN	SP	_	7	flat:name	_	_
 9	l'	l	DET	RD	Definite=Def|PronType=Art	8	det	_	SpaceAfter=No
 10	Università	Università	PROPN	SP	_	7	flat:name	_	_
 11	E	E	PROPN	SP	_	7	flat:name	_	_
@@ -26139,7 +26139,7 @@
 
 # sent_id = VIT-9966
 # text = A questo scopo il prossimo 24 gennaio nel tempio di Adriano, a Roma, si terrà un'iniziativa simbolica indirizzata ai ragazzi delle superiori, sul tema" spazio al tuo futuro "".
-1	A	A	ADP	E	_	3	case	_	_
+1	A	a	ADP	E	_	3	case	_	_
 2	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
 3	scopo	scopo	NOUN	S	Gender=Masc|Number=Sing	18	obl	_	_
 4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
@@ -26611,7 +26611,7 @@
 47	.	.	PUNCT	FS	_	3	punct	_	_
 
 # sent_id = VIT-9979
-# text = E si era tratto il massimo profitto da due autori cristiani (Lattanzio nel iv secolo e il bizantino Cosma Indicopleuste nel vi) i quali, siccome un passo della bibbia descriveva la terra in forma di tabernacolo, polemizzavano con le teorie pagane sulla rotondità della terra e la rappresentavano in forma quadrangolare.
+# text = E si era tratto il massimo profitto da due autori cristiani (Lattanzio nel IV secolo e il bizantino Cosma Indicopleuste nel VI) i quali, siccome un passo della bibbia descriveva la terra in forma di tabernacolo, polemizzavano con le teorie pagane sulla rotondità della terra e la rappresentavano in forma quadrangolare.
 1	E	e	CCONJ	CC	_	4	cc	_	_
 2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
 3	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux	_	_
@@ -26628,7 +26628,7 @@
 14-15	nel	_	_	_	_	_	_	_	_
 14	in	in	ADP	E	_	17	case	_	_
 15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
-16	iv	iv	NUM	N	NumType=Card	17	nummod	_	_
+16	IV	IV	ADJ	NO	Number=Sing|NumType=Ord	17	amod	_	_
 17	secolo	secolo	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	_
 18	e	e	CCONJ	CC	_	17	cc	_	_
 19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
@@ -26638,7 +26638,7 @@
 23-24	nel	_	_	_	_	_	_	_	_
 23	in	in	ADP	E	_	25	case	_	_
 24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
-25	vi	vi	NUM	N	NumType=Card	21	nmod	_	SpaceAfter=No
+25	VI	VI	ADJ	NO	Number=Sing|NumType=Ord	21	amod	_	SpaceAfter=No
 26	)	)	PUNCT	FB	_	13	punct	_	_
 27	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	28	det	_	_
 28	quali	quale	PRON	PR	Number=Plur|PronType=Rel	44	nsubj	_	SpaceAfter=No
@@ -27788,7 +27788,7 @@
 
 # sent_id = VIT-10007
 # text = Per strano che possa apparire, l'accumulo di veleni deriverebbe quindi, secondo gli esperti, da una serie di fattori: i Tecnici dunque, che promettono di togliere "tutti i veleni restanti" con la prosecuzione dello scavo dei rii, molti dei quali non venivano ripuliti da trent'anni, assolvono le industrie di Porto Marghera e si mostrano ottimisti per il futuro.
-1	Per	Per	ADP	E	_	2	case	_	_
+1	Per	per	ADP	E	_	2	case	_	_
 2	strano	strano	ADJ	A	Gender=Masc|Number=Sing	11	obl	_	_
 3	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
 4	possa	potere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
@@ -29554,8 +29554,8 @@
 21	.	.	PUNCT	FS	_	10	punct	_	_
 
 # sent_id = VIT-10064
-# text = a pensarci bene, non ho mai scritto niente su Montanelli, da quando lo conosco.
-1	a	a	ADP	E	_	2	mark	_	_
+# text = A pensarci bene, non ho mai scritto niente su Montanelli, da quando lo conosco.
+1	A	a	ADP	E	_	2	mark	_	_
 2-3	pensarci	_	_	_	_	_	_	_	_
 2	pensar	pensare	VERB	V	VerbForm=Inf	9	advcl	_	_
 3	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	2	expl	_	_
@@ -30130,7 +30130,7 @@
 
 # sent_id = VIT-10088
 # text = Per questo, ogni volta che andavamo a mangiare insieme - o meglio: io mangiavo, lui testava piccoli campioni alimentari - gli ricordavo che quella della "voce", per tutti noi, era una medaglia al valore.
-1	Per	Per	ADP	E	_	2	case	_	_
+1	Per	per	ADP	E	_	2	case	_	_
 2	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	5	nmod	_	SpaceAfter=No
 3	,	,	PUNCT	FF	_	5	punct	_	_
 4	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	5	det	_	_
@@ -30675,7 +30675,7 @@
 
 # sent_id = VIT-10108
 # text = Per una serie di ragioni anche generazionali, alla fine degli anni cinquanta Eco si è trovato nella posizione migliore per capire che al dibattito italiano mancavano gli strumenti analitici per cogliere gli effetti culturali e sociali del boom economico imminente.
-1	Per	Per	ADP	E	_	3	case	_	_
+1	Per	per	ADP	E	_	3	case	_	_
 2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	serie	serie	NOUN	S	Gender=Fem	19	obl	_	_
 4	di	di	ADP	E	_	5	case	_	_
@@ -30730,7 +30730,7 @@
 
 # sent_id = VIT-10109
 # text = Con un lavoro su più piani - come teorico e come autore televisivo, come giornalista e come consulente editoriale - ha portato in Italia quel che in Italia non c'era ancora: i primi vagiti dello strutturalismo e poi i fondamenti della nuova scienza semiologica, fino a imporre la significazione e la comunicazione come gli argomenti centrali della fine del novecento.
-1	Con	Con	ADP	E	_	3	case	_	_
+1	Con	con	ADP	E	_	3	case	_	_
 2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	23	obl	_	_
 4	su	su	ADP	E	_	6	case	_	_
