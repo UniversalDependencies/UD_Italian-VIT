@@ -22286,7 +22286,7 @@
 6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	Ministero	Ministero	PROPN	SP	_	4	nmod	_	_
 8	Per	per	PROPN	SP	_	7	flat:name	_	_
-9	l'	l	DET	RD	Definite=Def|PronType=Art	8	det	_	SpaceAfter=No
+9	l'	il	DET	RD	Definite=Def|PronType=Art	8	det	_	SpaceAfter=No
 10	Università	Università	PROPN	SP	_	7	flat:name	_	_
 11	E	E	PROPN	SP	_	7	flat:name	_	_
 12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
