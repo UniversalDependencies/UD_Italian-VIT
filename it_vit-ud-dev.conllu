@@ -79,7 +79,7 @@
 27	per	per	ADP	E	_	28	mark	_	_
 28-29	sottoporgli	_	_	_	_	_	_	_	_
 28	sottopor	sottoporre	VERB	V	VerbForm=Inf	24	advcl	_	_
-29	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Person=3|PronType=Prs	28	expl	_	_
+29	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	28	iobj	_	_
 30	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	32	det	_	_
 31	loro	loro	DET	AP	Number=Plur|Poss=Yes|PronType=Prs	32	det:poss	_	_
 32	problemi	problema	NOUN	S	Gender=Masc|Number=Plur	28	obj	_	SpaceAfter=No
@@ -705,7 +705,7 @@
 12	,	,	PUNCT	FC	_	7	punct	_	_
 13	rappresenta	rappresentare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
-15	51,6	51,6	NUM	N	NumType=Range	13	obj	_	_
+15	51,6	51,6	NUM	N	NumType=Card	13	obj	_	_
 16	per	per	ADP	E	_	17	case	_	_
 17	cento	cento	NUM	N	NumType=Card	15	nummod	_	_
 18-19	dei	_	_	_	_	_	_	_	_
@@ -717,7 +717,7 @@
 23	e	e	CCONJ	CC	_	24	cc	_	_
 24	riceve	ricevere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	conj	_	_
 25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
-26	60,98	60,98	NUM	N	NumType=Range	24	obj	_	_
+26	60,98	60,98	NUM	N	NumType=Card	24	obj	_	_
 27	per	per	ADP	E	_	28	case	_	_
 28	cento	cento	NUM	N	NumType=Card	26	nummod	_	_
 29-30	del	_	_	_	_	_	_	_	_
@@ -1060,7 +1060,7 @@
 8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	lettera	lettera	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	_
 10	e	e	CCONJ	CC	_	12	cc	_	_
-11	ne	ne	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	12	expl	_	_
+11	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	12	iobj	_	_
 12	scrive	scrivere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
 13	decine	decina	NUM	N	NumType=Card	12	obj	_	_
 14-15	al	_	_	_	_	_	_	_	_
@@ -1406,7 +1406,7 @@
 13	,	,	PUNCT	FF	_	9	punct	_	_
 14	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	9	appos	_	_
 15	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
-16	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Person=3|PronType=Prs	17	iobj	_	_
+16	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	iobj	_	_
 17	compete	competere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	SpaceAfter=No
 18	,	,	PUNCT	FF	_	17	punct	_	_
 19	senza	senza	ADP	E	_	20	case	_	_
@@ -1733,7 +1733,7 @@
 8	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	expl	_	_
 9	paga	pagare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 10	da	da	ADP	E	_	11	case	_	_
-11	sé	sé	PRON	PE	Person=3|PronType=Prs	9	obl	_	SpaceAfter=No
+11	sé	sé	PRON	PE	Number=Sing|Person=3|PronType=Prs	9	obl	_	SpaceAfter=No
 12	,	,	PUNCT	FC	_	15	punct	_	_
 13	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	obj	_	_
 14	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
@@ -2049,7 +2049,7 @@
 # text = Dotarli tutti di un terminale elettronico, di una work station, come si tende a chiamare con un termine unico sia il personal computer, sia il sistema di videoscrittura o il telefono computerizzato, è la grande scommessa che vede impegnate tutte le industrie elettroniche:
 1-2	Dotarli	_	_	_	_	_	_	_	_
 1	Dotar	dotare	VERB	V	VerbForm=Inf	41	csubj	_	_
-2	li	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	1	obj	_	_
+2	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	1	obj	_	_
 3	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	1	dislocated	_	_
 4	di	di	ADP	E	_	6	case	_	_
 5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
@@ -2165,7 +2165,7 @@
 18	Europa	Europa	PROPN	SP	_	16	obl	_	_
 19	più	più	PRON	PI	PronType=Ind	16	nsubj	_	_
 20	di	di	ADP	E	_	22	case	_	_
-21	4,5	4,5	NUM	N	NumType=Range	22	nummod	_	_
+21	4,5	4,5	NUM	N	NumType=Card	22	nummod	_	_
 22	milioni	milione	NOUN	S	Gender=Masc|Number=Plur	19	nmod	_	_
 23	di	di	ADP	E	_	24	case	_	_
 24	work	work	NOUN	S	Gender=Masc	22	nmod	_	_
@@ -2361,7 +2361,7 @@
 7	per	per	ADP	E	Gender=Masc|Number=Plur	8	mark	_	_
 8-9	mettergli	_	_	_	_	_	_	_	_
 8	metter	mettere	VERB	V	VerbForm=Inf	2	advcl	_	_
-9	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Person=3|PronType=Prs	8	iobj	_	_
+9	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	iobj	_	_
 10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	telefono	telefono	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	_
 12-13	sulla	_	_	_	_	_	_	_	_
@@ -2618,8 +2618,8 @@
 11	a	a	ADP	E	_	12	case	_	_
 12	macchina	macchina	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
 13	quasi	quasi	ADV	B	_	16	advmod	_	_
-14	se	se	PRON	PC	Clitic=Yes|Gender=Masc|Person=3|PronType=Prs	16	expl	_	_
-15	ne	ne	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	16	expl	_	_
+14	se	se	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	16	expl	_	_
+15	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	16	iobj	_	_
 16	vergogna	vergognare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 17	"	"	PUNCT	FB	_	16	punct	_	SpaceAfter=No
 18	.	.	PUNCT	FS	_	16	punct	_	_
@@ -3137,7 +3137,7 @@
 4	di	di	ADP	E	_	5	case	_	_
 5	comunicazione	comunicazione	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
 6	,	,	PUNCT	FF	_	8	punct	_	_
-7	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Person=3|PronType=Prs	8	expl	_	_
+7	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	iobj	_	_
 8	rimarrà	rimanere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	po'	poco	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
@@ -3196,7 +3196,7 @@
 3	e	e	CCONJ	CC	_	5	cc	_	_
 4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
 5	somiglianze	somiglianza	NOUN	S	Gender=Fem|Number=Plur	2	conj	_	_
-6	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Person=3|PronType=Prs	7	expl	_	_
+6	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	iobj	_	_
 7	daranno	dare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 8	elementi	elemento	NOUN	S	Gender=Masc|Number=Plur	7	obj	_	_
 9	per	per	ADP	E	_	10	mark	_	_
@@ -3214,7 +3214,7 @@
 3	sarà	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	4	cop	_	_
 4	pronto	pronto	ADJ	A	Number=Sing	7	advcl	_	SpaceAfter=No
 5	,	,	PUNCT	FF	_	7	punct	_	_
-6	ne	ne	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl	_	_
+6	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	7	iobj	_	_
 7	estrarrà	estrarre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
 9	numeri	numero	NOUN	S	Gender=Masc|Number=Plur	7	obj	_	_
@@ -3371,17 +3371,17 @@
 # text = Registrarli, richiamarli a comando, inviarli a più persone.
 1-2	Registrarli	_	_	_	_	_	_	_	SpaceAfter=No
 1	Registrar	registrare	VERB	V	VerbForm=Inf	0	root	_	_
-2	li	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	1	obj	_	_
+2	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	1	obj	_	_
 3	,	,	PUNCT	FF	_	4	punct	_	_
 4-5	richiamarli	_	_	_	_	_	_	_	_
 4	richiamar	richiamare	VERB	V	VerbForm=Inf	1	conj	_	_
-5	li	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	4	obj	_	_
+5	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	4	obj	_	_
 6	a	a	ADP	E	_	7	case	_	_
 7	comando	comando	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
 8	,	,	PUNCT	FF	_	4	punct	_	_
 9-10	inviarli	_	_	_	_	_	_	_	_
 9	inviar	inviare	VERB	V	VerbForm=Inf	1	conj	_	_
-10	li	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	9	obj	_	_
+10	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	9	obj	_	_
 11	a	a	ADP	E	_	13	case	_	_
 12	più	più	ADV	B	_	13	advmod	_	_
 13	persone	persona	NOUN	S	Gender=Fem|Number=Plur	9	obl	_	SpaceAfter=No
@@ -3555,7 +3555,7 @@
 7	tecnologico	tecnologico	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	_
 8	e	e	CCONJ	CC	_	9	cc	_	_
 9	produttivo	produttivo	ADJ	A	Gender=Masc|Number=Sing	7	conj	_	_
-10	ne	ne	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	11	expl	_	_
+10	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	11	iobj	_	_
 11	riduca	ridurre	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
 12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
 13	prezzi	prezzo	NOUN	S	Gender=Masc|Number=Plur	11	obj	_	SpaceAfter=No
@@ -5413,7 +5413,7 @@
 62	travolgente	travolgente	VERB	V	Number=Sing	63	advcl	_	_
 63	dialettica	dialettica	NOUN	S	Gender=Fem|Number=Sing	57	obl	_	_
 64	che	che	PRON	PR	PronType=Rel	67	nsubj	_	_
-65	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Person=3|PronType=Prs	67	expl	_	_
+65	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	67	iobj	_	_
 66	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	67	cop	_	_
 67	consueta	consueto	ADJ	A	Gender=Fem|Number=Sing	63	acl:relcl	_	SpaceAfter=No
 68	,	,	PUNCT	FF	_	63	punct	_	_
@@ -5863,7 +5863,7 @@
 40	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	41	det	_	_
 41	forze	forza	NOUN	S	Gender=Fem|Number=Plur	36	conj	_	_
 42	che	che	PRON	PR	PronType=Rel	44	nsubj	_	_
-43	ne	ne	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	44	expl	_	_
+43	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	44	iobj	_	_
 44	regolano	regolare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	41	acl:relcl	_	_
 45	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	46	det	_	_
 46	interazioni	interazione	NOUN	S	Gender=Fem|Number=Plur	44	obj	_	SpaceAfter=No
@@ -6968,7 +6968,7 @@
 18	ritmo	ritmo	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
 19	costante	costante	ADJ	A	Number=Sing	18	amod	_	_
 20	di	di	ADP	E	_	22	case	_	_
-21	0,4	0,4	NUM	N	NumType=Range	22	nummod	_	_
+21	0,4	0,4	NUM	N	NumType=Card	22	nummod	_	_
 22	miliardi	miliardo	NOUN	S	Gender=Masc|Number=Plur	18	nmod	_	_
 23	di	di	ADP	E	_	24	case	_	_
 24	miliardi	miliardo	NUM	N	Gender=Masc|Number=Plur|NumType=Card	22	nummod	_	_
@@ -8805,7 +8805,7 @@
 21	di	di	ADP	E	_	22	case	_	_
 22	tipo	tipo	NOUN	S	Gender=Masc|Number=Sing	20	nmod	_	_
 23	comune	comune	ADJ	A	Number=Sing	22	amod	_	_
-24	ne	ne	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	26	expl	_	_
+24	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	26	iobj	_	_
 25	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	aux	_	_
 26	corrispondere	corrispondere	VERB	V	VerbForm=Inf	0	root	_	_
 27	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	26	nsubj	_	_
@@ -9158,7 +9158,7 @@
 35	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
 36	legge	legge	NOUN	S	Gender=Fem|Number=Sing	32	nmod	_	_
 37	n	n	NOUN	S	_	36	compound	_	_
-38	270/1982	270/1982	NUM	N	NumType=Range	37	nummod	_	SpaceAfter=No
+38	270/1982	270/1982	NUM	N	NumType=Card	37	nummod	_	SpaceAfter=No
 39	.	.	PUNCT	FS	_	9	punct	_	_
 
 # sent_id = VIT-4216
@@ -9337,7 +9337,7 @@
 13	di	di	ADP	E	_	15	case	_	_
 14	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
 15	artt	artt	NOUN	S	_	12	nmod	_	_
-16	37/39/43	37/39/43	NUM	N	NumType=Range	15	nummod	_	SpaceAfter=No
+16	37/39/43	37/39/43	NUM	N	NumType=Card	15	nummod	_	SpaceAfter=No
 17	,	,	PUNCT	FF	_	19	punct	_	_
 18	e	e	CCONJ	CC	_	19	cc	_	_
 19	44	44	NUM	N	NumType=Card	16	conj	_	_
@@ -9346,7 +9346,7 @@
 21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
 22	legge	legge	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	_
 23	n	n	NOUN	S	_	24	nmod	_	_
-24	270/1982	270/1982	NUM	N	NumType=Range	22	nummod	_	SpaceAfter=No
+24	270/1982	270/1982	NUM	N	NumType=Card	22	nummod	_	SpaceAfter=No
 25	;	;	PUNCT	FS	_	3	punct	_	_
 
 # sent_id = VIT-4221
@@ -9374,7 +9374,7 @@
 17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
 18	legge	legge	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	_
 19	n	n	NOUN	S	_	18	nmod	_	_
-20	270/1982	270/1982	NUM	N	NumType=Range	19	nummod	_	SpaceAfter=No
+20	270/1982	270/1982	NUM	N	NumType=Card	19	nummod	_	SpaceAfter=No
 21	;	;	PUNCT	FS	_	3	punct	_	_
 
 # sent_id = VIT-4222
@@ -9402,7 +9402,7 @@
 18	di	di	ADP	E	_	20	case	_	_
 19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
 20	legge	legge	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	_
-21	270/1982	270/1982	NUM	N	NumType=Range	20	nummod	_	SpaceAfter=No
+21	270/1982	270/1982	NUM	N	NumType=Card	20	nummod	_	SpaceAfter=No
 22	.	.	PUNCT	FS	_	3	punct	_	_
 
 # sent_id = VIT-4223
@@ -9444,7 +9444,7 @@
 31	predetta	predetto	ADJ	A	Gender=Fem|Number=Sing	32	amod	_	_
 32	legge	legge	NOUN	S	Gender=Fem|Number=Sing	28	nmod	_	_
 33	n	n	NOUN	S	_	32	nmod	_	_
-34	270/82	270/82	NUM	N	NumType=Range	33	nummod	_	SpaceAfter=No
+34	270/82	270/82	NUM	N	NumType=Card	33	nummod	_	SpaceAfter=No
 35	,	,	PUNCT	FF	_	12	punct	_	_
 36	eventualmente	eventualmente	ADV	B	_	37	advmod	_	_
 37	maggiorato	maggiorare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	advcl	_	_
@@ -9482,7 +9482,7 @@
 63	predetta	predetto	ADJ	A	Gender=Fem|Number=Sing	64	amod	_	_
 64	legge	legge	NOUN	S	Gender=Fem|Number=Sing	59	nmod	_	_
 65	n	n	NOUN	S	_	64	compound	_	_
-66	270/82	270/82	NUM	N	NumType=Range	65	nummod	_	SpaceAfter=No
+66	270/82	270/82	NUM	N	NumType=Card	65	nummod	_	SpaceAfter=No
 67	,	,	PUNCT	FF	_	64	punct	_	_
 68	come	come	CCONJ	CC	_	69	mark	_	_
 69	precisato	precisare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	64	advcl	_	_
@@ -9504,7 +9504,7 @@
 82	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	83	det	_	_
 83	o	o	NOUN	S	_	79	nmod	_	_
 84	m	M	NOUN	S	_	83	fixed	_	_
-85	5/2/83	5/2/83	NUM	N	NumType=Range	83	nummod	_	SpaceAfter=No
+85	5/2/83	5/2/83	NUM	N	NumType=Card	83	nummod	_	SpaceAfter=No
 86	.	.	PUNCT	FS	_	8	punct	_	_
 
 # sent_id = VIT-4224
@@ -9822,7 +9822,7 @@
 51	di	di	ADP	E	_	53	case	_	_
 52	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	53	det	_	_
 53	legge	legge	NOUN	S	Gender=Fem|Number=Sing	49	nmod	_	_
-54	270/1982	270/1982	NUM	N	NumType=Range	53	nummod	_	SpaceAfter=No
+54	270/1982	270/1982	NUM	N	NumType=Card	53	nummod	_	SpaceAfter=No
 55	.	.	PUNCT	FS	_	7	punct	_	_
 
 # sent_id = VIT-4230
@@ -11113,7 +11113,7 @@
 22	con	con	ADP	E	_	24	case	_	_
 23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
 24	dm	dm	NOUN	S	Gender=Masc|Number=Sing	21	obl	_	_
-25	16/7/1982	16/7/1982	NUM	N	NumType=Range	24	nummod	_	_
+25	16/7/1982	16/7/1982	NUM	N	NumType=Card	24	nummod	_	_
 26	all'	all	NOUN	S	_	25	nmod	_	SpaceAfter=No
 27	(	(	PUNCT	FB	_	28	punct	_	SpaceAfter=No
 28	a-b-c	a-b-c	NOUN	S	_	24	appos	_	SpaceAfter=No
@@ -11412,7 +11412,7 @@
 52	di	di	ADP	E	_	54	case	_	_
 53	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	54	det	_	_
 54	legge	legge	NOUN	S	Gender=Fem|Number=Sing	51	nmod	_	_
-55	4/1/1968	4/1/1968	NUM	N	NumType=Range	54	nummod	_	SpaceAfter=No
+55	4/1/1968	4/1/1968	NUM	N	NumType=Card	54	nummod	_	SpaceAfter=No
 56	,	,	PUNCT	FF	_	54	punct	_	_
 57	n	n	NOUN	S	_	54	nmod	_	_
 58	15	15	NUM	N	NumType=Card	57	nummod	_	_
@@ -11421,7 +11421,7 @@
 60	da	da	ADP	E	_	62	case	_	_
 61	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	62	det	_	_
 62	legge	legge	NOUN	S	Gender=Fem|Number=Sing	59	obl:agent	_	_
-63	11/5/1971	11/5/1971	NUM	N	NumType=Range	62	nummod	_	SpaceAfter=No
+63	11/5/1971	11/5/1971	NUM	N	NumType=Card	62	nummod	_	SpaceAfter=No
 64	,	,	PUNCT	FF	_	62	punct	_	_
 65	n	n	NOUN	S	_	62	nmod	_	_
 66	390	390	NUM	N	NumType=Card	65	nummod	_	SpaceAfter=No
@@ -11870,7 +11870,7 @@
 61	di	di	ADP	E	_	63	case	_	_
 62	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	63	det	_	_
 63	DPR	DPR	NOUN	S	_	59	nmod	_	_
-64	26/7/76	26/7/76	NUM	N	NumType=Range	63	nummod	_	SpaceAfter=No
+64	26/7/76	26/7/76	NUM	N	NumType=Card	63	nummod	_	SpaceAfter=No
 65	,	,	PUNCT	FF	_	63	punct	_	_
 66	n	n	NOUN	S	_	63	nmod	_	_
 67	752	752	NUM	N	NumType=Card	66	nummod	_	SpaceAfter=No
@@ -11880,7 +11880,7 @@
 70	da	da	ADP	E	_	72	case	_	_
 71	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	72	det	_	_
 72	DPR	DPR	NOUN	S	_	69	obl:agent	_	_
-73	24/3/1981	24/3/1981	NUM	N	NumType=Range	72	nummod	_	SpaceAfter=No
+73	24/3/1981	24/3/1981	NUM	N	NumType=Card	72	nummod	_	SpaceAfter=No
 74	,	,	PUNCT	FF	_	72	punct	_	_
 75	n	n	NOUN	S	_	72	nmod	_	_
 76	216	216	NUM	N	NumType=Card	75	nummod	_	SpaceAfter=No
@@ -11958,7 +11958,7 @@
 58	di	di	ADP	E	_	60	case	_	_
 59	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	60	det	_	_
 60	DPR	DPR	NOUN	S	_	57	nmod	_	_
-61	752/76	752/76	NUM	N	NumType=Range	60	nummod	_	SpaceAfter=No
+61	752/76	752/76	NUM	N	NumType=Card	60	nummod	_	SpaceAfter=No
 62	.	.	PUNCT	FS	_	31	punct	_	_
 
 # sent_id = VIT-4272
@@ -12280,7 +12280,7 @@
 24	approvata	approvare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	21	acl	_	_
 25	con	con	ADP	E	_	26	case	_	_
 26	dm	dm	NOUN	S	Gender=Masc|Number=Sing	24	obl	_	_
-27	16/7/1982	16/7/1982	NUM	N	NumType=Range	26	nummod	_	_
+27	16/7/1982	16/7/1982	NUM	N	NumType=Card	26	nummod	_	_
 28	all'	all	NOUN	S	_	26	nmod	_	SpaceAfter=No
 29	a	a	NOUN	S	_	28	compound	_	SpaceAfter=No
 30	)	)	PUNCT	FB	_	29	punct	_	_
@@ -12622,7 +12622,7 @@
 40	di	di	ADP	E	_	42	case	_	_
 41	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
 42	legge	legge	NOUN	S	Gender=Fem|Number=Sing	37	nmod	_	_
-43	30/3/1976	30/3/1976	NUM	N	NumType=Range	42	nummod	_	_
+43	30/3/1976	30/3/1976	NUM	N	NumType=Card	42	nummod	_	_
 44	art	art	NOUN	S	_	42	nmod	_	_
 45	6	6	NUM	N	NumType=Card	44	nummod	_	SpaceAfter=No
 46	.	.	PUNCT	FS	_	2	punct	_	_
@@ -12741,7 +12741,7 @@
 99	di	di	ADP	E	_	101	case	_	_
 100	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	101	det	_	_
 101	DPR	DPR	NOUN	S	_	95	nmod	_	_
-102	417/74	417/74	NUM	N	NumType=Range	101	nummod	_	SpaceAfter=No
+102	417/74	417/74	NUM	N	NumType=Card	101	nummod	_	SpaceAfter=No
 103	,	,	PUNCT	FC	_	114	punct	_	_
 104	in	in	ADP	E	_	105	case	_	_
 105	particolare	particolare	NOUN	S	Gender=Masc|Number=Sing	114	obl	_	_
@@ -12781,7 +12781,7 @@
 136	a	a	ADP	E	_	138	case	_	_
 137	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	138	det	_	_
 138	legge	legge	NOUN	S	Gender=Fem|Number=Sing	135	obl	_	_
-139	7/2/1958	7/2/1958	NUM	N	NumType=Range	138	nummod	_	SpaceAfter=No
+139	7/2/1958	7/2/1958	NUM	N	NumType=Card	138	nummod	_	SpaceAfter=No
 140	,	,	PUNCT	FF	_	138	punct	_	_
 141	n	n	NOUN	S	_	138	nmod	_	_
 142	88	88	NUM	N	NumType=Card	141	nummod	_	_
@@ -12793,7 +12793,7 @@
 148	e	e	CCONJ	CC	_	149	cc	_	_
 149	XXXVI	XXXVI	ADJ	NO	Number=Sing|NumType=Ord	147	amod	_	_
 150	dm	dm	NOUN	S	Gender=Masc|Number=Sing	146	nmod	_	_
-151	3/9/1982	3/9/1982	NUM	N	NumType=Range	150	nummod	_	_
+151	3/9/1982	3/9/1982	NUM	N	NumType=Card	150	nummod	_	_
 152	e	e	CCONJ	CC	_	154	cc	_	_
 153	successive	successivo	ADJ	A	Gender=Fem|Number=Plur	154	amod	_	_
 154	modificazioni	modificazione	NOUN	S	Gender=Fem|Number=Plur	138	conj	_	SpaceAfter=No
@@ -12885,7 +12885,7 @@
 76-77	del	_	_	_	_	_	_	_	_
 76	di	di	ADP	E	_	78	case	_	_
 77	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	78	det	_	_
-78	5/6/1985	5/6/1985	NUM	N	NumType=Range	73	obl	_	SpaceAfter=No
+78	5/6/1985	5/6/1985	NUM	N	NumType=Card	73	obl	_	SpaceAfter=No
 79	.	.	PUNCT	FS	_	44	punct	_	_
 
 # sent_id = VIT-4289
@@ -13682,7 +13682,7 @@
 30	di	di	ADP	E	_	32	case	_	_
 31	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
 32	DPR	DPR	NOUN	S	_	28	nmod	_	_
-33	31/5/1974	31/5/1974	NUM	N	NumType=Range	32	nummod	_	SpaceAfter=No
+33	31/5/1974	31/5/1974	NUM	N	NumType=Card	32	nummod	_	SpaceAfter=No
 34	,	,	PUNCT	FF	_	28	punct	_	_
 35	n	n	NOUN	S	_	28	nmod	_	_
 36	19	19	NUM	N	NumType=Card	35	nummod	_	SpaceAfter=No
@@ -14043,7 +14043,7 @@
 19	di	di	ADP	E	_	21	case	_	_
 20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
 21	legge	legge	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	_
-22	4/1/1968	4/1/1968	NUM	N	NumType=Range	21	nummod	_	SpaceAfter=No
+22	4/1/1968	4/1/1968	NUM	N	NumType=Card	21	nummod	_	SpaceAfter=No
 23	,	,	PUNCT	FF	_	21	punct	_	_
 24	n	n	NOUN	S	_	21	nmod	_	_
 25	15	15	NUM	N	NumType=Card	24	nummod	_	_
@@ -15631,7 +15631,7 @@
 39	di	di	ADP	E	_	41	case	_	_
 40	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
 41	DPR	DPR	NOUN	S	_	34	nmod	_	_
-42	24/11/1971	24/11/1971	NUM	N	NumType=Range	41	nummod	_	SpaceAfter=No
+42	24/11/1971	24/11/1971	NUM	N	NumType=Card	41	nummod	_	SpaceAfter=No
 43	,	,	PUNCT	FF	_	41	punct	_	_
 44	n	n	NOUN	S	_	41	nmod	_	_
 45	1199	1199	NUM	N	NumType=Card	44	nummod	_	SpaceAfter=No
@@ -15976,7 +15976,7 @@
 27	,	,	PUNCT	FF	_	46	punct	_	_
 28-29	avendone	_	_	_	_	_	_	_	_
 28	avendo	avere	VERB	V	VerbForm=Ger	30	advcl	_	_
-29	ne	ne	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	28	expl	_	_
+29	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	28	iobj	_	_
 30	fatta	fare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	46	advcl	_	_
 31	richiesta	richiesta	NOUN	S	Gender=Fem|Number=Sing	30	obj	_	_
 32	mediante	mediante	ADP	E	_	33	case	_	_
@@ -16741,7 +16741,7 @@
 5	compensazione	compensazione	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
 6	saranno	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	7	aux:pass	_	_
 7	assegnati	assegnare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
-8	-	-	PUNCT	FC	_	7	punct	_	_
+8	-	-	PUNCT	FB	_	7	punct	_	_
 9	per	per	ADP	E	_	11	case	_	_
 10	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
 11	anno	anno	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
@@ -16753,7 +16753,7 @@
 17	disposto	disporre	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	acl:relcl	_	_
 18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 19	trasferimento	trasferimento	NOUN	S	Gender=Masc|Number=Sing	17	nsubj:pass	_	_
-20	-	-	PUNCT	FC	_	7	punct	_	_
+20	-	-	PUNCT	FB	_	7	punct	_	_
 21-22	dai	_	_	_	_	_	_	_	_
 21	da	da	ADP	E	_	23	case	_	_
 22	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
@@ -17476,7 +17476,7 @@
 29	provvisoria	provvisorio	ADJ	A	Gender=Fem|Number=Sing	28	amod	_	_
 30	ex	ex	ADP	E	_	31	case	_	_
 31	legge	legge	NOUN	S	Gender=Fem|Number=Sing	28	nmod	_	_
-32	326/84	326/84	NUM	N	NumType=Range	31	nummod	_	_
+32	326/84	326/84	NUM	N	NumType=Card	31	nummod	_	_
 33	ecc	eccetera	NOUN	S	_	23	nmod	_	SpaceAfter=No
 34	.	.	PUNCT	FS	_	4	punct	_	_
 
@@ -18157,7 +18157,7 @@
 38	potrebbero	potere	AUX	VM	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	39	aux	_	_
 39-40	variarne	_	_	_	_	_	_	_	_
 39	variar	variare	VERB	V	VerbForm=Inf	0	root	_	_
-40	ne	ne	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	39	expl	_	_
+40	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	39	iobj	_	_
 41	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
 42	tipologia	tipologia	NOUN	S	Gender=Fem|Number=Sing	39	obj	_	SpaceAfter=No
 43	.	.	PUNCT	FS	_	39	punct	_	_
@@ -18637,7 +18637,7 @@
 97	punteggio	punteggio	NOUN	S	Gender=Masc|Number=Sing	94	obj	_	_
 98-99	spettantegli	_	_	_	_	_	_	_	_
 98	spettante	spettare	VERB	V	Number=Sing|Tense=Pres|VerbForm=Part	97	acl	_	_
-99	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Person=3|PronType=Prs	98	iobj	_	_
+99	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	98	iobj	_	_
 100	come	come	ADP	E	_	101	case	_	_
 101	perdente	perdente	NOUN	S	Number=Sing	98	obl	_	_
 102	posto	posto	NOUN	S	Gender=Masc|Number=Sing	101	compound	_	_
@@ -20340,7 +20340,7 @@
 23	di	di	ADP	E	_	25	case	_	_
 24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
 25	legge	legge	NOUN	S	Gender=Fem|Number=Sing	19	nmod	_	_
-26	20/5/82	20/5/82	NUM	N	NumType=Range	25	nummod	_	_
+26	20/5/82	20/5/82	NUM	N	NumType=Card	25	nummod	_	_
 27	n	n	NOUN	S	_	25	nmod	_	_
 28	270	270	NUM	N	NumType=Card	27	nummod	_	SpaceAfter=No
 29	)	)	PUNCT	FB	_	28	punct	_	_
@@ -20386,7 +20386,7 @@
 67	di	di	ADP	E	_	69	case	_	_
 68	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	69	det	_	_
 69	legge	legge	NOUN	S	Gender=Fem|Number=Sing	65	nmod	_	_
-70	270/82	270/82	NUM	N	NumType=Range	69	nummod	_	SpaceAfter=No
+70	270/82	270/82	NUM	N	NumType=Card	69	nummod	_	SpaceAfter=No
 71	,	,	PUNCT	FF	_	51	punct	_	_
 72	procedendo	procedere	VERB	V	VerbForm=Ger	51	advcl	_	_
 73-74	al	_	_	_	_	_	_	_	_
@@ -20624,7 +20624,7 @@
 47	di	di	ADP	E	_	49	case	_	_
 48	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	49	det	_	_
 49	DPR	DPR	NOUN	S	_	45	nmod	_	_
-50	31/10/75	31/10/75	NUM	N	NumType=Range	49	nummod	_	SpaceAfter=No
+50	31/10/75	31/10/75	NUM	N	NumType=Card	49	nummod	_	SpaceAfter=No
 51	,	,	PUNCT	FF	_	52	punct	_	_
 52	n	n	NOUN	S	_	49	nmod	_	_
 53	970	970	NUM	N	NumType=Card	52	nummod	_	SpaceAfter=No
@@ -20751,7 +20751,7 @@
 30	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
 31	d	d	NOUN	S	_	28	obl	_	_
 32	d	d	NOUN	S	_	31	nmod	_	_
-33	5/2/1928	5/2/1928	NUM	N	NumType=Range	32	nummod	_	SpaceAfter=No
+33	5/2/1928	5/2/1928	NUM	N	NumType=Card	32	nummod	_	SpaceAfter=No
 34	,	,	PUNCT	FF	_	32	punct	_	_
 35	n	n	NOUN	S	_	31	nmod	_	_
 36	577	577	NUM	N	NumType=Card	35	nummod	_	SpaceAfter=No
@@ -21070,7 +21070,7 @@
 10	da	da	ADP	E	_	12	case	_	_
 11	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	_
 12	art	art	NOUN	S	_	9	obl:agent	_	_
-13	8	8	NUM	N	_	12	nummod	_	_
+13	8	8	NUM	N	NumType=Card	12	nummod	_	_
 14-15	del	_	_	_	_	_	_	_	_
 14	di	di	ADP	E	_	16	case	_	_
 15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
@@ -21100,7 +21100,7 @@
 10	da	da	ADP	E	_	12	case	_	_
 11	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	_
 12	art	art	NOUN	S	_	9	obl:agent	_	_
-13	8	8	NUM	N	_	12	nummod	_	_
+13	8	8	NUM	N	NumType=Card	12	nummod	_	_
 14-15	del	_	_	_	_	_	_	_	_
 14	di	di	ADP	E	_	16	case	_	_
 15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
@@ -21497,12 +21497,12 @@
 28-29	del	_	_	_	_	_	_	_	_
 28	di	di	ADP	E	_	30	case	_	_
 29	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
-30	26/7/77	26/7/77	NUM	N	NumType=Range	24	nmod	_	_
+30	26/7/77	26/7/77	NUM	N	NumType=Card	24	nmod	_	_
 31	e	e	CCONJ	CC	_	34	cc	_	_
 32-33	del	_	_	_	_	_	_	_	_
 32	di	di	ADP	E	_	34	case	_	_
 33	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
-34	2/7/82	2/7/82	NUM	N	NumType=Range	24	conj	_	_
+34	2/7/82	2/7/82	NUM	N	NumType=Card	24	conj	_	_
 35	che	che	PRON	PR	PronType=Rel	40	nsubj	_	SpaceAfter=No
 36	,	,	PUNCT	FF	_	40	punct	_	_
 37	pertanto	pertanto	ADV	B	_	40	advmod	_	SpaceAfter=No
@@ -21659,7 +21659,7 @@
 29	dovrà	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	30	aux	_	_
 30-31	darne	_	_	_	_	_	_	_	_
 30	dar	dare	VERB	V	VerbForm=Inf	0	root	_	_
-31	ne	ne	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	30	expl	_	_
+31	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	30	iobj	_	_
 32	tempestiva	tempestivo	ADJ	A	Gender=Fem|Number=Sing	33	amod	_	_
 33	comunicazione	comunicazione	NOUN	S	Gender=Fem|Number=Sing	30	obj	_	_
 34	a	a	ADP	E	_	35	case	_	_
@@ -21811,7 +21811,7 @@
 28-29	del	_	_	_	_	_	_	_	_
 28	di	di	ADP	E	_	30	case	_	_
 29	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
-30	31/8/1983	31/8/1983	NUM	N	NumType=Range	23	nmod	_	_
+30	31/8/1983	31/8/1983	NUM	N	NumType=Card	23	nmod	_	_
 31	che	che	PRON	PR	PronType=Rel	36	nsubj	_	SpaceAfter=No
 32	,	,	PUNCT	FF	_	36	punct	_	_
 33	pertanto	pertanto	ADV	B	_	36	advmod	_	SpaceAfter=No
@@ -23268,7 +23268,7 @@
 19	provvisoria	provvisorio	ADJ	A	Gender=Fem|Number=Sing	18	amod	_	_
 20-21	pervenutegli	_	_	_	_	_	_	_	_
 20	pervenute	pervenire	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	16	acl	_	_
-21	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Person=3|PronType=Prs	20	expl	_	_
+21	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	iobj	_	_
 22	e	e	CCONJ	CC	_	43	cc	_	SpaceAfter=No
 23	,	,	PUNCT	FF	_	43	punct	_	_
 24	dopo	dopo	ADP	E	_	26	mark	_	_
@@ -25691,7 +25691,7 @@
 27	di	di	ADP	E	_	29	case	_	_
 28	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
 29	legge	legge	NOUN	S	Gender=Fem|Number=Sing	25	nmod	_	_
-30	820/71	820/71	NUM	N	NumType=Range	29	nummod	_	SpaceAfter=No
+30	820/71	820/71	NUM	N	NumType=Card	29	nummod	_	SpaceAfter=No
 31	.	.	PUNCT	FS	_	6	punct	_	_
 
 # sent_id = VIT-4581
@@ -25753,7 +25753,7 @@
 49	o	o	NOUN	S	_	43	nmod	_	_
 50	m	m	NOUN	S	_	49	fixed	_	_
 51	n	n	NOUN	S	_	49	nmod	_	_
-52	66/83	66/83	NUM	N	NumType=Range	51	nummod	_	SpaceAfter=No
+52	66/83	66/83	NUM	N	NumType=Card	51	nummod	_	SpaceAfter=No
 53	,	,	PUNCT	FF	_	57	punct	_	_
 54	nonché	nonché	CCONJ	CC	_	57	cc	_	_
 55-56	dagli	_	_	_	_	_	_	_	_
@@ -26595,7 +26595,7 @@
 58	di	di	ADP	E	_	60	case	_	_
 59	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	60	det	_	_
 60	legge	legge	NOUN	S	Gender=Fem|Number=Sing	57	nmod	_	_
-61	820/71	820/71	NUM	N	NumType=Range	60	nummod	_	SpaceAfter=No
+61	820/71	820/71	NUM	N	NumType=Card	60	nummod	_	SpaceAfter=No
 62	.	.	PUNCT	FS	_	33	punct	_	_
 
 # sent_id = VIT-4598
@@ -26742,7 +26742,7 @@
 8	,	,	PUNCT	FF	_	5	punct	_	_
 9-10	avendone	_	_	_	_	_	_	_	_
 9	avendo	avere	VERB	V	VerbForm=Ger	5	advcl	_	_
-10	ne	ne	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	expl	_	_
+10	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	9	iobj	_	_
 11	titolo	titolo	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	SpaceAfter=No
 12	,	,	PUNCT	FF	_	5	punct	_	_
 13	per	per	ADP	E	_	15	case	_	_
@@ -26974,7 +26974,7 @@
 70	.	.	PUNCT	FS	_	22	punct	_	_
 
 # sent_id = VIT-4607
-# text = Sono considerati disponibili ai fini dei trasferimenti, nella misura stabilita dalle successive disposizioni, i posti della dotazione organica attualmente privi di titolare o che si rendano tali a decorrere dall'inizio dell'anno scolastico, per effetto di collocamenti a riposo disposti o da disporre d'ufficio o su domanda presentata entro la stessa data di pubblicazione dell'ordinanza o per qualunque altro motivo decadenza, ecc verificatosi si entro la stessa data.
+# text = Sono considerati disponibili ai fini dei trasferimenti, nella misura stabilita dalle successive disposizioni, i posti della dotazione organica attualmente privi di titolare o che si rendano tali a decorrere dall'inizio dell'anno scolastico, per effetto di collocamenti a riposo disposti o da disporre d'ufficio o su domanda presentata entro la stessa data di pubblicazione dell'ordinanza o per qualunque altro motivo decadenza, ecc verificatosi entro la stessa data.
 1	Sono	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux:pass	_	_
 2	considerati	considerare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
 3	disponibili	disponibile	ADJ	A	Number=Plur	2	xcomp	_	_
@@ -27060,7 +27060,8 @@
 75	decadenza	decadenza	NOUN	S	Gender=Fem|Number=Sing	74	nmod	_	SpaceAfter=No
 76	,	,	PUNCT	FF	_	77	punct	_	_
 77	ecc	eccetera	NOUN	S	_	75	conj	_	_
-78	verificatosi	verificare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	59	acl	_	_
+78-79	verificatosi	_	_	_	_	_	_	_	_
+78	verificato	verificare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	59	acl	_	_
 79	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	78	expl	_	_
 80	entro	entro	ADP	E	_	83	case	_	_
 81	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	83	det	_	_
@@ -27269,7 +27270,7 @@
 14	di	di	ADP	E	_	16	case	_	_
 15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
 16	legge	legge	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
-17	2/12/1967	2/12/1967	NUM	N	NumType=Range	16	nummod	_	_
+17	2/12/1967	2/12/1967	NUM	N	NumType=Card	16	nummod	_	_
 18	n	n	NOUN	S	_	16	nmod	_	_
 19	1213	1213	NUM	N	NumType=Card	18	nummod	_	SpaceAfter=No
 20	,	,	PUNCT	FF	_	34	punct	_	_
@@ -27491,7 +27492,7 @@
 33	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
 34	legge	legge	NOUN	S	Gender=Fem|Number=Sing	30	nmod	_	_
 35	n	n	NOUN	S	_	34	nmod	_	_
-36	820/71	820/71	NUM	N	NumType=Range	35	nummod	_	SpaceAfter=No
+36	820/71	820/71	NUM	N	NumType=Card	35	nummod	_	SpaceAfter=No
 37	,	,	PUNCT	FC	_	14	punct	_	_
 38-39	ai	_	_	_	_	_	_	_	_
 38	a	a	ADP	E	_	40	case	_	_
@@ -27657,7 +27658,7 @@
 12	di	di	ADP	E	_	14	case	_	_
 13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 14	legge	legge	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	_
-15	3/6/1980	3/6/1980	NUM	N	NumType=Range	14	nummod	_	_
+15	3/6/1980	3/6/1980	NUM	N	NumType=Card	14	nummod	_	_
 16	n	n	NOUN	S	_	14	nmod	_	_
 17	260	260	NUM	N	NumType=Card	16	nummod	_	SpaceAfter=No
 18	,	,	PUNCT	FC	_	2	punct	_	_
@@ -27995,7 +27996,7 @@
 56	di	di	ADP	E	_	58	case	_	_
 57	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	58	det	_	_
 58	legge	legge	NOUN	S	Gender=Fem|Number=Sing	55	nmod	_	_
-59	260/80	260/80	NUM	N	NumType=Range	58	nummod	_	SpaceAfter=No
+59	260/80	260/80	NUM	N	NumType=Card	58	nummod	_	SpaceAfter=No
 60	.	.	PUNCT	FS	_	15	punct	_	_
 
 # sent_id = VIT-4630
@@ -28091,7 +28092,7 @@
 81	istituito	istituire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	78	advcl	_	_
 82	con	con	ADP	E	_	83	case	_	_
 83	legge	legge	NOUN	S	Gender=Fem|Number=Sing	81	obl	_	_
-84	3/4/1958	3/4/1958	NUM	N	NumType=Range	83	nummod	_	SpaceAfter=No
+84	3/4/1958	3/4/1958	NUM	N	NumType=Card	83	nummod	_	SpaceAfter=No
 85	,	,	PUNCT	FF	_	83	punct	_	_
 86	n	n	NOUN	S	_	83	nmod	_	_
 87	585	585	NUM	N	NumType=Card	86	nummod	_	SpaceAfter=No
@@ -28990,7 +28991,7 @@
 18	di	di	ADP	E	_	20	case	_	_
 19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
 20	legge	legge	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	_
-21	820/71	820/71	NUM	N	NumType=Range	20	nummod	_	SpaceAfter=No
+21	820/71	820/71	NUM	N	NumType=Card	20	nummod	_	SpaceAfter=No
 22	,	,	PUNCT	FC	_	3	punct	_	_
 23	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 24	inoltre	inoltre	ADV	B	_	23	advmod	_	_
@@ -29777,7 +29778,7 @@
 15	di	di	ADP	E	_	17	case	_	_
 16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
 17	legge	legge	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	_
-18	2/12/1967	2/12/1967	NUM	N	NumType=Range	17	nummod	_	SpaceAfter=No
+18	2/12/1967	2/12/1967	NUM	N	NumType=Card	17	nummod	_	SpaceAfter=No
 19	,	,	PUNCT	FF	_	17	punct	_	_
 20	n	n	NOUN	S	_	17	nmod	_	_
 21	1213	1213	NUM	N	NumType=Card	20	nummod	_	_
@@ -29878,7 +29879,7 @@
 47	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	48	det	_	_
 48	legge	legge	NOUN	S	Gender=Fem|Number=Sing	44	nmod	_	_
 49	n	n	NOUN	S	_	48	compound	_	_
-50	820/71	820/71	NUM	N	NumType=Range	49	nummod	_	SpaceAfter=No
+50	820/71	820/71	NUM	N	NumType=Card	49	nummod	_	SpaceAfter=No
 51	,	,	PUNCT	FF	_	25	punct	_	_
 52	limitatamente	limitato	ADV	B	_	55	advmod	_	_
 53-54	al	_	_	_	_	_	_	_	_
@@ -30073,7 +30074,7 @@
 14	di	di	ADP	E	_	16	case	_	_
 15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
 16	legge	legge	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
-17	1/3/1957	1/3/1957	NUM	N	NumType=Range	16	nummod	_	SpaceAfter=No
+17	1/3/1957	1/3/1957	NUM	N	NumType=Card	16	nummod	_	SpaceAfter=No
 18	,	,	PUNCT	FF	_	16	punct	_	_
 19	n	n	NOUN	S	_	16	nmod	_	_
 20	90	90	NUM	N	NumType=Card	19	nummod	_	_
@@ -30546,7 +30547,7 @@
 28	di	di	ADP	E	_	30	case	_	_
 29	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
 30	legge	legge	NOUN	S	Gender=Fem|Number=Sing	26	nmod	_	_
-31	1/3/1957	1/3/1957	NUM	N	NumType=Range	30	nummod	_	SpaceAfter=No
+31	1/3/1957	1/3/1957	NUM	N	NumType=Card	30	nummod	_	SpaceAfter=No
 32	,	,	PUNCT	FF	_	30	punct	_	_
 33	n	n	NOUN	S	_	30	nmod	_	_
 34	90	90	NUM	N	NumType=Card	33	nummod	_	_
@@ -30765,7 +30766,7 @@
 31	,	,	PUNCT	FF	_	18	punct	_	_
 32-33	indicandone	_	_	_	_	_	_	_	_
 32	indicando	indicare	VERB	V	VerbForm=Ger	18	advcl	_	_
-33	ne	ne	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	32	expl	_	_
+33	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	32	iobj	_	_
 34	per	per	ADP	E	_	36	case	_	_
 35	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	36	det	_	_
 36	tipo	tipo	NOUN	S	Gender=Masc|Number=Sing	32	obl	_	_
@@ -30861,7 +30862,7 @@
 28	di	di	ADP	E	_	30	case	_	_
 29	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
 30	DPR	DPR	NOUN	S	_	26	nmod	_	_
-31	31/10/75	31/10/75	NUM	N	NumType=Range	30	nummod	_	_
+31	31/10/75	31/10/75	NUM	N	NumType=Card	30	nummod	_	_
 32	n	n	NOUN	S	_	30	appos	_	_
 33	970	970	NUM	N	NumType=Card	32	nummod	_	SpaceAfter=No
 34	;	;	PUNCT	FS	_	1	punct	_	_
@@ -30971,7 +30972,7 @@
 73	di	di	ADP	E	_	75	case	_	_
 74	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	75	det	_	_
 75	DPR	DPR	NOUN	S	_	71	nmod	_	_
-76	31/10/75	31/10/75	NUM	N	NumType=Range	75	nummod	_	_
+76	31/10/75	31/10/75	NUM	N	NumType=Card	75	nummod	_	_
 77	n	n	NOUN	S	_	75	nmod	_	_
 78	970	970	NUM	N	NumType=Card	77	nummod	_	SpaceAfter=No
 79	;	;	PUNCT	FS	_	1	punct	_	_
@@ -31075,7 +31076,7 @@
 68	di	di	ADP	E	_	70	case	_	_
 69	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	70	det	_	_
 70	DPR	DPR	NOUN	S	_	66	nmod	_	_
-71	31/10/75	31/10/75	NUM	N	NumType=Range	70	nummod	_	_
+71	31/10/75	31/10/75	NUM	N	NumType=Card	70	nummod	_	_
 72	n	n	NOUN	S	_	70	appos	_	_
 73	970	970	NUM	N	NumType=Card	72	nummod	_	SpaceAfter=No
 74	;	;	PUNCT	FS	_	1	punct	_	_
@@ -31130,7 +31131,7 @@
 28	di	di	ADP	E	_	30	case	_	_
 29	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
 30	DPR	DPR	NOUN	S	_	26	nmod	_	_
-31	31/10/75	31/10/75	NUM	N	NumType=Range	30	nummod	_	_
+31	31/10/75	31/10/75	NUM	N	NumType=Card	30	nummod	_	_
 32	n	n	NOUN	S	_	30	nmod	_	_
 33	970	970	NUM	N	NumType=Card	32	nummod	_	SpaceAfter=No
 34	,	,	PUNCT	FF	_	36	punct	_	_
@@ -31203,7 +31204,7 @@
 19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
 20	r	r	NOUN	S	_	14	nmod	_	_
 21	d	d	NOUN	S	_	20	fixed	_	_
-22	5/2/28	5/2/28	NUM	N	NumType=Range	20	nummod	_	_
+22	5/2/28	5/2/28	NUM	N	NumType=Card	20	nummod	_	_
 23	n	n	NOUN	S	_	20	nmod	_	_
 24	577	577	NUM	N	NumType=Card	23	nummod	_	SpaceAfter=No
 25	.	.	PUNCT	FS	_	1	punct	_	_
@@ -31833,7 +31834,7 @@
 64	ovviamente	ovviamente	ADV	B	_	65	advmod	_	_
 65-66	seguirle	_	_	_	_	_	_	_	_
 65	seguir	seguire	VERB	V	VerbForm=Inf	0	root	_	_
-66	le	le	PRON	PC	Clitic=Yes|Gender=Fem|Number=Plur|Person=3|PronType=Prs	65	expl	_	_
+66	le	le	PRON	PC	Clitic=Yes|Gender=Fem|Number=Plur|Person=3|PronType=Prs	65	obj	_	_
 67	ed	e	CCONJ	CC	_	70	cc	_	_
 68	essere	essere	AUX	VA	VerbForm=Inf	70	aux:pass	_	_
 69	definitivamente	definitivamente	ADV	B	_	70	advmod	_	_
@@ -32269,7 +32270,7 @@
 58	di	di	ADP	E	_	60	case	_	_
 59	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	60	det	_	_
 60	DPR	DPR	NOUN	S	_	56	nmod	_	_
-61	970/75	970/75	NUM	N	NumType=Range	60	nummod	_	SpaceAfter=No
+61	970/75	970/75	NUM	N	NumType=Card	60	nummod	_	SpaceAfter=No
 62	,	,	PUNCT	FF	_	49	punct	_	_
 63	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	64	det	_	_
 64	passaggio	passaggio	NOUN	S	Gender=Masc|Number=Sing	49	obj	_	_
@@ -32313,7 +32314,7 @@
 17	provinciali	provinciale	ADJ	A	Number=Plur	16	amod	_	SpaceAfter=No
 18	,	,	PUNCT	FC	_	12	punct	_	_
 19	che	che	PRON	PR	PronType=Rel	21	nsubj	_	_
-20	ne	ne	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	21	expl	_	_
+20	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	21	iobj	_	_
 21	abbiano	avere	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
 22	titolo	titolo	NOUN	S	Gender=Masc|Number=Sing	21	obj	_	SpaceAfter=No
 23	.	.	PUNCT	FS	_	3	punct	_	_
@@ -32703,7 +32704,7 @@
 26	di	di	ADP	E	_	28	case	_	_
 27	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
 28	legge	legge	NOUN	S	Gender=Fem|Number=Sing	21	nmod	_	_
-29	2/12/1967	2/12/1967	NUM	N	NumType=Range	28	nummod	_	SpaceAfter=No
+29	2/12/1967	2/12/1967	NUM	N	NumType=Card	28	nummod	_	SpaceAfter=No
 30	,	,	PUNCT	FF	_	28	punct	_	_
 31	n	n	NOUN	S	_	28	nmod	_	_
 32	1213	1213	NUM	N	NumType=Card	31	nummod	_	SpaceAfter=No
@@ -32733,7 +32734,7 @@
 20	sede	sede	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	_
 21	provvisoria	provvisorio	ADJ	A	Gender=Fem|Number=Sing	20	amod	_	_
 22	artt	artt	NOUN	S	_	17	obl	_	_
-23	70/71	70/71	NUM	N	NumType=Range	22	nummod	_	SpaceAfter=No
+23	70/71	70/71	NUM	N	NumType=Card	22	nummod	_	SpaceAfter=No
 24	,	,	PUNCT	FF	_	22	punct	_	_
 25	d	d	NOUN	S	_	22	nmod	_	_
 26	p	p	NOUN	S	_	22	nmod	_	SpaceAfter=No
@@ -32778,7 +32779,7 @@
 34	scolastico	scolastico	ADJ	A	Gender=Masc|Number=Sing	33	amod	_	_
 35	successivo	successivo	ADJ	A	Gender=Masc|Number=Sing	33	amod	_	SpaceAfter=No
 36	,	,	PUNCT	FF	_	39	punct	_	_
-37	ne	ne	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	39	expl	_	_
+37	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	39	iobj	_	_
 38	abbiano	avere	AUX	VA	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	39	aux	_	_
 39	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	25	acl:relcl	_	_
 40	richiesta	richiesta	NOUN	S	Gender=Fem|Number=Sing	39	obj	_	_
@@ -32825,7 +32826,7 @@
 10	di	di	ADP	E	_	12	case	_	_
 11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	legge	legge	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
-13	3/6/1980	3/6/1980	NUM	N	NumType=Range	12	nummod	_	_
+13	3/6/1980	3/6/1980	NUM	N	NumType=Card	12	nummod	_	_
 14	n	n	NOUN	S	_	12	nmod	_	_
 15	260	260	NUM	N	NumType=Card	14	nummod	_	SpaceAfter=No
 16	,	,	PUNCT	FC	_	12	punct	_	_
@@ -32920,7 +32921,7 @@
 18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
 19	legge	legge	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	_
 20	n	n	NOUN	S	_	19	nmod	_	_
-21	260/80	260/80	NUM	N	NumType=Range	20	nummod	_	_
+21	260/80	260/80	NUM	N	NumType=Card	20	nummod	_	_
 22	sono	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	23	aux:pass	_	_
 23	assegnati	assegnare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
 24-25	ai	_	_	_	_	_	_	_	_
@@ -33013,7 +33014,7 @@
 71	comma	comma	NOUN	S	Gender=Masc|Number=Sing	67	nmod	_	SpaceAfter=No
 72	,	,	PUNCT	FF	_	71	punct	_	_
 73	DPR	DPR	NOUN	S	_	71	nmod	_	_
-74	31/5/74	31/5/74	NUM	N	NumType=Range	73	nummod	_	SpaceAfter=No
+74	31/5/74	31/5/74	NUM	N	NumType=Card	73	nummod	_	SpaceAfter=No
 75	,	,	PUNCT	FF	_	73	punct	_	_
 76	n	n	NOUN	S	_	73	nmod	_	_
 77	417	417	NUM	N	NumType=Card	76	nummod	_	SpaceAfter=No
@@ -33078,7 +33079,7 @@
 131	art	art	NOUN	S	_	127	appos	_	_
 132	59	59	NUM	N	NumType=Card	131	nummod	_	_
 133	legge	legge	NOUN	S	Gender=Fem|Number=Sing	131	nmod	_	_
-134	11/7/1980	11/7/1980	NUM	N	NumType=Range	133	nummod	_	SpaceAfter=No
+134	11/7/1980	11/7/1980	NUM	N	NumType=Card	133	nummod	_	SpaceAfter=No
 135	,	,	PUNCT	FF	_	133	punct	_	_
 136	n	n	NOUN	S	_	133	nmod	_	_
 137	312	312	NUM	N	NumType=Card	136	nummod	_	SpaceAfter=No

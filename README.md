@@ -41,9 +41,10 @@ We are indebted to Rodolfo Del Monte and his collaborators, Antonella Bristot an
 
 # Changelog
 * 2022-04-03 v2.10
-  * Changed tokenization of d p r to DPR and similar.
+  * Harmonized clitics with other treebanks
+  * Changed tokenization of d p r to DPR and similar (D U, G U, ...).
   * Changed uppercase in lemmas at the beginning of sentence, unless PROPN
-  * Changed upos, xpos, mfeats and depel in Roman ordinals, to harmonize with ISDT
+  * Changed upos, xpos, mfeats and deprel in Roman ordinals, to harmonize with ISDT
   * Fixed minor typos
 
 * 2020-11-01 v2.6
