@@ -9502,8 +9502,8 @@
 81-82	della	_	_	_	_	_	_	_	_
 81	di	di	ADP	E	_	83	case	_	_
 82	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	83	det	_	_
-83	o	o	NOUN	S	_	79	nmod	_	_
-84	m	M	NOUN	S	_	83	fixed	_	_
+83	o	ordinanza	NOUN	S	_	79	nmod	_	_
+84	m	ministeriale	NOUN	S	_	83	fixed	_	_
 85	5/2/83	5/2/83	NUM	N	NumType=Card	83	nummod	_	SpaceAfter=No
 86	.	.	PUNCT	FS	_	8	punct	_	_
 

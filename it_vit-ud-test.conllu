@@ -16666,7 +16666,7 @@
 11-12	del	_	_	_	_	_	_	_	_
 11	di	di	ADP	E	_	13	case	_	_
 12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
-13	50,1%	50,1%	NUM	N	NumType=Card	2	nummod	_	_
+13	50,1%	50,1%	NUM	N	NumType=Card	2	nmod	_	_
 14	per	per	ADP	E	_	15	mark	_	_
 15	continuare	continuare	VERB	V	VerbForm=Inf	8	obl	_	_
 16	a	a	ADP	E	_	17	mark	_	_
@@ -22286,7 +22286,7 @@
 6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	Ministero	Ministero	PROPN	SP	_	4	nmod	_	_
 8	Per	per	PROPN	SP	_	7	flat:name	_	_
-9	l'	il	DET	RD	Definite=Def|PronType=Art	8	det	_	SpaceAfter=No
+9	l'	l	DET	RD	Definite=Def|PronType=Art	8	det	_	SpaceAfter=No
 10	Università	Università	PROPN	SP	_	7	flat:name	_	_
 11	E	E	PROPN	SP	_	7	flat:name	_	_
 12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
@@ -27257,7 +27257,7 @@
 11	serendipità	serendipità	NOUN	S	Gender=Fem	8	nmod	_	SpaceAfter=No
 12	,	,	PUNCT	FC	_	11	punct	_	_
 13	dove	dove	PRON	PR	PronType=Rel	15	obl	_	_
-14	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	15	expl	_	_
+14	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	15	expl:impers	_	_
 15	va	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
 16	in	in	ADP	E	_	17	case	_	_
 17	cerca	cerca	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	_
@@ -27265,7 +27265,7 @@
 19	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
 20	cosa	cosa	NOUN	S	Gender=Fem	17	nmod	_	_
 21	e	e	CCONJ	CC	_	24	cc	_	_
-22	se	se	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	24	expl	_	_
+22	se	se	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	24	expl:impers	_	_
 23	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	24	iobj	_	_
 24	trova	trovare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	conj	_	_
 25	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	26	det	_	SpaceAfter=No
