@@ -18,7 +18,7 @@
 14	.	.	PUNCT	FS	_	3	punct	_	_
 
 # sent_id = VIT-4753
-# text = È consentita inoltre la partecipazione provvisoria sempre per una sola provincia e per non più di 20 preferenze, agli insegnanti che hanno titolo a partecipare ai trasferimenti di cui alle precedenti II e III fase, sia che abbiano ottenuto il trasferimento, sia che non abbiano prodotto domanda di trasferimento nei termini stabiliti dalla presente ordinanza, anche per preferenze diverse da quelle richieste per trasferimento, qualora siano sopraggiunti gravi motivi compresi, ovviamente, tra quelli previsti dall'art 59 della legge n 312 e di cui al precedente art 70, che giustificano la richiesta.
+# text = È consentita inoltre la partecipazione provvisoria sempre per una sola provincia e per non più di 20 preferenze, agli insegnanti che hanno titolo a partecipare ai trasferimenti di cui alle precedenti II e III fase, sia che abbiano ottenuto il trasferimento, sia che non abbiano prodotto domanda di trasferimento nei termini stabiliti dalla presente ordinanza, anche per preferenze diverse da quelle richieste per trasferimento, qualora siano sopraggiunti gravi motivi compresi, ovviamente, tra quelli previsti dall'art. 59 della legge n. 312 e di cui al precedente art. 70, che giustificano la richiesta.
 1	È	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux:pass	_	_
 2	consentita	consentire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 3	inoltre	inoltre	ADV	B	_	2	advmod	_	_
@@ -113,13 +113,13 @@
 87-88	dall'	_	_	_	_	_	_	_	SpaceAfter=No
 87	da	da	ADP	E	_	89	case	_	_
 88	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	89	det	_	_
-89	art	art	NOUN	S	_	86	obl:agent	_	_
+89	art.	articolo	NOUN	S	_	86	obl:agent	_	_
 90	59	59	NUM	N	NumType=Card	89	nummod	_	_
 91-92	della	_	_	_	_	_	_	_	_
 91	di	di	ADP	E	_	93	case	_	_
 92	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	93	det	_	_
 93	legge	legge	NOUN	S	Gender=Fem|Number=Sing	89	nmod	_	_
-94	n	n	NOUN	S	_	93	nmod	_	_
+94	n.	numero	NOUN	S	_	93	nmod	_	_
 95	312	312	NUM	N	NumType=Card	94	nummod	_	_
 96	e	e	CCONJ	CC	_	86	cc	_	_
 97	di	di	ADP	E	_	98	case	_	_
@@ -128,7 +128,7 @@
 99	a	a	ADP	E	_	102	case	_	_
 100	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	102	det	_	_
 101	precedente	precedente	ADJ	A	Number=Sing	102	amod	_	_
-102	art	art	NOUN	S	_	98	nmod	_	_
+102	art.	articolo	NOUN	S	_	98	nmod	_	_
 103	70	70	NUM	N	NumType=Card	102	nummod	_	SpaceAfter=No
 104	,	,	PUNCT	FC	_	79	punct	_	_
 105	che	che	PRON	PR	PronType=Rel	106	nsubj	_	_
@@ -436,7 +436,7 @@
 24	.	.	PUNCT	FS	_	6	punct	_	_
 
 # sent_id = VIT-4762
-# text = Si richiama per le dichiarazioni personali sostitutive della certificazione quanto stabilito dall'art 16.
+# text = Si richiama per le dichiarazioni personali sostitutive della certificazione quanto stabilito dall'art. 16.
 1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl	_	_
 2	richiama	richiamare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	per	per	ADP	E	_	5	case	_	_
@@ -453,12 +453,12 @@
 13-14	dall'	_	_	_	_	_	_	_	SpaceAfter=No
 13	da	da	ADP	E	_	15	case	_	_
 14	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	_
-15	art	art	NOUN	S	_	12	obl:agent	_	_
+15	art.	articolo	NOUN	S	_	12	obl:agent	_	_
 16	16	16	NUM	N	NumType=Card	15	nummod	_	SpaceAfter=No
 17	.	.	PUNCT	FS	_	2	punct	_	_
 
 # sent_id = VIT-4763
-# text = Il provveditore agli studi, scaduto il termine di cui al precedente art 71, respinge le domande prodotte dagli insegnanti che ai sensi degli articoli precedenti non hanno titolo o che siano pervenute oltre il termine prescritto o alle quali non risultino allegati i richiesti documenti.
+# text = Il provveditore agli studi, scaduto il termine di cui al precedente art. 71, respinge le domande prodotte dagli insegnanti che ai sensi degli articoli precedenti non hanno titolo o che siano pervenute oltre il termine prescritto o alle quali non risultino allegati i richiesti documenti.
 1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	provveditore	provveditore	NOUN	S	Gender=Masc|Number=Sing	18	nsubj	_	_
 3-4	agli	_	_	_	_	_	_	_	_
@@ -475,7 +475,7 @@
 12	a	a	ADP	E	_	15	case	_	_
 13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 14	precedente	precedente	ADJ	A	Number=Sing	15	amod	_	_
-15	art	art	NOUN	S	_	9	nmod	_	_
+15	art.	articolo	NOUN	S	_	9	nmod	_	_
 16	71	71	NUM	N	NumType=Card	15	nummod	_	SpaceAfter=No
 17	,	,	PUNCT	FF	_	18	punct	_	_
 18	respinge	respingere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -521,7 +521,7 @@
 54	.	.	PUNCT	FS	_	18	punct	_	_
 
 # sent_id = VIT-4764
-# text = Gli insegnanti che aspirano all'assegnazione provvisoria verranno graduati sulla base dei punteggi previsti dall'apposita tabella all c), le Esigenze di famiglia di cui alla predetta tabella di valutazione, verificatesi si in termini successivi al termine per la presentazione delle domande di trasferimento, potranno essere valutate se rappresentate, con istanza documentate al provveditore agli studi della provincia richiesta, entro il medesimo termine di cui all'art 71.
+# text = Gli insegnanti che aspirano all'assegnazione provvisoria verranno graduati sulla base dei punteggi previsti dall'apposita tabella all c), le Esigenze di famiglia di cui alla predetta tabella di valutazione, verificatesi si in termini successivi al termine per la presentazione delle domande di trasferimento, potranno essere valutate se rappresentate, con istanza documentate al provveditore agli studi della provincia richiesta, entro il medesimo termine di cui all'art. 71.
 1	Gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	insegnanti	insegnante	NOUN	S	Number=Plur	10	nsubj:pass	_	_
 3	che	che	PRON	PR	PronType=Rel	4	nsubj	_	_
@@ -616,7 +616,7 @@
 82-83	all'	_	_	_	_	_	_	_	SpaceAfter=No
 82	a	a	ADP	E	_	84	case	_	_
 83	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	84	det	_	_
-84	art	art	NOUN	S	_	81	nmod	_	_
+84	art.	articolo	NOUN	S	_	81	nmod	_	_
 85	71	71	NUM	N	NumType=Card	84	nummod	_	SpaceAfter=No
 86	.	.	PUNCT	FS	_	10	punct	_	_
 
@@ -772,7 +772,7 @@
 17	.	.	PUNCT	FS	_	16	punct	_	_
 
 # sent_id = VIT-4772
-# text = La certificazione da allegare è quella prevista dal precedente art 16;
+# text = La certificazione da allegare è quella prevista dal precedente art. 16;
 1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	certificazione	certificazione	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
 3	da	da	ADP	E	_	4	mark	_	_
@@ -784,7 +784,7 @@
 8	da	da	ADP	E	_	11	case	_	_
 9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 10	precedente	precedente	ADJ	A	Number=Sing	11	amod	_	_
-11	art	art	NOUN	S	_	7	obl:agent	_	_
+11	art.	articolo	NOUN	S	_	7	obl:agent	_	_
 12	16	16	NUM	N	NumType=Card	11	nummod	_	SpaceAfter=No
 13	;	;	PUNCT	FS	_	6	punct	_	_
 
@@ -844,7 +844,7 @@
 8	.	.	PUNCT	FS	_	4	punct	_	_
 
 # sent_id = VIT-4777
-# text = Il Provveditore agli studi entro il 5 agosto determina, con proprio decreto, le graduatorie e le pubblica all'albo dell'ufficio scolastico, indicando il punteggio complessivo attribuito, nonché le eventuali Precedenze assolute di cui all'art 73.
+# text = Il Provveditore agli studi entro il 5 agosto determina, con proprio decreto, le graduatorie e le pubblica all'albo dell'ufficio scolastico, indicando il punteggio complessivo attribuito, nonché le eventuali Precedenze assolute di cui all'art. 73.
 1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	Provveditore	Provveditore	PROPN	SP	_	10	nsubj	_	_
 3-4	agli	_	_	_	_	_	_	_	_
@@ -892,7 +892,7 @@
 42-43	all'	_	_	_	_	_	_	_	SpaceAfter=No
 42	a	a	ADP	E	_	44	case	_	_
 43	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	44	det	_	_
-44	art	art	NOUN	S	_	41	nmod	_	_
+44	art.	articolo	NOUN	S	_	41	nmod	_	_
 45	73	73	NUM	N	NumType=Card	44	nummod	_	SpaceAfter=No
 46	.	.	PUNCT	FS	_	10	punct	_	_
 
@@ -1090,7 +1090,7 @@
 13	.	.	PUNCT	FS	_	4	punct	_	_
 
 # sent_id = VIT-4785
-# text = Sono inoltre disciplinati i trasferimenti dei docenti di educazione fisica appartenenti al ruolo ad esaurimento previsto dal v comma dell'art 16 della legge n 88/76;
+# text = Sono inoltre disciplinati i trasferimenti dei docenti di educazione fisica appartenenti al ruolo ad esaurimento previsto dal v comma dell'art. 16 della legge n. 88/76;
 1	Sono	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux:pass	_	_
 2	inoltre	inoltre	ADV	B	_	3	advmod	_	_
 3	disciplinati	disciplinare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
@@ -1119,18 +1119,18 @@
 23-24	dell'	_	_	_	_	_	_	_	SpaceAfter=No
 23	di	di	ADP	E	_	25	case	_	_
 24	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	25	det	_	_
-25	art	art	NOUN	S	_	22	nmod	_	_
+25	art.	articolo	NOUN	S	_	22	nmod	_	_
 26	16	16	NUM	N	NumType=Card	25	nummod	_	_
 27-28	della	_	_	_	_	_	_	_	_
 27	di	di	ADP	E	_	29	case	_	_
 28	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
 29	legge	legge	NOUN	S	Gender=Fem|Number=Sing	25	nmod	_	_
-30	n	n	NOUN	S	_	29	compound	_	_
+30	n.	numero	NOUN	S	_	29	compound	_	_
 31	88/76	88/76	NUM	N	NumType=Card	30	nummod	_	SpaceAfter=No
 32	;	;	PUNCT	FS	_	3	punct	_	_
 
 # sent_id = VIT-4786
-# text = 2) i trasferimenti dei docenti di ruolo in attesa di sede definitiva art 8 quartultimo comma;
+# text = 2) i trasferimenti dei docenti di ruolo in attesa di sede definitiva art. 8 quartultimo comma;
 1	2	2	NUM	N	NumType=Card	4	nummod	_	SpaceAfter=No
 2	)	)	PUNCT	FB	_	1	punct	_	_
 3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
@@ -1146,7 +1146,7 @@
 12	di	di	ADP	E	_	13	case	_	_
 13	sede	sede	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	_
 14	definitiva	definitivo	ADJ	A	Gender=Fem|Number=Sing	13	amod	_	_
-15	art	art	NOUN	S	_	7	nmod	_	_
+15	art.	articolo	NOUN	S	_	7	nmod	_	_
 16	8	8	NUM	N	NumType=Card	15	nummod	_	_
 17	quartultimo	quartultimo	ADJ	A	Gender=Masc|Number=Sing	18	amod	_	_
 18	comma	comma	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
@@ -1183,7 +1183,7 @@
 16	;	;	PUNCT	FS	_	3	punct	_	_
 
 # sent_id = VIT-4789
-# text = 5) trasferimenti suppletivi interprovinciali dei docenti non di ruolo non licenziabili ai sensi della legge n 270/82;
+# text = 5) trasferimenti suppletivi interprovinciali dei docenti non di ruolo non licenziabili ai sensi della legge n. 270/82;
 1	5	5	NUM	N	NumType=Card	3	nummod	_	SpaceAfter=No
 2	)	)	PUNCT	FB	_	1	punct	_	_
 3	trasferimenti	trasferimento	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
@@ -1206,7 +1206,7 @@
 17	di	di	ADP	E	_	19	case	_	_
 18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
 19	legge	legge	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
-20	n	n	NOUN	S	_	19	nmod	_	_
+20	n.	numero	NOUN	S	_	19	nmod	_	_
 21	270/82	270/82	NUM	N	NumType=Card	20	nummod	_	SpaceAfter=No
 22	;	;	PUNCT	FS	_	3	punct	_	_
 
@@ -1415,7 +1415,7 @@
 19	;	;	PUNCT	FS	_	2	punct	_	_
 
 # sent_id = VIT-4797
-# text = Le cattedre dei docenti di educazione fisica che ottengono il passaggio previsto dall'art 16 della legge 1-88/76;
+# text = Le cattedre dei docenti di educazione fisica che ottengono il passaggio previsto dall'art. 16 della legge 1-88/76;
 1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	cattedre	cattedra	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
 3-4	dei	_	_	_	_	_	_	_	_
@@ -1433,7 +1433,7 @@
 14-15	dall'	_	_	_	_	_	_	_	SpaceAfter=No
 14	da	da	ADP	E	_	16	case	_	_
 15	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	_
-16	art	art	NOUN	S	_	13	obl:agent	_	_
+16	art.	articolo	NOUN	S	_	13	obl:agent	_	_
 17	16	16	NUM	N	NumType=Card	16	nummod	_	_
 18-19	della	_	_	_	_	_	_	_	_
 18	di	di	ADP	E	_	20	case	_	_
@@ -1486,7 +1486,7 @@
 23	.	.	PUNCT	FS	_	2	punct	_	_
 
 # sent_id = VIT-4800
-# text = Le cattedre e i posti disponibili nelle scuole medie speciali per ciechi e sordomuti possono essere richieste per trasferimento da personale appartenente ai corrispondenti ruoli speciali previsti dal DPR 31 ottobre 1975 n 970.
+# text = Le cattedre e i posti disponibili nelle scuole medie speciali per ciechi e sordomuti possono essere richieste per trasferimento da personale appartenente ai corrispondenti ruoli speciali previsti dal DPR 31 ottobre 1975 n. 970.
 1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	cattedre	cattedra	NOUN	S	Gender=Fem|Number=Plur	18	nsubj:pass	_	_
 3	e	e	CCONJ	CC	_	5	cc	_	_
@@ -1525,12 +1525,12 @@
 33	31	31	NUM	N	NumType=Card	32	nummod	_	_
 34	ottobre	ottobre	NOUN	S	Gender=Masc|Number=Sing	32	nmod	_	_
 35	1975	1975	NUM	N	NumType=Card	34	flat	_	_
-36	n	n	NOUN	S	_	32	nmod	_	_
+36	n.	numero	NOUN	S	_	32	nmod	_	_
 37	970	970	NUM	N	NumType=Card	36	nummod	_	SpaceAfter=No
 38	.	.	PUNCT	FS	_	18	punct	_	_
 
 # sent_id = VIT-4801
-# text = Ai fini del riassorbimento sulle dotazioni organiche aggiuntive e dei trasferimenti interprovinciali si richiamano le disposizioni di cui al precedente art 13.
+# text = Ai fini del riassorbimento sulle dotazioni organiche aggiuntive e dei trasferimenti interprovinciali si richiamano le disposizioni di cui al precedente art. 13.
 1-2	Ai	_	_	_	_	_	_	_	_
 1	A	a	ADP	E	_	3	case	_	_
 2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
@@ -1561,12 +1561,12 @@
 23	a	a	ADP	E	_	26	case	_	_
 24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
 25	precedente	precedente	ADJ	A	Number=Sing	26	amod	_	_
-26	art	art	NOUN	S	_	20	nmod	_	_
+26	art.	articolo	NOUN	S	_	20	nmod	_	_
 27	13	13	NUM	N	NumType=Card	26	nummod	_	SpaceAfter=No
 28	.	.	PUNCT	FS	_	18	punct	_	_
 
 # sent_id = VIT-4802
-# text = I passaggi di cattedra, previsti dall'art 75 del DPR numero 417/74 e dalla tabella g ad esso allegata modificata e integrata dal dm 1 dicembre 1983 saranno disposti, per ciascuna classe di concorso, in numero non superiore ad un quinto del numero complessivo delle cattedre e posti di insegnamento disponibili per i trasferimenti interprovinciali di cui al precedente articolo 13 e non utilizzabili per i trasferimenti interprovinciali medesimi.
+# text = I passaggi di cattedra, previsti dall'art. 75 del DPR numero 417/74 e dalla tabella g ad esso allegata modificata e integrata dal dm 1 dicembre 1983 saranno disposti, per ciascuna classe di concorso, in numero non superiore ad un quinto del numero complessivo delle cattedre e posti di insegnamento disponibili per i trasferimenti interprovinciali di cui al precedente articolo 13 e non utilizzabili per i trasferimenti interprovinciali medesimi.
 1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	passaggi	passaggi	NOUN	S	Gender=Masc|Number=Plur	34	nsubj:pass	_	_
 3	di	di	ADP	E	_	4	case	_	_
@@ -1576,7 +1576,7 @@
 7-8	dall'	_	_	_	_	_	_	_	SpaceAfter=No
 7	da	da	ADP	E	_	9	case	_	_
 8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	_
-9	art	art	NOUN	S	_	6	obl	_	_
+9	art.	articolo	NOUN	S	_	6	obl	_	_
 10	75	75	NUM	N	NumType=Card	9	nummod	_	_
 11-12	del	_	_	_	_	_	_	_	_
 11	di	di	ADP	E	_	13	case	_	_
@@ -1706,7 +1706,7 @@
 42	.	.	PUNCT	FS	_	11	punct	_	_
 
 # sent_id = VIT-4804
-# text = Sono depennati dal ruolo ad esaurimento previsto dal v comma dell'art 16 della citata legge n 88/76 quei docenti di educazione fisica che, appartenendo a detto ruolo, avranno chiesto ed ottenuto il trasferimento o il passaggio ai sensi del presente capo.
+# text = Sono depennati dal ruolo ad esaurimento previsto dal v comma dell'art. 16 della citata legge n. 88/76 quei docenti di educazione fisica che, appartenendo a detto ruolo, avranno chiesto ed ottenuto il trasferimento o il passaggio ai sensi del presente capo.
 1	Sono	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux:pass	_	_
 2	depennati	depennare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
 3-4	dal	_	_	_	_	_	_	_	_
@@ -1724,14 +1724,14 @@
 13-14	dell'	_	_	_	_	_	_	_	SpaceAfter=No
 13	di	di	ADP	E	_	15	case	_	_
 14	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	_
-15	art	art	NOUN	S	_	12	nmod	_	_
+15	art.	articolo	NOUN	S	_	12	nmod	_	_
 16	16	16	NUM	N	NumType=Card	15	nummod	_	_
 17-18	della	_	_	_	_	_	_	_	_
 17	di	di	ADP	E	_	20	case	_	_
 18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
 19	citata	citato	ADJ	A	Gender=Fem|Number=Sing	20	amod	_	_
 20	legge	legge	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	_
-21	n	n	NOUN	S	_	20	nmod	_	_
+21	n.	numero	NOUN	S	_	20	nmod	_	_
 22	88/76	88/76	NUM	N	NumType=Card	21	nummod	_	_
 23	quei	quello	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	24	det	_	_
 24	docenti	docente	NOUN	S	Number=Plur	2	nsubj:pass	_	_
@@ -1867,7 +1867,7 @@
 30	.	.	PUNCT	FS	_	8	punct	_	_
 
 # sent_id = VIT-4808
-# text = I Trasferimenti nell'ambito della stessa scuola dal corso diurno al corso serale e viceversa saranno disposti secondo l'ordine e la precedenza di cui all'art 86.
+# text = I Trasferimenti nell'ambito della stessa scuola dal corso diurno al corso serale e viceversa saranno disposti secondo l'ordine e la precedenza di cui all'art. 86.
 1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	Trasferimenti	Trasferimenti	PROPN	SP	_	21	nsubj:pass	_	_
 3-4	nell'	_	_	_	_	_	_	_	SpaceAfter=No
@@ -1904,7 +1904,7 @@
 30-31	all'	_	_	_	_	_	_	_	SpaceAfter=No
 30	a	a	ADP	E	_	32	case	_	_
 31	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	32	det	_	_
-32	art	art	NOUN	S	_	29	conj	_	_
+32	art.	articolo	NOUN	S	_	29	conj	_	_
 33	86	86	NUM	N	NumType=Card	32	nummod	_	SpaceAfter=No
 34	.	.	PUNCT	FS	_	21	punct	_	_
 
@@ -2692,7 +2692,7 @@
 14	:	:	PUNCT	FS	_	9	punct	_	_
 
 # sent_id = VIT-4829
-# text = 1) i trasferimenti all'interno della stessa tipologia di sostegno e i trasferimenti dalle classi di concorso al sostegno art 89);
+# text = 1) i trasferimenti all'interno della stessa tipologia di sostegno e i trasferimenti dalle classi di concorso al sostegno art. 89);
 1	1	1	NUM	N	NumType=Card	4	nummod	_	SpaceAfter=No
 2	)	)	PUNCT	FB	_	1	punct	_	_
 3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
@@ -2721,7 +2721,7 @@
 22	a	a	ADP	E	_	24	case	_	_
 23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
 24	sostegno	sostegno	NOUN	S	Gender=Masc|Number=Sing	19	nmod	_	_
-25	art	art	NOUN	S	_	24	compound	_	_
+25	art.	articolo	NOUN	S	_	24	compound	_	_
 26	89	89	NUM	N	NumType=Card	25	nummod	_	SpaceAfter=No
 27	)	)	PUNCT	FB	_	26	punct	_	SpaceAfter=No
 28	;	;	PUNCT	FS	_	4	punct	_	_
@@ -3844,7 +3844,7 @@
 21	.	.	PUNCT	FS	_	6	punct	_	_
 
 # sent_id = VIT-4859
-# text = I trasferimenti d'ufficio degli insegnanti in soprannumero saranno disposti secondo l'ordine delle operazioni stabilito nel precedente art 86.
+# text = I trasferimenti d'ufficio degli insegnanti in soprannumero saranno disposti secondo l'ordine delle operazioni stabilito nel precedente art. 86.
 1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	trasferimenti	trasferimento	NOUN	S	Gender=Masc|Number=Plur	11	nsubj:pass	_	_
 3	d'	di	ADP	E	_	4	case	_	SpaceAfter=No
@@ -3869,7 +3869,7 @@
 19	in	in	ADP	E	_	22	case	_	_
 20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
 21	precedente	precedente	ADJ	A	Number=Sing	22	amod	_	_
-22	art	art	NOUN	S	_	18	obl	_	_
+22	art.	articolo	NOUN	S	_	18	obl	_	_
 23	86	86	NUM	N	NumType=Card	22	nummod	_	SpaceAfter=No
 24	.	.	PUNCT	FS	_	11	punct	_	_
 
@@ -5569,7 +5569,7 @@
 # sent_id = VIT-9218
 # text = da me vista troppo tardi".
 1	da	da	ADP	E	_	2	case	_	_
-2	me	me	PRON	PE	Number=Sing|Person=3|PronType=Prs	3	obl:agent	_	_
+2	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	obl:agent	_	_
 3	vista	vedere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 4	troppo	troppo	ADV	B	_	5	advmod	_	_
 5	tardi	tardi	ADV	B	_	3	advmod	_	SpaceAfter=No
@@ -6098,7 +6098,7 @@
 # text = Oggi non ce n'è rimasto più nessuno.
 1	Oggi	oggi	ADV	B	_	6	advmod	_	_
 2	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
-3	ce	ce	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	6	expl	_	_
+3	ce	ce	PRON	PC	Clitic=Yes|PronType=Prs	6	expl	_	_
 4	n'	ne	PRON	PC	Clitic=Yes|Number=Plur|Person=3|PronType=Prs	6	expl	_	SpaceAfter=No
 5	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
 6	rimasto	rimanere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -7169,7 +7169,7 @@
 37	a	a	ADP	E	_	39	case	_	_
 38	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
 39	firma	firma	NOUN	S	Gender=Fem|Number=Sing	42	obl	_	_
-40	ce	ce	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	42	expl	_	_
+40	ce	ce	PRON	PC	Clitic=Yes|PronType=Prs	42	expl	_	_
 41	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	42	iobj	_	_
 42	corre	correre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	conj	_	SpaceAfter=No
 43	,	,	PUNCT	FF	_	56	punct	_	_
@@ -7388,7 +7388,7 @@
 10	Funari	Funari	PROPN	SP	_	9	flat:name	_	_
 11	un	un	PRON	PQ	PronType=Int	15	obl	_	_
 12	pò	pò	ADV	B	Number=Sing	11	advmod	_	_
-13	ce	ce	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	15	expl	_	_
+13	ce	ce	PRON	PC	Clitic=Yes|PronType=Prs	15	expl	_	_
 14	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	15	obj	_	SpaceAfter=No
 15	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	SpaceAfter=No
 16	,	,	PUNCT	FF	_	15	punct	_	_
@@ -7827,7 +7827,7 @@
 
 # sent_id = VIT-9299
 # text = Copenaghen - Alba Parietti ha difeso, in una intervista trasmessa giovedì sera dalla tv danese, e ieri da quella svedese, la libertà delle donne italiane di denudarsi davanti ai telespettatori.
-1	Copenaghen	Copenaghen	PROPN	SP	_	6	parataxis	_	_
+1	Copenaghen	Copenaghen	PROPN	SP	_	6	obl	_	_
 2	-	-	PUNCT	FF	_	6	punct	_	_
 3	Alba	Alba	PROPN	SP	_	6	nsubj	_	_
 4	Parietti	Parietti	PROPN	SP	_	3	flat:name	_	_
@@ -8033,7 +8033,7 @@
 
 # sent_id = VIT-9306
 # text = Roma - un'iniziativa "cinica e diseducativa": questo il giudizio dei deputati progressisti, Boghetta, Rizzo, De Murtas e Vendola, in una interrogazione al ministro delle poste contro "generale per una sera", la trasmissione che Raiuno manda in onda da ieri.
-1	Roma	Roma	PROPN	SP	_	4	parataxis	_	_
+1	Roma	Roma	PROPN	SP	_	4	nmod	_	_
 2	-	-	PUNCT	FF	_	4	punct	_	_
 3	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
 4	iniziativa	iniziativa	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
@@ -9474,9 +9474,9 @@
 19	.	.	PUNCT	FS	_	1	punct	_	_
 
 # sent_id = VIT-9357
-# text = Se n è accorta una sua coetanea, era sul fondo della vasca.
+# text = Se n'è accorta una sua coetanea, era sul fondo della vasca.
 1	Se	se	PRON	PC	Clitic=Yes|Gender=Masc|Person=3|PronType=Prs	4	expl	_	_
-2	n	ne	PRON	PC	Clitic=Yes|Number=Plur|Person=3|PronType=Prs	4	expl	_	_
+2	n'	ne	PRON	PC	Clitic=Yes|Number=Plur|Person=3|PronType=Prs	4	expl	_	SpaceAfter=No
 3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
 4	accorta	accorgere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
@@ -11800,7 +11800,7 @@
 
 # sent_id = VIT-9453
 # text = Roma - lo stato ha il diritto dovere di favorire, anche con misure coercitive, le vaccinazioni dei bambini e delle categorie a rischio.
-1	Roma	Roma	PROPN	SP	_	5	parataxis	_	_
+1	Roma	Roma	PROPN	SP	_	5	obl	_	_
 2	-	-	PUNCT	FF	_	5	punct	_	_
 3	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	stato	stato	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
@@ -12120,7 +12120,7 @@
 
 # sent_id = VIT-9465
 # text = Monreale, i pm vogliono Cassisa alla sbarra.
-1	Monreale	Monreale	PROPN	SP	_	5	parataxis	_	SpaceAfter=No
+1	Monreale	Monreale	PROPN	SP	_	5	obl	_	SpaceAfter=No
 2	,	,	PUNCT	FC	_	5	punct	_	_
 3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
 4	pm	pm	NOUN	S	Gender=Masc	5	nsubj	_	_
@@ -12143,7 +12143,7 @@
 
 # sent_id = VIT-9467
 # text = Palermo - deve finire in tribunale l'arcivescovo di Monreale monsignor Salvatore Cassisa.
-1	Palermo	Palermo	PROPN	SP	_	4	parataxis	_	_
+1	Palermo	Palermo	PROPN	SP	_	4	obl	_	_
 2	-	-	PUNCT	FF	_	4	punct	_	_
 3	deve	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
 4	finire	finire	VERB	V	VerbForm=Inf	0	root	_	_
@@ -12333,7 +12333,7 @@
 
 # sent_id = VIT-9477
 # text = Roma - la Pace, almeno nelle piccole isole del Belpaese, arriva per decreto ministeriale.
-1	Roma	Roma	PROPN	SP	_	15	parataxis	_	_
+1	Roma	Roma	PROPN	SP	_	15	obl	_	_
 2	-	-	PUNCT	FF	_	15	punct	_	_
 3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	Pace	Pace	PROPN	SP	_	15	nsubj	_	SpaceAfter=No
@@ -13898,7 +13898,7 @@
 11	richiamo	richiamo	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
 12	,	,	PUNCT	FC	_	7	punct	_	_
 13	secondo	secondo	ADP	E	_	14	case	_	_
-14	me	me	PRON	PE	Number=Sing|Person=3|PronType=Prs	19	obl	_	_
+14	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	19	obl	_	_
 15	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
 16	valori	valore	NOUN	S	Gender=Masc|Number=Plur	19	nsubj	_	_
 17	non	non	ADV	BN	PronType=Neg	19	advmod	_	_
@@ -14344,7 +14344,7 @@
 
 # sent_id = VIT-9543
 # text = Napoli - il passato: "Maradona è stato l'elemento di rottura che ci ha permesso di vincere lo scudetto.
-1	Napoli	Napoli	PROPN	SP	_	4	parataxis	_	_
+1	Napoli	Napoli	PROPN	SP	_	4	obl	_	_
 2	-	-	PUNCT	FB	_	4	punct	_	_
 3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	passato	passato	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
@@ -15955,7 +15955,7 @@
 
 # sent_id = VIT-9607
 # text = Milano - rapporto difficile, tra Berlusconi e le regole.
-1	Milano	Milano	PROPN	SP	_	3	parataxis	_	_
+1	Milano	Milano	PROPN	SP	_	3	nmod	_	_
 2	-	-	PUNCT	FF	_	3	punct	_	_
 3	rapporto	rapporto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
 4	difficile	difficile	ADJ	A	Number=Sing	3	amod	_	SpaceAfter=No
@@ -19759,7 +19759,7 @@
 # sent_id = VIT-9737
 # text = A me pare proprio di no, è un grande passo avanti, e dobbiamo imparare a giudicare le cose dandogli il valore che hanno".
 1	A	a	ADP	E	_	2	case	_	_
-2	me	me	PRON	PE	Number=Sing|Person=3|PronType=Prs	3	obl	_	_
+2	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	obl	_	_
 3	pare	parere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	proprio	proprio	ADV	B	_	3	advmod	_	_
 5	di	di	ADP	E	_	6	case	_	_
@@ -20030,7 +20030,7 @@
 
 # sent_id = VIT-9751
 # text = Italia, democrazia in tilt.
-1	Italia	Italia	PROPN	SP	_	3	parataxis	_	SpaceAfter=No
+1	Italia	Italia	PROPN	SP	_	3	nmod	_	SpaceAfter=No
 2	,	,	PUNCT	FC	_	3	punct	_	_
 3	democrazia	democrazia	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
 4	in	in	ADP	E	_	5	case	_	_
@@ -20673,7 +20673,7 @@
 2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	risposta	risposta	NOUN	S	Gender=Fem|Number=Sing	7	dislocated	_	_
 4	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
-5	ce	ce	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	7	expl	_	_
+5	ce	ce	PRON	PC	Clitic=Yes|PronType=Prs	7	expl	_	_
 6	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	7	obj	_	SpaceAfter=No
 7	ho	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 8	,	,	PUNCT	FC	_	21	punct	_	_
@@ -21812,7 +21812,7 @@
 7	-	-	PUNCT	FB	_	6	punct	_	SpaceAfter=No
 8	,	,	PUNCT	FF	_	11	punct	_	_
 9	a	a	ADP	E	_	10	case	_	_
-10	me	me	PRON	PE	Number=Sing|Person=3|PronType=Prs	11	obl	_	_
+10	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	11	obl	_	_
 11	piace	piacere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 12	stare	stare	VERB	V	VerbForm=Inf	11	ccomp	_	_
 13	in	in	ADP	E	_	14	case	_	_
@@ -24100,7 +24100,7 @@
 13	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 14	lira	lira	NOUN	S	Gender=Fem|Number=Sing	12	obj	_	_
 15	per	per	ADP	E	_	16	case	_	_
-16	me	me	PRON	PE	Number=Sing|Person=3|PronType=Prs	12	obl	_	SpaceAfter=No
+16	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	12	obl	_	SpaceAfter=No
 17	,	,	PUNCT	FF	_	18	punct	_	_
 18	darò	dare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	12	conj	_	_
 19	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	18	obj	_	_
@@ -24573,7 +24573,7 @@
 
 # sent_id = VIT-9930
 # text = Roma - il Presidente Della Repubblica, Carlo Azeglio Ciampi, ha chiesto alle Camere - a norma dell'articolo 74, primo comma, della costituzione - una nuova deliberazione in ordine alla legge: "modifiche al codice di procedura penale, in materia di inappellabilità delle sentenze di proscioglimento".
-1	Roma	Roma	PROPN	SP	_	13	parataxis	_	_
+1	Roma	Roma	PROPN	SP	_	13	obl	_	_
 2	-	-	PUNCT	FF	_	13	punct	_	_
 3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	Presidente	Presidente	PROPN	SP	_	13	nsubj	_	_
@@ -24654,7 +24654,7 @@
 9	.	.	PUNCT	FS	_	2	punct	_	_
 
 # sent_id = VIT-9932
-# text = Le modifiche introdotte dalla legge sulla inappellabilità "generano un'evidente mutazione delle funzioni di corte di Cassazione, da giudice di legittimità a giudice di merito, in palese contrasto con quanto stabilito dall'art 111 della costituzione", ha scritto Ciampi nel messaggio alle Camere con il quale ha rinviato la legge sulla inappellabilità.
+# text = Le modifiche introdotte dalla legge sulla inappellabilità "generano un'evidente mutazione delle funzioni di corte di Cassazione, da giudice di legittimità a giudice di merito, in palese contrasto con quanto stabilito dall'art. 111 della costituzione", ha scritto Ciampi nel messaggio alle Camere con il quale ha rinviato la legge sulla inappellabilità.
 1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	modifiche	modifica	NOUN	S	Gender=Fem|Number=Plur	11	nsubj	_	_
 3	introdotte	introdurre	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	2	acl	_	_
@@ -24698,7 +24698,7 @@
 38-39	dall'	_	_	_	_	_	_	_	SpaceAfter=No
 38	da	da	ADP	E	_	40	case	_	_
 39	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	40	det	_	_
-40	art	art	NOUN	S	_	37	obl:agent	_	_
+40	art.	articolo	NOUN	S	_	37	obl:agent	_	_
 41	111	111	NUM	N	NumType=Card	40	nummod	_	_
 42-43	della	_	_	_	_	_	_	_	_
 42	di	di	ADP	E	_	44	case	_	_
@@ -24749,7 +24749,7 @@
 14	,	,	PUNCT	FC	_	7	punct	_	_
 15	crea	creare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 16	"	"	PUNCT	FB	_	18	punct	_	SpaceAfter=No
-17	delle	delle	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	18	det	_	_
+17	delle	delle	DET	RI	Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
 18	asimmetrie	asimmetria	NOUN	S	Gender=Fem|Number=Plur	15	obj	_	_
 19	tra	tra	ADP	E	_	20	case	_	_
 20	accusa	accusa	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	_
@@ -25500,7 +25500,7 @@
 
 # sent_id = VIT-9951
 # text = Roma - potrebbe diventare la Houston italiana.
-1	Roma	Roma	PROPN	SP	_	4	parataxis	_	_
+1	Roma	Roma	PROPN	SP	_	4	obl	_	_
 2	-	-	PUNCT	FF	_	4	punct	_	_
 3	potrebbe	potere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
 4	diventare	diventare	VERB	V	VerbForm=Inf	0	root	_	_
@@ -29232,7 +29232,7 @@
 20	figli	figlio	NOUN	S	Gender=Masc|Number=Plur	17	obl	_	_
 21	ma	ma	CCONJ	CC	_	26	cc	_	_
 22	non	non	ADV	BN	PronType=Neg	26	advmod	_	_
-23	ce	ce	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	26	expl	_	_
+23	ce	ce	PRON	PC	Clitic=Yes|PronType=Prs	26	expl	_	_
 24	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	26	obj	_	_
 25	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	26	expl	_	_
 26	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	conj	_	_
