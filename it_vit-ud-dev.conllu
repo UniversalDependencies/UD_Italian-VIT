@@ -4831,7 +4831,7 @@
 58	.	.	PUNCT	FS	_	5	punct	_	_
 
 # sent_id = VIT-4129
-# text = Da questa immane grotta scavata al centro della galleria del Gran Sasso sull'autostrada Roma-l'aquila può iniziare un viaggio per capire chi sono questi fisici italiani, come hanno fatto ad acquistare il prestigio indiscusso di cui godono in tutto il mondo, come spendono i miliardi che ricevono dalla comunità nazionale, e quali pericoli minacciano le posizioni di alta classifica che sono riusciti finora a mantenere nel gran campionato mondiale della ricerca avanzata.
+# text = Da questa immane grotta scavata al centro della galleria del Gran Sasso sull'autostrada Roma-L'Aquila può iniziare un viaggio per capire chi sono questi fisici italiani, come hanno fatto ad acquistare il prestigio indiscusso di cui godono in tutto il mondo, come spendono i miliardi che ricevono dalla comunità nazionale, e quali pericoli minacciano le posizioni di alta classifica che sono riusciti finora a mantenere nel gran campionato mondiale della ricerca avanzata.
 1	Da	da	ADP	E	_	4	case	_	_
 2	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
 3	immane	immane	ADJ	A	Number=Sing	4	amod	_	_
@@ -4854,7 +4854,7 @@
 16	su	su	ADP	E	_	18	case	_	_
 17	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	18	det	_	_
 18	autostrada	autostrada	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	_
-19	Roma-l'aquila	Roma-l'aquila	PROPN	SP	_	18	nmod	_	_
+19	Roma-L'Aquila	Roma-L'Aquila	PROPN	SP	_	18	nmod	_	_
 20	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
 21	iniziare	iniziare	VERB	V	VerbForm=Inf	0	root	_	_
 22	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
@@ -5111,7 +5111,7 @@
 43	in	in	ADP	E	_	45	case	_	_
 44	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	45	det	_	_
 45	tratto	tratto	NOUN	S	Gender=Masc|Number=Sing	38	nmod	_	_
-46	L'aquila	L'aquila	PROPN	SP	_	45	nmod	_	_
+46	L'Aquila	L'Aquila	PROPN	SP	_	45	nmod	_	_
 47	-	-	PUNCT	FF	_	46	punct	_	_
 48	Villa	Villa	PROPN	SP	_	46	nmod	_	_
 49	Vomano	Vomano	PROPN	SP	_	48	flat:name	_	_
