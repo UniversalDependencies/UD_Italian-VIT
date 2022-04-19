@@ -4927,7 +4927,7 @@
 1	Su	su	ADP	E	_	3	case	_	_
 2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	carrello	carrello	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
-4	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	5	expl	_	_
+4	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	5	expl	_	_
 5	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
 7	dati	dato	NOUN	S	Gender=Masc|Number=Plur	5	nsubj	_	_
@@ -7185,7 +7185,7 @@
 52	su	su	ADP	E	_	54	case	_	_
 53	queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	54	det	_	_
 54	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	56	obl	_	_
-55	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	56	expl	_	_
+55	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	56	expl	_	_
 56	va	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	conj	_	_
 57	con	con	ADP	E	_	59	case	_	_
 58	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	59	det	_	_
@@ -7446,7 +7446,7 @@
 2	dietro	dietro	ADP	E	_	4	case	_	_
 3	queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	4	det	_	_
 4	voci	voce	NOUN	S	Gender=Fem|Number=Plur	6	obl	_	_
-5	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	6	expl	_	_
+5	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	6	expl	_	_
 6	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
 8	voci	voce	NOUN	S	Gender=Fem|Number=Plur	6	nsubj	_	_
@@ -7757,7 +7757,7 @@
 18	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	19	det	_	_
 19	opportunità	opportunità	NOUN	S	Gender=Fem	16	obl	_	_
 20	-	-	PUNCT	FB	_	7	punct	_	_
-21	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	22	expl	_	_
+21	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	22	expl	_	_
 22	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
 23	altri	altro	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	24	det	_	_
 24	candidati	candidato	NOUN	S	Gender=Masc|Number=Plur	22	nsubj	_	_
@@ -8178,7 +8178,7 @@
 33	da	da	ADP	E	_	36	mark	_	_
 34-35	poterci	_	_	_	_	_	_	_	_
 34	poter	potere	AUX	VM	VerbForm=Inf	36	aux	_	_
-35	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	36	expl	_	_
+35	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	36	expl	_	_
 36	giocare	giocare	VERB	V	VerbForm=Inf	32	ccomp	_	_
 37	come	come	ADP	E	_	40	mark	_	_
 38	se	se	SCONJ	CS	_	37	fixed	_	_
@@ -9793,7 +9793,7 @@
 17	a	a	ADP	E	_	19	case	_	_
 18	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 19	stadio	stadio	NOUN	S	Gender=Masc|Number=Sing	21	obl	_	_
-20	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	21	expl	_	_
+20	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	21	expl	_	_
 21	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	parataxis	_	_
 22	più	più	ADV	B	_	23	advmod	_	_
 23	ambulanze	ambulanza	NOUN	S	Gender=Fem|Number=Plur	21	nsubj	_	_
@@ -9815,7 +9815,7 @@
 38	dieci	dieci	NUM	N	NumType=Card	39	nummod	_	_
 39	stadi	stadio	NOUN	S	Gender=Masc|Number=Plur	36	obl	_	_
 40	non	non	ADV	BN	PronType=Neg	42	advmod	_	_
-41	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	42	expl	_	_
+41	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	42	expl	_	_
 42	sia	essere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	21	ccomp	_	_
 43	nessun	nessuno	DET	DI	Number=Sing|PronType=Ind	44	det	_	_
 44	servizio	servizio	NOUN	S	Gender=Masc|Number=Sing	42	nsubj	_	SpaceAfter=No
@@ -12016,7 +12016,7 @@
 14	,	,	PUNCT	FC	_	2	punct	_	_
 15	neanche	neanche	ADV	BN	PronType=Neg	18	advmod	_	_
 16	se	se	SCONJ	CS	_	18	mark	_	_
-17	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	18	expl	_	_
+17	vi	vi	PRON	PC	Clitic=Yes|PronType=Prs	18	expl	_	_
 18	sia	essere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
 19	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	20	det	_	SpaceAfter=No
 20	assenso	assenso	NOUN	S	Gender=Masc|Number=Sing	18	nsubj	_	_
@@ -12617,7 +12617,7 @@
 19	di	di	ADP	E	_	20	case	_	_
 20	coloro	coloro	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	17	conj	_	_
 21	che	che	PRON	PR	PronType=Rel	23	nsubj	_	_
-22	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	23	expl	_	_
+22	vi	vi	PRON	PC	Clitic=Yes|PronType=Prs	23	expl	_	_
 23	trascorrono	trascorrere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	acl:relcl	_	_
 24	almeno	almeno	ADV	B	_	23	advmod	_	_
 25	sette	sette	NUM	N	NumType=Card	26	nummod	_	_
@@ -13057,7 +13057,7 @@
 4	viola	violare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
 5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	divieto	divieto	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
-7	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	8	expl	_	_
+7	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	8	expl	_	_
 8	saranno	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 9	multe	multa	NOUN	S	Gender=Fem|Number=Plur	8	nsubj	_	SpaceAfter=No
 10	,	,	PUNCT	FF	_	9	punct	_	_
@@ -14724,7 +14724,7 @@
 1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
 2	so	sapere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	se	se	SCONJ	CS	_	5	mark	_	_
-4	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	5	expl	_	_
+4	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	5	expl	_	_
 5	sarà	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	2	ccomp	_	_
 6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	Napoli	Napoli	PROPN	SP	_	5	nsubj	_	_
@@ -14960,7 +14960,7 @@
 12	conclusione	conclusione	NOUN	S	Gender=Fem|Number=Sing	9	obl:agent	_	_
 13	che	che	SCONJ	CS	_	16	mark	_	_
 14	non	non	ADV	BN	PronType=Neg	16	advmod	_	_
-15	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	16	expl	_	_
+15	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	16	expl	_	_
 16	fu	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	acl	_	_
 17	dolo	dolo	NOUN	S	Gender=Masc|Number=Sing	16	nsubj	_	SpaceAfter=No
 18	,	,	PUNCT	FC	_	25	punct	_	_
@@ -15221,7 +15221,7 @@
 
 # sent_id = VIT-9582
 # text = Ci vuole ben altro per mettermi ko.
-1	Ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	2	expl	_	_
+1	Ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	_
 2	vuole	volere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	ben	bene	ADV	B	_	4	advmod	_	_
 4	altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	2	nsubj	_	_
@@ -16249,7 +16249,7 @@
 21	necessario	necessario	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
 22	evitare	evitare	VERB	V	VerbForm=Inf	21	ccomp	_	_
 23	che	che	SCONJ	CS	_	25	mark	_	_
-24	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	25	expl	_	_
+24	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	25	expl	_	_
 25	siano	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	ccomp	_	SpaceAfter=No
 26	,	,	PUNCT	FF	_	36	punct	_	_
 27-28	nelle	_	_	_	_	_	_	_	_
@@ -17448,7 +17448,7 @@
 5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	quale	quale	PRON	PR	Gender=Masc|Number=Sing|PronType=Rel	11	obl	_	_
 7	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
-8	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	11	expl	_	_
+8	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	11	expl	_	_
 9	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	11	expl:impers	_	_
 10	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
 11	rallegrare	rallegrare	VERB	V	VerbForm=Inf	2	acl:relcl	_	_
@@ -18227,7 +18227,7 @@
 11	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl	_	_
 12	,	,	PUNCT	FF	_	15	punct	_	_
 13	non	non	ADV	BN	PronType=Neg	15	advmod	_	_
-14	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	15	expl	_	_
+14	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	15	expl	_	_
 15	sarà	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 16	più	più	ADV	B	_	17	advmod	_	_
 17	spazio	spazio	NOUN	S	Gender=Masc|Number=Sing	15	nsubj	_	_
@@ -19832,7 +19832,7 @@
 17	nessuno	nessuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	23	nsubj	_	_
 18	di	di	ADP	E	_	19	case	_	_
 19	voi	voi	PRON	PE	Number=Plur|Person=2|PronType=Prs	17	nmod	_	_
-20	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	23	expl	_	_
+20	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	23	expl	_	_
 21	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
 22	mai	mai	ADV	BN	PronType=Neg	23	advmod	_	_
 23	creduto	credere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	ccomp	_	SpaceAfter=No
@@ -20092,7 +20092,7 @@
 # text = che cosa ci sarebbe di male se durasse indefinitamente?
 1	che	che	DET	DQ	PronType=Int	2	det	_	_
 2	cosa	cosa	PRON	PQ	PronType=Int	4	nsubj	_	_
-3	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	4	expl	_	_
+3	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	4	expl	_	_
 4	sarebbe	essere	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	di	di	ADP	E	_	6	case	_	_
 6	male	male	NOUN	S	Gender=Masc	4	obl	_	_
@@ -20392,7 +20392,7 @@
 # sent_id = VIT-9767
 # text = Ma ci sono momenti in cui combattere è l'unica soluzione, perché non si ha davanti a sé nessun altra scelta.
 1	Ma	ma	CCONJ	CC	_	3	cc	_	_
-2	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	3	expl	_	_
+2	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	_
 3	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	momenti	momento	NOUN	S	Gender=Masc|Number=Plur	3	nsubj	_	_
 5	in	in	ADP	E	_	6	case	_	_
@@ -21427,7 +21427,7 @@
 9	Giglio	Giglio	PROPN	SP	_	6	nmod	_	SpaceAfter=No
 10	,	,	PUNCT	FF	_	13	punct	_	_
 11	non	non	ADV	BN	PronType=Neg	13	advmod	_	_
-12	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	13	expl	_	_
+12	vi	vi	PRON	PC	Clitic=Yes|PronType=Prs	13	expl	_	_
 13	saranno	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 14	quindi	quindi	ADV	B	_	16	advmod	_	_
 15	altri	altro	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	16	det	_	_
@@ -22467,7 +22467,7 @@
 8	attenti	attento	ADJ	A	Gender=Masc|Number=Plur	7	amod	_	_
 9	che	che	SCONJ	CS	_	12	mark	_	_
 10	non	non	ADV	BN	PronType=Neg	12	advmod	_	_
-11	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	12	expl	_	_
+11	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	12	expl	_	_
 12	siano	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	ccomp	_	_
 13	abusi	abuso	NOUN	S	Gender=Masc|Number=Plur	12	nsubj	_	_
 14	e	e	CCONJ	CC	_	18	cc	_	_
@@ -22694,7 +22694,7 @@
 13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	Nord	Nord	PROPN	SP	_	8	obl	_	SpaceAfter=No
 15	:	:	PUNCT	FC	_	8	punct	_	_
-16	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	17	expl	_	_
+16	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	17	expl	_	_
 17	saranno	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	8	parataxis	_	_
 18	atenei	ateneo	NOUN	S	Gender=Masc|Number=Plur	17	nsubj	_	_
 19	a	a	ADP	E	_	21	case	_	_
@@ -22764,7 +22764,7 @@
 
 # sent_id = VIT-9846
 # text = Ci sono, invece, ed è un problema grave e che mi tormenta, enormi differenze economiche, con una disoccupazione che nel Meridione è altissima.
-1	Ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	2	expl	_	_
+1	Ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	_
 2	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 3	,	,	PUNCT	FF	_	2	punct	_	_
 4	invece	invece	ADV	B	_	2	advmod	_	SpaceAfter=No
@@ -24088,7 +24088,7 @@
 1	Comunque	comunque	ADV	B	_	12	advmod	_	_
 2	se	se	SCONJ	CS	_	5	mark	_	_
 3	mai	mai	ADV	B	_	5	advmod	_	_
-4	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	5	expl	_	_
+4	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	5	expl	_	_
 5	sarà	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	12	ccomp	_	_
 6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	causa	causa	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
@@ -24240,7 +24240,7 @@
 # sent_id = VIT-9915
 # text = non ci sono le sedie alte, per tenere d'occhio le piscine.
 1	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
-2	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	3	expl	_	_
+2	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	_
 3	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
 5	sedie	sedia	NOUN	S	Gender=Fem|Number=Plur	3	nsubj	_	_
@@ -24398,7 +24398,7 @@
 4	di	di	ADP	E	_	5	case	_	_
 5	Fregene	Fregene	PROPN	SP	_	3	nmod	_	SpaceAfter=No
 6	,	,	PUNCT	FF	_	9	punct	_	_
-7	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	9	expl	_	_
+7	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	9	expl	_	_
 8	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	aux	_	_
 9	parlato	parlare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	conj	_	_
 10	per	per	ADP	E	_	12	case	_	_
@@ -24812,7 +24812,7 @@
 9	sottolinea	sottolineare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 10	anche	anche	ADV	B	_	9	advmod	_	_
 11	che	che	SCONJ	CS	_	13	mark	_	_
-12	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	13	expl	_	_
+12	vi	vi	PRON	PC	Clitic=Yes|PronType=Prs	13	expl	_	_
 13	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	ccomp	_	_
 14	disparità	disparità	NOUN	S	Gender=Fem	13	nsubj	_	_
 15	anche	anche	ADV	B	_	18	advmod	_	_
@@ -24888,7 +24888,7 @@
 # text = E infine vi è rischio che la legge sull'inappellabilità possa recare "un vulnus al precetto costituzionale del buon andamento dell'amministrazione applicabile, secondo la giurisprudenza della corte costituzionale, anche agli organi dell'amministrazione della giustizia".
 1	E	e	CCONJ	CC	_	4	cc	_	_
 2	infine	infine	ADV	B	_	4	advmod	_	_
-3	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	4	expl	_	_
+3	vi	vi	PRON	PC	Clitic=Yes|PronType=Prs	4	expl	_	_
 4	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	rischio	rischio	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
 6	che	che	SCONJ	CS	_	13	mark	_	_
@@ -26753,7 +26753,7 @@
 31	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
 32	terra	terra	NOUN	S	Gender=Fem|Number=Sing	29	nmod	_	_
 33	che	che	SCONJ	CS	_	36	mark	_	_
-34	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	36	expl	_	_
+34	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	36	expl	_	_
 35	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	36	expl:impers	_	_
 36	salva	salvare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	ccomp	_	_
 37	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	38	det	_	SpaceAfter=No
@@ -27234,7 +27234,7 @@
 13	e	e	CCONJ	CC	_	15	cc	_	_
 14	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
 15	Asia	Asia	PROPN	SP	_	12	conj	_	_
-16	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	17	expl	_	_
+16	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	17	expl	_	_
 17	stesse	stare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	ccomp	_	_
 18	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
 19	altro	altro	ADJ	A	Gender=Masc|Number=Sing	20	amod	_	_
@@ -27558,7 +27558,7 @@
 69	totale	totale	NOUN	S	Gender=Masc|Number=Sing	64	nmod	_	SpaceAfter=No
 70	,	,	PUNCT	FS	_	74	punct	_	_
 71	e	e	CCONJ	CC	_	74	cc	_	_
-72	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	74	expl	_	_
+72	vi	vi	PRON	PC	Clitic=Yes|PronType=Prs	74	expl	_	_
 73	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	74	aux	_	_
 74	trovato	trovare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	44	conj	_	_
 75	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	76	det	_	_
@@ -29202,7 +29202,7 @@
 5	scarsa	scarso	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
 6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
 7	genitori	genitore	NOUN	S	Gender=Masc|Number=Plur	9	nsubj	_	_
-8	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	9	expl	_	_
+8	vi	vi	PRON	PC	Clitic=Yes|PronType=Prs	9	expl	_	_
 9	investono	investire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 10	di	di	ADP	E	_	11	case	_	_
 11	più	più	ADV	B	_	9	advmod	_	SpaceAfter=No
@@ -29560,7 +29560,7 @@
 1	A	a	ADP	E	_	2	mark	_	_
 2-3	pensarci	_	_	_	_	_	_	_	_
 2	pensar	pensare	VERB	V	VerbForm=Inf	9	advcl	_	_
-3	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	2	expl	_	_
+3	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	_
 4	bene	bene	ADV	B	_	2	advmod	_	SpaceAfter=No
 5	,	,	PUNCT	FF	_	9	punct	_	_
 6	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
@@ -29871,7 +29871,7 @@
 # sent_id = VIT-10077
 # text = non ci sono riuscito, ma non fa niente.
 1	non	Non	ADV	BN	PronType=Neg	4	advmod	_	_
-2	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	4	expl	_	_
+2	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	4	expl	_	_
 3	sono	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
 4	riuscito	riuscire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
 5	,	,	PUNCT	FF	_	8	punct	_	_
@@ -29885,7 +29885,7 @@
 # text = Adesso che ci penso: anche lui era un pò sentimentale.
 1	Adesso	adesso	ADV	B	_	4	advmod	_	_
 2	che	che	SCONJ	CS	_	4	mark	_	_
-3	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	4	expl	_	_
+3	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	4	expl	_	_
 4	penso	pensare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 5	:	:	PUNCT	FC	_	4	punct	_	_
 6	anche	anche	ADV	B	_	7	advmod	_	_
@@ -30875,7 +30875,7 @@
 # sent_id = VIT-10114
 # text = Scrooge vi aveva apposto la sua: e il nome di Scrooge, su qualunque fogliaccio fosse scritto, valeva tant oro.
 1	Scrooge	Scrooge	PROPN	SP	_	4	nsubj	_	_
-2	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	4	expl	_	_
+2	vi	vi	PRON	PC	Clitic=Yes|PronType=Prs	4	expl	_	_
 3	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux	_	_
 4	apposto	apporre	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
@@ -30936,7 +30936,7 @@
 11	bene	bene	ADV	B	_	9	advmod	_	_
 12	che	che	DET	DQ	PronType=Int	13	det	_	_
 13	cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	15	nsubj	_	_
-14	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	15	expl	_	_
+14	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	15	expl	_	_
 15	sia	essere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	ccomp	_	_
 16	di	di	ADP	E	_	17	case	_	_
 17	morto	morto	ADV	B	Gender=Masc|Number=Sing	15	obl	_	_
@@ -31164,7 +31164,7 @@
 # sent_id = VIT-10126
 # text = Non c'è dunque dubbio che Marley era morto.
 1	Non	non	ADV	BN	PronType=Neg	5	advmod	_	_
-2	c'	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	5	expl	_	SpaceAfter=No
+2	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	5	expl	_	SpaceAfter=No
 3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
 4	dunque	dunque	ADV	B	_	5	advmod	_	_
 5	dubbio	dubbio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_

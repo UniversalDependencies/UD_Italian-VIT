@@ -1510,7 +1510,7 @@
 22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
 23	stanza	stanza	NOUN	S	Gender=Fem|Number=Sing	26	obl	_	_
 24	accanto	accanto	ADV	B	_	23	advmod	_	_
-25	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	26	expl	_	_
+25	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	26	expl	_	_
 26	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
 27	quattro	quattro	NUM	N	NumType=Card	28	nummod	_	_
 28	segretarie	segretario	NOUN	S	Gender=Fem|Number=Plur	26	nsubj	_	SpaceAfter=No
@@ -2277,7 +2277,7 @@
 4	rispondere	rispondere	VERB	V	VerbForm=Inf	2	acl	_	_
 5	affermativamente	affermativamente	ADV	B	_	4	advmod	_	_
 6	oggi	oggi	ADV	B	_	4	advmod	_	_
-7	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	8	expl	_	_
+7	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	8	expl	_	_
 8	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 9	,	,	PUNCT	FC	_	12	punct	_	_
 10	e	e	CCONJ	CC	_	12	cc	_	_
@@ -2941,12 +2941,12 @@
 
 # sent_id = VIT-4081
 # text = Ci sono le macchine, ci sono le reti:
-1	Ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	2	expl	_	_
+1	Ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	_
 2	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
 4	macchine	macchina	NOUN	S	Gender=Fem|Number=Plur	2	nsubj	_	SpaceAfter=No
 5	,	,	PUNCT	FC	_	7	punct	_	_
-6	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	7	expl	_	_
+6	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	7	expl	_	_
 7	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
 8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
 9	reti	rete	NOUN	S	Gender=Fem|Number=Plur	7	nsubj	_	SpaceAfter=No
@@ -3035,7 +3035,7 @@
 13	posta	posta	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	_
 14	elettronica	elettronico	ADJ	A	Gender=Fem|Number=Sing	13	amod	_	_
 15	se	se	SCONJ	CS	_	17	mark	_	_
-16	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	17	expl	_	_
+16	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	17	expl	_	_
 17	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	ccomp	_	_
 18	messaggi	messaggio	NOUN	S	Gender=Masc|Number=Plur	17	nsubj	_	_
 19	per	per	ADP	E	_	20	case	_	_
@@ -3856,7 +3856,7 @@
 17	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
 18	telefoni	telefono	NOUN	S	Gender=Masc|Number=Plur	15	nmod	_	_
 19	che	che	PRON	PR	PronType=Rel	21	nsubj	_	_
-20	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	21	expl	_	_
+20	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	21	expl	_	_
 21	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	acl:relcl	_	_
 22-23	nell'	_	_	_	_	_	_	_	SpaceAfter=No
 22	in	in	ADP	E	_	24	case	_	_
@@ -4831,7 +4831,7 @@
 58	.	.	PUNCT	FS	_	5	punct	_	_
 
 # sent_id = VIT-4129
-# text = Da questa immane grotta scavata al centro della galleria del Gran Sasso sull'autostrada Roma-l'aquila può iniziare un viaggio per capire chi sono questi fisici italiani, come hanno fatto ad acquistare il prestigio indiscusso di cui godono in tutto il mondo, come spendono i miliardi che ricevono dalla comunità nazionale, e quali pericoli minacciano le posizioni di alta classifica che sono riusciti finora a mantenere nel gran campionato mondiale della ricerca avanzata.
+# text = Da questa immane grotta scavata al centro della galleria del Gran Sasso sull'autostrada Roma-L'Aquila può iniziare un viaggio per capire chi sono questi fisici italiani, come hanno fatto ad acquistare il prestigio indiscusso di cui godono in tutto il mondo, come spendono i miliardi che ricevono dalla comunità nazionale, e quali pericoli minacciano le posizioni di alta classifica che sono riusciti finora a mantenere nel gran campionato mondiale della ricerca avanzata.
 1	Da	da	ADP	E	_	4	case	_	_
 2	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
 3	immane	immane	ADJ	A	Number=Sing	4	amod	_	_
@@ -4854,7 +4854,7 @@
 16	su	su	ADP	E	_	18	case	_	_
 17	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	18	det	_	_
 18	autostrada	autostrada	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	_
-19	Roma-l'aquila	Roma-l'aquila	PROPN	SP	_	18	nmod	_	_
+19	Roma-L'Aquila	Roma-L'Aquila	PROPN	SP	_	18	nmod	_	_
 20	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
 21	iniziare	iniziare	VERB	V	VerbForm=Inf	0	root	_	_
 22	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
@@ -5062,7 +5062,7 @@
 53	.	.	PUNCT	FS	_	7	punct	_	_
 
 # sent_id = VIT-4133
-# text = Gli occorsero pochi mesi e alcune buone conoscenze fra i politici democristiani abruzzesi per far approvare, fra l'agosto ottanta e il febbraio ottantauno, una legge che stanziava 20 miliardi per "installare nelle gallerie del Gran Sasso nel tratto L'aquila - Villa Vomano un laboratorio di fisica nucleare".
+# text = Gli occorsero pochi mesi e alcune buone conoscenze fra i politici democristiani abruzzesi per far approvare, fra l'agosto ottanta e il febbraio ottantauno, una legge che stanziava 20 miliardi per "installare nelle gallerie del Gran Sasso nel tratto L'Aquila - Villa Vomano un laboratorio di fisica nucleare".
 1	Gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Person=3|PronType=Prs	2	expl	_	_
 2	occorsero	occorrere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 3	pochi	poco	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	4	det	_	_
@@ -5111,7 +5111,7 @@
 43	in	in	ADP	E	_	45	case	_	_
 44	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	45	det	_	_
 45	tratto	tratto	NOUN	S	Gender=Masc|Number=Sing	38	nmod	_	_
-46	L'aquila	L'aquila	PROPN	SP	_	45	nmod	_	_
+46	L'Aquila	L'Aquila	PROPN	SP	_	45	nmod	_	_
 47	-	-	PUNCT	FF	_	46	punct	_	_
 48	Villa	Villa	PROPN	SP	_	46	nmod	_	_
 49	Vomano	Vomano	PROPN	SP	_	48	flat:name	_	_
@@ -6139,7 +6139,7 @@
 7	nuove	nuovo	ADJ	A	Gender=Fem|Number=Plur	8	amod	_	_
 8	teorie	teoria	NOUN	S	Gender=Fem|Number=Plur	2	obl	_	_
 9	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
-10	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	11	expl	_	_
+10	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	11	expl	_	_
 11	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 12	che	che	CCONJ	CC	_	14	cc	_	_
 13	due	due	NUM	N	NumType=Card	14	nummod	_	_
@@ -21711,7 +21711,7 @@
 1	In	in	ADP	E	_	3	case	_	_
 2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	caso	caso	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
-4	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	5	expl	_	_
+4	vi	vi	PRON	PC	Clitic=Yes|PronType=Prs	5	expl	_	_
 5	siano	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	più	più	ADV	B	_	7	advmod	_	_
 7	aspiranti	aspirante	NOUN	S	Number=Plur	5	nsubj	_	_
@@ -27953,7 +27953,7 @@
 17	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
 18	insegnanti	insegnante	NOUN	S	Number=Plur	15	obj	_	_
 19	che	che	PRON	PR	PronType=Rel	24	nsubj:pass	_	_
-20	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	24	expl	_	_
+20	vi	vi	PRON	PC	Clitic=Yes|PronType=Prs	24	expl	_	_
 21	siano	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
 22	stati	essere	AUX	VA	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	24	aux:pass	_	_
 23	definitivamente	definitivamente	ADV	B	_	24	advmod	_	_
@@ -30614,7 +30614,7 @@
 20	interessato	interessato	NOUN	S	Gender=Masc|Number=Sing	17	obl:agent	_	SpaceAfter=No
 21	,	,	PUNCT	FC	_	24	punct	_	_
 22	ma	ma	CCONJ	CC	_	24	cc	_	_
-23	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	24	expl	_	_
+23	vi	vi	PRON	PC	Clitic=Yes|PronType=Prs	24	expl	_	_
 24	siano	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
 25	posti	posto	NOUN	S	Gender=Masc|Number=Plur	24	nsubj	_	_
 26	disponibili	disponibile	ADJ	A	Number=Plur	25	amod	_	_
@@ -31227,7 +31227,7 @@
 12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 13	presente	presente	ADJ	A	Number=Sing	14	amod	_	_
 14	articolo	articolo	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
-15	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	16	iobj	_	_
+15	vi	vi	PRON	PC	Clitic=Yes|PronType=Prs	16	iobj	_	_
 16	comporta	comportare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
 18	permanenza	permanenza	NOUN	S	Gender=Fem|Number=Sing	16	nsubj	_	_
@@ -31757,7 +31757,7 @@
 35	ad	a	ADP	E	_	39	mark	_	_
 36-37	esservi	_	_	_	_	_	_	_	_
 36	esser	essere	AUX	VA	VerbForm=Inf	39	cop	_	_
-37	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	39	expl	_	_
+37	vi	vi	PRON	PC	Clitic=Yes|PronType=Prs	39	expl	_	_
 38	automaticamente	automaticamente	ADV	B	_	39	advmod	_	_
 39	assegnati	assegnare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	34	acl	_	SpaceAfter=No
 40	.	.	PUNCT	FS	_	33	punct	_	_
@@ -31772,7 +31772,7 @@
 5	in	in	ADP	E	_	6	case	_	_
 6	cui	cui	PRON	PR	PronType=Rel	9	obl	_	_
 7	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
-8	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	9	expl	_	_
+8	vi	vi	PRON	PC	Clitic=Yes|PronType=Prs	9	expl	_	_
 9	sia	essere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
 10	necessità	necessità	NOUN	S	Gender=Fem	9	nsubj	_	_
 11	di	di	ADP	E	_	12	case	_	_
