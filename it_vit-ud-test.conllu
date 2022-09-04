@@ -9258,15 +9258,13 @@
 21	.	.	PUNCT	FS	_	1	punct	_	_
 
 # sent_id = VIT-9346
-# text = Si calava da quella scala da riempire.
+# text = Si calava da quella scala ...
 1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl	_	_
 2	calava	calare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 3	da	da	ADP	E	_	5	case	_	_
 4	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
 5	scala	scala	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
-6	da	da	ADP	E	_	7	mark	_	_
-7	riempire	riempire	VERB	V	VerbForm=Inf	2	advcl	_	SpaceAfter=No
-8	.	.	PUNCT	FS	_	2	punct	_	_
+6	...	...	PUNCT	FS	_	2	punct	_	_
 
 # sent_id = VIT-9347
 # text = Me la ricordo l'altra mattina, la coca-cola in mano, un quarto d'ora prima della morte.
@@ -9400,7 +9398,7 @@
 6	.	.	PUNCT	FS	_	1	punct	_	_
 
 # sent_id = VIT-9353
-# text = Più tardi anche due bambini, ma le madri fermano tutti gli altri: "dove vai, oggi niente da riempire.
+# text = Più tardi anche due bambini, ma le madri fermano tutti gli altri: "dove vai, oggi niente ...
 1	Più	più	ADV	B	_	2	advmod	_	_
 2	tardi	tardi	ADV	B	_	5	advmod	_	_
 3	anche	anche	ADV	B	_	5	advmod	_	_
@@ -9421,9 +9419,7 @@
 18	,	,	PUNCT	FF	_	17	punct	_	_
 19	oggi	oggi	ADV	B	_	20	advmod	_	_
 20	niente	niente	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	17	obl	_	_
-21	da	da	ADP	E	_	22	mark	_	_
-22	riempire	riempire	VERB	V	VerbForm=Inf	10	advcl	_	SpaceAfter=No
-23	.	.	PUNCT	FS	_	10	punct	_	_
+21	...	...	PUNCT	FS	_	10	punct	_	_
 
 # sent_id = VIT-9354
 # text = Domani vediamo".
@@ -9504,7 +9500,7 @@
 6	.	.	PUNCT	FS	_	3	punct	_	_
 
 # sent_id = VIT-9359
-# text = No, adesso non c'è, è in caserma da riempire.
+# text = No, adesso non c'è, è in caserma ...
 1	No	no	INTJ	I	Polarity=Neg	6	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	FF	_	6	punct	_	_
 3	adesso	adesso	ADV	B	_	6	advmod	_	_
@@ -9515,9 +9511,7 @@
 8	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
 9	in	in	ADP	E	_	10	case	_	_
 10	caserma	caserma	NOUN	S	Gender=Fem|Number=Sing	6	conj	_	_
-11	da	da	ADP	E	_	12	mark	_	_
-12	riempire	riempire	VERB	V	VerbForm=Inf	10	advcl	_	SpaceAfter=No
-13	.	.	PUNCT	FS	_	6	punct	_	_
+11	...	...	PUNCT	FS	_	6	punct	_	_
 
 # sent_id = VIT-9360
 # text = Sembra incredibile, questa storia, eppure l'ho vista tutta.
@@ -9626,7 +9620,7 @@
 30	?	?	PUNCT	FS	_	12	punct	_	_
 
 # sent_id = VIT-9364
-# text = Ma con tutti quei bagnini, possibile non si siano accorti di nulla da riempire.
+# text = Ma con tutti quei bagnini, possibile non si siano accorti di nulla ...
 1	Ma	ma	CCONJ	CC	_	11	cc	_	_
 2	con	con	ADP	E	_	5	case	_	_
 3	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Ind	5	det:predet	_	_
@@ -9640,9 +9634,7 @@
 11	accorti	accorgere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
 12	di	di	ADP	E	_	13	case	_	_
 13	nulla	nulla	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	11	obl	_	_
-14	da	da	ADP	E	_	15	mark	_	_
-15	riempire	riempire	VERB	V	VerbForm=Inf	11	advcl	_	SpaceAfter=No
-16	.	.	PUNCT	FS	_	11	punct	_	_
+14	...	...	PUNCT	FS	_	11	punct	_	_
 
 # sent_id = VIT-9365
 # text = Contrattacca Pietro, bagnino in servizio: "quando le abbiamo tirate fuori erano vive tutte e due.
@@ -10504,7 +10496,7 @@
 11	.	.	PUNCT	FS	_	8	punct	_	_
 
 # sent_id = VIT-9403
-# text = Forse la baby-sitter ha avuto una sincope da riempire.
+# text = Forse la baby-sitter ha avuto una sincope ...
 1	Forse	forse	ADV	B	_	5	advmod	_	_
 2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	baby-sitter	baby-sitter	NOUN	S	_	5	nsubj	_	_
@@ -10512,9 +10504,7 @@
 5	avuto	avere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	sincope	sincope	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
-8	da	da	ADP	E	_	9	mark	_	_
-9	riempire	riempire	VERB	V	VerbForm=Inf	5	advcl	_	SpaceAfter=No
-10	.	.	PUNCT	FS	_	5	punct	_	_
+8	...	...	PUNCT	FS	_	5	punct	_	_
 
 # sent_id = VIT-9404
 # text = "e allora i soccorsi non contano.
@@ -10616,11 +10606,9 @@
 14	.	.	PUNCT	FS	_	3	punct	_	_
 
 # sent_id = VIT-9410
-# text = Perciò da riempire.
+# text = Perciò ...
 1	Perciò	perciò	CCONJ	CC	_	0	root	_	_
-2	da	da	ADP	E	_	3	mark	_	_
-3	riempire	riempire	VERB	V	VerbForm=Inf	1	advcl	_	SpaceAfter=No
-4	.	.	PUNCT	FS	_	1	punct	_	_
+2	...	...	PUNCT	FS	_	1	punct	_	_
 
 # sent_id = VIT-9411
 # text = "perciò è inutile prendersela con l'ambulanza che ha ritardato.
@@ -14681,7 +14669,7 @@
 40	.	.	PUNCT	FS	_	1	punct	_	_
 
 # sent_id = VIT-9556
-# text = non era nemmeno in grado di riconoscere i suoi amici da riempire.
+# text = non era nemmeno in grado di riconoscere i suoi amici ...
 1	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
 2	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
 3	nemmeno	nemmeno	ADV	BN	PronType=Neg	5	advmod	_	_
@@ -14692,9 +14680,7 @@
 8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
 9	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	10	det:poss	_	_
 10	amici	amico	NOUN	S	Gender=Masc|Number=Plur	7	obj	_	_
-11	da	da	ADP	E	_	12	mark	_	_
-12	riempire	riempire	VERB	V	VerbForm=Inf	5	advcl	_	SpaceAfter=No
-13	.	.	PUNCT	FS	_	5	punct	_	_
+11	...	...	PUNCT	FS	_	5	punct	_	_
 
 # sent_id = VIT-9557
 # text = Io sono stato il suo carceriere, l'ho incatenato per sette anni.
@@ -16499,7 +16485,7 @@
 34	.	.	PUNCT	FS	_	7	punct	_	_
 
 # sent_id = VIT-9625
-# text = Le trattative avviate dalla Fininvest per Mediaset, però, vanno avanti sulla base di partecipazioni di nuovi azionisti in tre reti da riempire.
+# text = Le trattative avviate dalla Fininvest per Mediaset, però, vanno avanti sulla base di partecipazioni di nuovi azionisti in tre reti ...
 1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	trattative	trattative	NOUN	S	Gender=Fem|Number=Plur	12	nsubj	_	_
 3	avviate	avviare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	2	advcl	_	_
@@ -16526,9 +16512,7 @@
 22	in	in	ADP	E	_	24	case	_	_
 23	tre	tre	NUM	N	NumType=Card	24	nummod	_	_
 24	reti	rete	NOUN	S	Gender=Fem|Number=Plur	18	nmod	_	_
-25	da	da	ADP	E	_	26	mark	_	_
-26	riempire	riempire	VERB	V	VerbForm=Inf	18	advcl	_	SpaceAfter=No
-27	.	.	PUNCT	FS	_	12	punct	_	_
+25	...	...	PUNCT	FS	_	12	punct	_	_
 
 # sent_id = VIT-9626
 # text = "chi compra in questo momento reti tv lo fa a suo rischio, in attesa d'una nuova legge che ridefinisca tutto il settore televisivo".
@@ -18034,7 +18018,7 @@
 11	.	.	PUNCT	FS	_	5	punct	_	_
 
 # sent_id = VIT-9675
-# text = E i nostri amici si scotteranno le dita da riempire.
+# text = E i nostri amici si scotteranno le dita ...
 1	E	e	CCONJ	CC	_	6	cc	_	_
 2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
 3	nostri	nostro	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	4	det:poss	_	_
@@ -18043,9 +18027,7 @@
 6	scotteranno	scottare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
 8	dita	dito	NOUN	S	Gender=Fem	6	obj	_	_
-9	da	da	ADP	E	_	10	mark	_	_
-10	riempire	riempire	VERB	V	VerbForm=Inf	6	advcl	_	SpaceAfter=No
-11	.	.	PUNCT	FS	_	6	punct	_	_
+9	...	...	PUNCT	FS	_	6	punct	_	_
 
 # sent_id = VIT-9676
 # text = "colloquio Berlusconi - D'Alema.
@@ -18091,7 +18073,7 @@
 15	.	.	PUNCT	FS	_	9	punct	_	_
 
 # sent_id = VIT-9679
-# text = Solo che il cerino si fa ogni giorno più corto e credo che stavolta i nostri amici della sinistra si scotteranno le dita da riempire.
+# text = Solo che il cerino si fa ogni giorno più corto e credo che stavolta i nostri amici della sinistra si scotteranno le dita ...
 1	Solo	solo	ADV	B	_	6	mark	_	_
 2	che	che	CCONJ	CC	_	1	fixed	_	_
 3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -18117,9 +18099,7 @@
 22	scotteranno	scottare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	12	ccomp	_	_
 23	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	24	det	_	_
 24	dita	dito	NOUN	S	Gender=Fem	22	obj	_	_
-25	da	da	ADP	E	_	26	mark	_	_
-26	riempire	riempire	VERB	V	VerbForm=Inf	6	advcl	_	SpaceAfter=No
-27	.	.	PUNCT	FS	_	6	punct	_	_
+25	...	...	PUNCT	FS	_	6	punct	_	_
 
 # sent_id = VIT-9680
 # text = Parlando con un amico, subito dopo la fine del vertice del polo, Gianfranco Fini ha sintetizzato così il senso della risposta del Centro Destra all'Olivo.
@@ -19171,7 +19151,7 @@
 12	?	?	PUNCT	FS	_	3	punct	_	_
 
 # sent_id = VIT-9707
-# text = Spiega il popolare Sanza: "perché adesso o quelli del centro-sinistra diventano tutti presidenzialisti, oppure si perdono per strada un alleato come segni da riempire.
+# text = Spiega il popolare Sanza: "perché adesso o quelli del centro-sinistra diventano tutti presidenzialisti, oppure si perdono per strada un alleato come segni ...
 1	Spiega	spiegare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 3	popolare	popolare	ADJ	A	Number=Sing	4	amod	_	_
@@ -19199,9 +19179,7 @@
 24	alleato	alleato	NOUN	S	Gender=Masc|Number=Sing	20	obj	_	_
 25	come	come	ADP	E	_	26	case	_	_
 26	segni	segni	NOUN	S	_	24	nmod	_	_
-27	da	da	ADP	E	_	28	mark	_	_
-28	riempire	riempire	VERB	V	VerbForm=Inf	20	advcl	_	SpaceAfter=No
-29	.	.	PUNCT	FS	_	1	punct	_	_
+27	...	...	PUNCT	FS	_	1	punct	_	_
 
 # sent_id = VIT-9708
 # text = Ora si attende l'incontro tra le due delegazioni fissato per martedì.
@@ -19331,16 +19309,14 @@
 8	.	.	PUNCT	FS	_	1	punct	_	_
 
 # sent_id = VIT-9715
-# text = "è stato tutto un equivoco da riempire.
+# text = "è stato tutto un equivoco ...
 1	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
 2	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
 3	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	cop	_	_
 4	tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Ind	6	det:predet	_	_
 5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	equivoco	equivoco	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
-7	da	da	ADP	E	_	8	mark	_	_
-8	riempire	riempire	VERB	V	VerbForm=Inf	6	advcl	_	SpaceAfter=No
-9	.	.	PUNCT	FS	_	6	punct	_	_
+7	...	...	PUNCT	FS	_	6	punct	_	_
 
 # sent_id = VIT-9716
 # text = di Antonello Caporale Roma - "cosa le posso dire, sarà stato un equivoco.
@@ -19391,7 +19367,7 @@
 26	.	.	PUNCT	FS	_	2	punct	_	_
 
 # sent_id = VIT-9718
-# text = Onorevole Tatarella, qualcuno di voi sta giocando con carte truccate su questo tavolo da riempire.
+# text = Onorevole Tatarella, qualcuno di voi sta giocando con carte truccate su questo tavolo ...
 1	Onorevole	onorevole	NOUN	S	Number=Sing	8	vocative	_	_
 2	Tatarella	Tatarella	PROPN	SP	_	1	nmod	_	SpaceAfter=No
 3	,	,	PUNCT	FF	_	8	punct	_	_
@@ -19406,9 +19382,7 @@
 12	su	su	ADP	E	_	14	case	_	_
 13	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	14	det	_	_
 14	tavolo	tavolo	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
-15	da	da	ADP	E	_	16	mark	_	_
-16	riempire	riempire	VERB	V	VerbForm=Inf	8	advcl	_	SpaceAfter=No
-17	.	.	PUNCT	FS	_	8	punct	_	_
+15	...	...	PUNCT	FS	_	8	punct	_	_
 
 # sent_id = VIT-9719
 # text = "e perché mai, e chi lo dice?
@@ -19495,7 +19469,7 @@
 13	.	.	PUNCT	FS	_	4	punct	_	_
 
 # sent_id = VIT-9723
-# text = Ci siamo basati sui titoli da riempire.
+# text = Ci siamo basati sui titoli ...
 1	Ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	3	expl	_	_
 2	siamo	essere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
 3	basati	basare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
@@ -19503,9 +19477,7 @@
 4	su	su	ADP	E	_	6	case	_	_
 5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
 6	titoli	titolo	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	_
-7	da	da	ADP	E	_	8	mark	_	_
-8	riempire	riempire	VERB	V	VerbForm=Inf	3	advcl	_	SpaceAfter=No
-9	.	.	PUNCT	FS	_	3	punct	_	_
+7	...	...	PUNCT	FS	_	3	punct	_	_
 
 # sent_id = VIT-9724
 # text = "state proseguendo nel cosiddetto gioco del cerino: il cerino passa di mano, nell'attesa di vedere quale dito brucia, chi provoca il voto.
@@ -20038,7 +20010,7 @@
 6	.	.	PUNCT	FS	_	3	punct	_	_
 
 # sent_id = VIT-9752
-# text = Dal 1992 l'Italia ha avuto quattro governi di cui solo uno, quello guidato dal magnate televisivo Silvio Berlusconi, uscito da elezioni generali da riempire.
+# text = Dal 1992 l'Italia ha avuto quattro governi di cui solo uno, quello guidato dal magnate televisivo Silvio Berlusconi, uscito da elezioni generali ...
 1-2	Dal	_	_	_	_	_	_	_	_
 1	Da	da	ADP	E	_	3	case	_	_
 2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -20068,12 +20040,10 @@
 25	da	da	ADP	E	_	26	case	_	_
 26	elezioni	elezione	NOUN	S	Gender=Fem|Number=Plur	24	obl	_	_
 27	generali	generale	ADJ	A	Number=Plur	26	amod	_	_
-28	da	da	ADP	E	_	29	mark	_	_
-29	riempire	riempire	VERB	V	VerbForm=Inf	24	advcl	_	SpaceAfter=No
-30	.	.	PUNCT	FS	_	7	punct	_	_
+28	...	...	PUNCT	FS	_	7	punct	_	_
 
 # sent_id = VIT-9753
-# text = Il governo Dini ha superato in durata quello di Berlusconi da riempire.
+# text = Il governo Dini ha superato in durata quello di Berlusconi ...
 1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	governo	governo	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
 3	Dini	Dini	PROPN	SP	_	2	nmod	_	_
@@ -20084,9 +20054,7 @@
 8	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	5	obj	_	_
 9	di	di	ADP	E	_	10	case	_	_
 10	Berlusconi	Berlusconi	PROPN	SP	_	8	nmod	_	_
-11	da	da	ADP	E	_	12	mark	_	_
-12	riempire	riempire	VERB	V	VerbForm=Inf	5	advcl	_	SpaceAfter=No
-13	.	.	PUNCT	FS	_	5	punct	_	_
+11	...	...	PUNCT	FS	_	5	punct	_	_
 
 # sent_id = VIT-9754
 # text = che cosa ci sarebbe di male se durasse indefinitamente?
@@ -20212,7 +20180,7 @@
 22	.	.	PUNCT	FS	_	18	punct	_	_
 
 # sent_id = VIT-9760
-# text = Tutta una serie di problemi (privatizzazioni, leggi sull'ambiente, riforma fiscale) vengono del tutto trascurati da riempire.
+# text = Tutta una serie di problemi (privatizzazioni, leggi sull'ambiente, riforma fiscale) vengono del tutto trascurati ...
 1	Tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Ind	3	det:predet	_	_
 2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	serie	serie	NOUN	S	Gender=Fem	17	nsubj:pass	_	_
@@ -20236,9 +20204,7 @@
 19	il	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	20	det	_	_
 20	tutto	tutto	ADV	B	_	21	advmod	_	_
 21	trascurati	trascurare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	17	xcomp	_	_
-22	da	da	ADP	E	_	23	mark	_	_
-23	riempire	riempire	VERB	V	VerbForm=Inf	17	advcl	_	SpaceAfter=No
-24	.	.	PUNCT	FS	_	17	punct	_	_
+22	...	...	PUNCT	FS	_	17	punct	_	_
 
 # sent_id = VIT-9761
 # text = L'Italia attuale ha le forme della democrazia senza il funzionamento di una democrazia.
@@ -23036,7 +23002,7 @@
 8	.	.	PUNCT	FS	_	6	punct	_	_
 
 # sent_id = VIT-9856
-# text = È una madre che ha perso la figlia di 4 anni, annegata in una piscina insieme alla sua baby sitter: "ha avuto una vita bellissima, è stata molto amata, è stata un dono meraviglioso ma è durata così poco da riempire.
+# text = È una madre che ha perso la figlia di 4 anni, annegata in una piscina insieme alla sua baby sitter: "ha avuto una vita bellissima, è stata molto amata, è stata un dono meraviglioso ma è durata così poco ...
 1	È	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
 2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	madre	madre	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
@@ -23083,9 +23049,7 @@
 43	durata	durare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	26	conj	_	_
 44	così	così	ADV	B	_	43	advmod	_	_
 45	poco	poco	ADV	B	_	44	advmod	_	_
-46	da	da	ADP	E	_	47	mark	_	_
-47	riempire	riempire	VERB	V	VerbForm=Inf	43	advcl	_	SpaceAfter=No
-48	.	.	PUNCT	FS	_	3	punct	_	_
+46	...	...	PUNCT	FS	_	3	punct	_	_
 
 # sent_id = VIT-9857
 # text = Una donna che racconta sé stessa e il suo dramma con una forza incrollabile, con una dignità che spezza il cuore.
@@ -30143,9 +30107,9 @@
 9	mangiare	mangiare	VERB	V	VerbForm=Inf	7	ccomp	_	_
 10	insieme	insieme	ADV	B	_	9	advmod	_	_
 11	-	-	PUNCT	FB	_	16	punct	_	_
-12	o	o	CCONJ	CC	_	13	cc	_	_
-13	meglio	meglio	ADV	B	_	7	advmod	_	SpaceAfter=No
-14	:	:	PUNCT	FC	_	7	punct	_	_
+12	o	o	CCONJ	CC	_	16	cc	_	_
+13	meglio	meglio	ADV	B	_	16	advmod	_	SpaceAfter=No
+14	:	:	PUNCT	FC	_	13	punct	_	_
 15	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
 16	mangiavo	mangiare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	7	parataxis	_	SpaceAfter=No
 17	,	,	PUNCT	FC	_	19	punct	_	_
