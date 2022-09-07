@@ -19537,7 +19537,7 @@
 17	.	.	PUNCT	FS	_	6	punct	_	_
 
 # sent_id = VIT-9726
-# text = Ma dal momento che anche lei si iscrive nel registro dei buoni, diciamo che ....
+# text = Ma dal momento che anche lei si iscrive nel registro dei buoni, diciamo che ...
 1	Ma	ma	CCONJ	CC	_	17	cc	_	_
 2-3	dal	_	_	_	_	_	_	_	_
 2	da	da	ADP	E	_	4	case	_	_
@@ -19560,7 +19560,6 @@
 17	diciamo	dire	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 18	che	che	SCONJ	CS	_	17	dep	_	_
 19	...	...	PUNCT	FC	_	18	punct	_	SpaceAfter=No
-20	.	.	PUNCT	FS	_	17	punct	_	_
 
 # sent_id = VIT-9727
 # text = che è stato un incidente di percorso.
@@ -28050,12 +28049,11 @@
 4	.	.	PUNCT	FS	_	1	punct	_	_
 
 # sent_id = VIT-10015
-# text = "cari bambini ....
+# text = "cari bambini ...
 1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
 2	cari	caro	ADJ	A	Gender=Masc|Number=Plur	3	amod	_	_
 3	bambini	bambino	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
 4	...	...	PUNCT	FC	_	3	punct	_	SpaceAfter=No
-5	.	.	PUNCT	FS	_	3	punct	_	_
 
 # sent_id = VIT-10016
 # text = Si fa presto a dirlo, ma quanto esattamente sono "cari" i bambini?
