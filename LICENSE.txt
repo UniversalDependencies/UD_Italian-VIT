@@ -1,4 +1,7 @@
-The treebank is licensed under the Creative Commons License Attribution-ShareAlike 4.0 International.
+The treebank is released by the authors under the Creative Commons
+Attribution-NonCommercial-ShareAlike 3.0 licence (CC BY-NC-SA 3.0).
 
 The complete license text is available at:
-http://creativecommons.org/licenses/by-sa/4.0/legalcode
+https://creativecommons.org/licenses/by-nc-sa/3.0/
+
+
