@@ -365,8 +365,8 @@
 19	.	.	PUNCT	FS	_	8	punct	_	_
 
 # sent_id = VIT-4012
-# text = sono notizie che fanno contento, e anche un pò orgoglioso, Louis Nauges, l'ingegnere elettrotecnico francese che ha inventato nel 1976 la parola "bureautique" (in italiano, burotica) e l'ha addirittura brevettata, ma solo per proteggere il marchio della sua società di consulenza, la Bureautique s a ("perciò", dice con condiscendenza, "tutti possono usare questa parola, purché non la trasformino in ragione sociale").
-1	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+# text = Sono notizie che fanno contento, e anche un pò orgoglioso, Louis Nauges, l'ingegnere elettrotecnico francese che ha inventato nel 1976 la parola "bureautique" (in italiano, burotica) e l'ha addirittura brevettata, ma solo per proteggere il marchio della sua società di consulenza, la Bureautique s a ("perciò", dice con condiscendenza, "tutti possono usare questa parola, purché non la trasformino in ragione sociale").
+1	Sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
 2	notizie	notizia	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
 3	che	che	PRON	PR	PronType=Rel	4	nsubj	_	_
 4	fanno	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
@@ -2050,7 +2050,7 @@
 1-2	Dotarli	_	_	_	_	_	_	_	_
 1	Dotar	dotare	VERB	V	VerbForm=Inf	41	csubj	_	_
 2	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	1	obj	_	_
-3	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	1	dislocated	_	_
+3	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	1	nmod	_	_
 4	di	di	ADP	E	_	6	case	_	_
 5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	terminale	terminale	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
@@ -3140,7 +3140,7 @@
 7	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	iobj	_	_
 8	rimarrà	rimanere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
-10	po'	poco	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+10	po'	poco	PRON	PI	Number=Sing|PronType=Ind	8	nsubj	_	_
 11	di	di	ADP	E	_	12	case	_	_
 12	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
 13	per	per	ADP	E	_	14	mark	_	_

@@ -6112,7 +6112,7 @@
 2	dire	dire	VERB	V	VerbForm=Inf	0	root	_	_
 3	che	che	SCONJ	CS	_	13	mark	_	_
 4	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
-5	po'	poco	NOUN	S	Gender=Masc|Number=Sing	13	nsubj	_	_
+5	po'	poco	PRON	PI	Number=Sing|PronType=Ind	13	nsubj	_	_
 6	d'	di	ADP	E	_	7	case	_	SpaceAfter=No
 7	italiano	italiano	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
 8	che	che	PRON	PR	PronType=Rel	9	obj	_	_
@@ -6571,7 +6571,7 @@
 26	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	27	obj	_	_
 27	sento	sentire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
 28	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
-29	canzone	canzone	NOUN	S	Gender=Fem|Number=Sing	27	dislocated	_	_
+29	canzone	canzone	NOUN	S	Gender=Fem|Number=Sing	27	xcomp	_	_
 30	totalmente	totalmente	ADV	B	_	31	advmod	_	_
 31	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	29	det:poss	_	SpaceAfter=No
 32	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
@@ -7330,7 +7330,7 @@
 7	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
 8	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	obj	_	_
 9	vogliono	volere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
-10	conduttore	conduttore	NOUN	S	Gender=Masc|Number=Sing	9	dislocated	_	_
+10	conduttore	conduttore	NOUN	S	Gender=Masc|Number=Sing	9	xcomp	_	_
 11	di	di	ADP	E	_	12	case	_	_
 12	programmi	programma	NOUN	S	Gender=Masc|Number=Plur	10	nmod	_	_
 13	di	di	ADP	E	_	14	case	_	_
@@ -9525,7 +9525,7 @@
 8	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	10	obj	_	SpaceAfter=No
 9	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	aux	_	_
 10	vista	vedere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	1	conj	_	_
-11	tutta	tutto	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	10	dislocated	_	SpaceAfter=No
+11	tutta	tutto	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	10	nmod	_	SpaceAfter=No
 12	.	.	PUNCT	FS	_	1	punct	_	_
 
 # sent_id = VIT-9361
@@ -13351,24 +13351,24 @@
 # sent_id = VIT-9508
 # text = Cattive notizie, infine, per chi ha scelto Cortina per questo fine settimana: una frana, causata dalle violente piogge, è caduta ieri pomeriggio sulla statale 51 di Alemagna isolandola.
 1	Cattive	cattivo	ADJ	A	Gender=Fem|Number=Plur	2	amod	_	_
-2	notizie	notizia	NOUN	S	Gender=Fem|Number=Plur	9	dislocated	_	SpaceAfter=No
-3	,	,	PUNCT	FF	_	9	punct	_	_
-4	infine	infine	CCONJ	CC	_	9	advmod	_	SpaceAfter=No
-5	,	,	PUNCT	FF	_	9	punct	_	_
+2	notizie	notizia	NOUN	S	Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	infine	infine	CCONJ	CC	_	2	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
 6	per	per	ADP	E	_	7	case	_	_
 7	chi	chi	PRON	PR	PronType=Rel	9	obl	_	_
 8	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
-9	scelto	scegliere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-10	Cortina	Cortina	PROPN	SP	_	9	dislocated	_	_
+9	scelto	scegliere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl:relcl	_	_
+10	Cortina	Cortina	PROPN	SP	_	9	obj	_	_
 11	per	per	ADP	E	_	13	case	_	_
 12	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	13	det	_	_
 13	fine	fine	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
 14	settimana	settimana	NOUN	S	Gender=Fem|Number=Sing	13	compound	_	SpaceAfter=No
-15	:	:	PUNCT	FC	_	9	punct	_	_
+15	:	:	PUNCT	FC	_	2	punct	_	_
 16	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
 17	frana	frana	NOUN	S	Gender=Fem|Number=Sing	26	nsubj	_	SpaceAfter=No
 18	,	,	PUNCT	FF	_	17	punct	_	_
-19	causata	causare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	17	appos	_	_
+19	causata	causare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	17	acl	_	_
 20-21	dalle	_	_	_	_	_	_	_	_
 20	da	da	ADP	E	_	23	case	_	_
 21	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
@@ -13376,7 +13376,7 @@
 23	piogge	pioggia	NOUN	S	Gender=Fem|Number=Plur	19	obl:agent	_	SpaceAfter=No
 24	,	,	PUNCT	FF	_	19	punct	_	_
 25	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	aux	_	_
-26	caduta	cadere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	9	parataxis	_	_
+26	caduta	cadere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	parataxis	_	_
 27	ieri	ieri	ADV	B	_	26	advmod	_	_
 28	pomeriggio	pomeriggio	NOUN	S	Gender=Masc|Number=Sing	27	obl	_	_
 29-30	sulla	_	_	_	_	_	_	_	_
@@ -13389,7 +13389,7 @@
 35-36	isolandola	_	_	_	_	_	_	_	SpaceAfter=No
 35	isolando	isolare	VERB	V	VerbForm=Ger	26	advcl	_	_
 36	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	35	obj	_	_
-37	.	.	PUNCT	FS	_	9	punct	_	_
+37	.	.	PUNCT	FS	_	2	punct	_	_
 
 # sent_id = VIT-9509
 # text = L'interruzione della principale arteria della zona montana bellunese comporterà forti disagi agli automobilisti.
@@ -18144,7 +18144,7 @@
 34	.	.	PUNCT	FS	_	20	punct	_	_
 
 # sent_id = VIT-9681
-# text = La sintesi del presidente di An accredita la sensazione che ieri a Montecitorio sia andato in scena un classico del poker: al "rilancio" dell'Olivo, il Polo ha risposto "vedo".
+# text = La sintesi del presidente di AN accredita la sensazione che ieri a Montecitorio sia andato in scena un classico del poker: al "rilancio" dell'Olivo, il Polo ha risposto "vedo".
 1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	sintesi	sintesi	NOUN	S	Gender=Fem	8	nsubj	_	_
 3-4	del	_	_	_	_	_	_	_	_
@@ -18152,7 +18152,7 @@
 4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	presidente	presidente	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
 6	di	di	ADP	E	_	7	case	_	_
-7	An	An	PROPN	SP	_	5	nmod	_	_
+7	AN	AN	PROPN	SP	_	5	nmod	_	_
 8	accredita	accreditare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	sensazione	sensazione	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	_
@@ -18533,7 +18533,7 @@
 22	.	.	PUNCT	FS	_	1	punct	_	_
 
 # sent_id = VIT-9691
-# text = Il distinguo tra regole e governo, risente invece del punto di vista di An (quindi di Fini e Tatarella).
+# text = Il distinguo tra regole e governo, risente invece del punto di vista di AN (quindi di Fini e Tatarella).
 1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	distinguo	distinguo	NOUN	S	Gender=Masc	8	nsubj	_	_
 3	tra	tra	ADP	E	_	4	case	_	_
@@ -18550,7 +18550,7 @@
 13	di	di	ADP	E	_	14	case	_	_
 14	vista	vista	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
 15	di	di	ADP	E	_	16	case	_	_
-16	An	An	PROPN	SP	_	14	nmod	_	_
+16	AN	AN	PROPN	SP	_	14	nmod	_	_
 17	(	(	PUNCT	FB	_	20	punct	_	SpaceAfter=No
 18	quindi	quindi	ADV	B	_	20	advmod	_	_
 19	di	di	ADP	E	_	20	case	_	_
@@ -21417,9 +21417,9 @@
 3	di	di	ADP	E	_	4	mark	_	_
 4	considerare	considerare	VERB	V	VerbForm=Inf	1	ccomp	_	_
 5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
-6	parchi	parco	NOUN	S	Gender=Masc|Number=Plur	4	dislocated	_	_
+6	parchi	parco	NOUN	S	Gender=Masc|Number=Plur	4	obj	_	_
 7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
-8	freno	freno	NOUN	S	Gender=Masc|Number=Sing	4	dislocated	_	_
+8	freno	freno	NOUN	S	Gender=Masc|Number=Sing	4	xcomp	_	_
 9-10	allo	_	_	_	_	_	_	_	_
 9	a	a	ADP	E	_	11	case	_	_
 10	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
@@ -21907,7 +21907,7 @@
 8	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	_
 9	e	e	CCONJ	CC	_	10	cc	_	_
 10	diverso	diverso	ADJ	A	Gender=Masc|Number=Sing	8	conj	_	_
-11	approccio	approccio	NOUN	S	Gender=Masc|Number=Sing	6	dislocated	_	_
+11	approccio	approccio	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
 12-13	alla	_	_	_	_	_	_	_	_
 12	a	a	ADP	E	_	14	case	_	_
 13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
@@ -22235,7 +22235,7 @@
 14	siano	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
 15	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 16	bel	bello	ADJ	A	Gender=Masc	17	amod	_	_
-17	po'	poco	NOUN	S	Gender=Masc|Number=Sing	5	ccomp	_	_
+17	po'	poco	PRON	PI	Number=Sing|PronType=Ind	5	ccomp	_	_
 18	di	di	ADP	E	_	19	case	_	_
 19	quattrini	quattrino	NOUN	S	Gender=Masc|Number=Plur	17	nmod	_	SpaceAfter=No
 20	?	?	PUNCT	FS	_	5	punct	_	_
