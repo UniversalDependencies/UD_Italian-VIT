@@ -18531,8 +18531,8 @@
 18-19	del	_	_	_	_	_	_	_	_
 18	di	di	ADP	E	_	20	case	_	_
 19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
-20	centro-sinistra	centro	NOUN	S	Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
-21	"	sinistra	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	SpaceAfter=No
+20	centro-sinistra	centro-sinistra	NOUN	S	Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+21	"	"	PUNCT	FB	_	1	punct	_	SpaceAfter=No
 22	.	.	PUNCT	FS	_	1	punct	_	_
 
 # sent_id = VIT-9691
@@ -19160,16 +19160,16 @@
 3	popolare	popolare	ADJ	A	Number=Sing	4	amod	_	_
 4	Sanza	Sanza	PROPN	SP	_	1	nsubj	_	SpaceAfter=No
 5	:	:	PUNCT	FC	_	1	punct	_	_
-6	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
-7	perché	perché	SCONJ	CS	_	1	parataxis	_	_
-8	adesso	adesso	ADV	B	_	7	advmod	_	_
+6	"	"	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+7	perché	perché	SCONJ	CS	_	14	mark	_	_
+8	adesso	adesso	ADV	B	_	14	advmod	_	_
 9	o	o	CCONJ	CC	_	14	cc	_	_
 10	quelli	quello	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	14	nsubj	_	_
 11-12	del	_	_	_	_	_	_	_	_
 11	di	di	ADP	E	_	13	case	_	_
 12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
-13	centro-sinistra	centro	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
-14	diventano	sinistra	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+13	centro-sinistra	centro-sinistra	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+14	diventano	diventare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	_	_
 15	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	16	nmod	_	_
 16	presidenzialisti	presidenzialista	NOUN	S	Gender=Masc|Number=Plur	14	xcomp	_	SpaceAfter=No
 17	,	,	PUNCT	FF	_	20	punct	_	_
