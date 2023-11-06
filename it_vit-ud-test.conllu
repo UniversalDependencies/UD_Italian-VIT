@@ -7056,9 +7056,9 @@
 9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	Corriere	Corriere	PROPN	SP	_	6	obl:agent	_	_
 11-12	della	_	_	_	_	_	_	_	_
-11	di	di	ADP	E	_	10	fixed	_	_
-12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
-13	Sera	Sera	PROPN	SP	_	10	flat:name	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	Sera	sera	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	_
 14	e	e	CCONJ	CC	_	18	cc	_	_
 15	cioè	cioè	ADV	B	_	18	advmod	_	_
 16	di	di	ADP	E	_	18	mark	_	_
