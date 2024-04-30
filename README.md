@@ -40,6 +40,9 @@ We are indebted to Rodolfo Del Monte and his collaborators, Antonella Bristot an
 
 
 # Changelog
+* 2024-05-01 v2.14
+  * Started revising multiwords
+  
 * 2022-04-03 v2.10
   * Harmonized clitics with other treebanks
   * Changed tokenization of d p r to DPR and similar (D U, G U, ...).
