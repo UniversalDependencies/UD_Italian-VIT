@@ -40,6 +40,10 @@ We are indebted to Rodolfo Del Monte and his collaborators, Antonella Bristot an
 
 
 # Changelog
+
+* 2024-10-27 v2.15
+  * Fixed dependencies of determiners
+  
 * 2024-05-01 v2.14
   * Started revising multiwords
   
