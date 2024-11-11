@@ -6071,7 +6071,7 @@
 5	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	7	obj	_	_
 6	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	_
 7	visti	vedere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
-8	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	9	det:predet	_	_
+8	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	10	det:predet	_	_
 9	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	10	det	_	_
 10	film	film	NOUN	S	Gender=Masc	7	dislocated	_	SpaceAfter=No
 11	,	,	PUNCT	FF	_	14	punct	_	_
@@ -8176,7 +8176,7 @@
 29	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
 30	guerra	guerra	NOUN	S	Gender=Fem|Number=Sing	27	nmod	_	SpaceAfter=No
 31	,	,	PUNCT	FF	_	27	punct	_	_
-32	tale	tale	DET	DD	Number=Sing|PronType=Dem	27	det	_	_
+32	tale	tale	ADJ	A	Number=Sing	27	amod	_	_
 33	da	da	ADP	E	_	36	mark	_	_
 34-35	poterci	_	_	_	_	_	_	_	_
 34	poter	potere	AUX	VM	VerbForm=Inf	36	aux	_	_
@@ -9129,7 +9129,7 @@
 23	:	:	PUNCT	FC	_	20	punct	_	_
 24	super	super	ADJ	A	_	25	amod	_	_
 25	model	model	NOUN	S	_	20	appos	_	_
-26	of	of	ADP	E	_	27	case	_	_
+26	of	of	ADP	E	_	28	case	_	_
 27	the	the	DET	RD	_	28	det	_	_
 28	world	world	NOUN	S	_	25	nmod	_	SpaceAfter=No
 29	"	"	PUNCT	FB	_	25	punct	_	SpaceAfter=No
@@ -13436,7 +13436,7 @@
 12	vengono	venire	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux:pass	_	_
 13	vietati	vietare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
 14-15	ai	_	_	_	_	_	_	_	_
-14	a	a	ADP	E	_	17	case	_	_
+14	a	a	ADP	E	_	16	case	_	_
 15	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
 16	turisti	turista	NOUN	S	Gender=Masc|Number=Plur	13	obl	_	_
 17	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
@@ -20173,7 +20173,7 @@
 12	governo	governo	NOUN	S	Gender=Masc|Number=Sing	9	obl:agent	_	SpaceAfter=No
 13	,	,	PUNCT	FC	_	18	punct	_	_
 14	nessun	nessuno	DET	DI	Number=Sing|PronType=Ind	16	det	_	_
-15	altro	altro	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	_
+15	altro	altro	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	_
 16	provvedimento	provvedimento	NOUN	S	Gender=Masc|Number=Sing	18	nsubj:pass	_	_
 17	viene	venire	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux:pass	_	_
 18	preso	prendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -31031,7 +31031,7 @@
 7	soci	socio	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
 8	per	per	ADP	E	_	12	case	_	_
 9	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
-10	so	sapere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	advcl	_	_
+10	so	sapere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	advcl	_	_
 11	quanti	quanto	DET	DQ	Gender=Masc|Number=Plur|PronType=Int	12	det	_	_
 12	anni	anno	NOUN	S	Gender=Masc|Number=Plur	7	obl	_	SpaceAfter=No
 13	.	.	PUNCT	FS	_	7	punct	_	_
@@ -31040,7 +31040,7 @@
 # text = Scrooge era il suo unico esecutore testamentario, unico amministratore, unico procuratore, unico legatario universale, unico amico, unico guidatore del mortoro.
 1	Scrooge	Scrooge	PROPN	SP	_	6	nsubj	_	_
 2	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	cop	_	_
-3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 4	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
 5	unico	unico	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	_
 6	esecutore	esecutore	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
