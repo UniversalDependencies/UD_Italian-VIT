@@ -289,7 +289,7 @@
 38	quale	quale	PRON	PR	Gender=Masc|Number=Sing|PronType=Rel	39	obl	_	_
 39	scambiano	scambiare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	33	acl:relcl	_	_
 40	messaggi	messaggio	NOUN	S	Gender=Masc|Number=Plur	39	obj	_	_
-41	grazie	grazie	NOUN	S	Gender=Fem|Number=Plur	44	case	_	_
+41	grazie	grazie	NOUN	S	ExtPos=ADP	44	case	_	_
 42	a	a	ADP	E	_	41	fixed	_	_
 43	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
 44	programma	programma	NOUN	S	Gender=Masc|Number=Sing	39	obl	_	_
@@ -1019,7 +1019,7 @@
 54	prezioso	prezioso	ADJ	A	Gender=Masc|Number=Sing	52	amod	_	SpaceAfter=No
 55	,	,	PUNCT	FF	_	59	punct	_	_
 56	ma	ma	CCONJ	CC	_	59	cc	_	_
-57	pur	pure	ADV	B	_	59	advmod	_	_
+57	pur	pure	ADV	B	ExtPos=ADV	59	advmod	_	_
 58	sempre	sempre	ADV	B	_	57	fixed	_	_
 59	caro	caro	ADJ	A	Number=Sing	54	conj	_	SpaceAfter=No
 60	,	,	PUNCT	FF	_	52	punct	_	_
@@ -1140,7 +1140,7 @@
 20	e	e	CCONJ	CC	_	22	cc	_	_
 21	così	così	ADV	B	_	22	advmod	_	_
 22	avanti	avanti	ADV	B	_	1	conj	_	_
-23	fino	fino	ADV	B	_	29	mark	_	_
+23	fino	fino	ADV	B	ExtPos=SCONJ	29	mark	_	_
 24	a	a	ADP	E	_	23	fixed	_	_
 25	quando	quando	SCONJ	CS	_	23	fixed	_	_
 26	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
@@ -1688,7 +1688,7 @@
 4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
 5	motivi	motivo	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
 6	,	,	PUNCT	FF	_	5	punct	_	_
-7	così	così	ADV	B	_	15	mark	_	_
+7	così	così	ADV	B	ExtPos=SCONJ	15	mark	_	_
 8	come	come	SCONJ	CS	_	7	fixed	_	_
 9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
 10	grandi	grande	ADJ	A	Number=Plur	11	amod	_	_
@@ -2181,7 +2181,7 @@
 34	personal	personal	X	SW	Foreign=Yes	24	acl:relcl	_	_
 35	computer	computer	X	SW	Foreign=Yes	34	flat:foreign	_	SpaceAfter=No
 36	,	,	PUNCT	FC	_	16	punct	_	_
-37	anche	anche	ADV	B	_	58	mark	_	_
+37	anche	anche	ADV	B	ExtPos=SCONJ	58	mark	_	_
 38	se	se	SCONJ	CS	_	37	fixed	_	_
 39-40	nel	_	_	_	_	_	_	_	_
 39	in	in	ADP	E	_	41	case	_	_
@@ -2765,7 +2765,7 @@
 
 # sent_id = VIT-4076
 # text = Fino alla fine del 1985 il mercato delle lan sembrava un gruppo di fidanzate in attesa del ragazzo partito militare:
-1	Fino	fino	ADV	B	_	4	case	_	_
+1	Fino	fino	ADV	B	ExtPos=ADP	4	case	_	_
 2-3	alla	_	_	_	_	_	_	_	_
 2	a	a	ADP	E	_	1	fixed	_	_
 3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -3326,7 +3326,7 @@
 # sent_id = VIT-4095
 # text = "fin d'ora", dice Agostinucci, "è possibile trasformare la voce che giunge, per esempio, dal telefono, in segnali digitali, e trattarli come qualsiasi altro insieme di dati:
 1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
-2	fin	fino	ADV	B	_	12	advmod	_	_
+2	fin	fino	ADV	B	ExtPos=ADV	12	advmod	_	_
 3	d'	da	ADP	E	_	2	fixed	_	SpaceAfter=No
 4	ora	ora	ADV	B	_	2	fixed	_	SpaceAfter=No
 5	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
@@ -3510,7 +3510,7 @@
 30	stampare	stampare	VERB	V	VerbForm=Inf	8	conj	_	_
 31	queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	32	det	_	_
 32	immagini	immagine	NOUN	S	Gender=Fem|Number=Plur	30	obj	_	_
-33	come	come	ADP	E	_	36	mark	_	_
+33	come	come	ADP	E	ExtPos=SCONJ	36	mark	_	_
 34	se	se	SCONJ	CS	_	33	fixed	_	_
 35	fossero	essere	AUX	VA	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	36	cop	_	_
 36	testi	testo	NOUN	S	Gender=Masc|Number=Plur	30	advcl	_	_
@@ -3794,7 +3794,7 @@
 2	perché	perché	CCONJ	CC	_	14	cc	_	_
 3	oggi	oggi	ADV	B	_	14	advmod	_	SpaceAfter=No
 4	,	,	PUNCT	FF	_	14	punct	_	_
-5	grazie	grazie	NOUN	S	_	8	case	_	_
+5	grazie	grazie	NOUN	S	ExtPos=ADP	8	case	_	_
 6-7	agli	_	_	_	_	_	_	_	_
 6	a	a	ADP	E	_	5	fixed	_	_
 7	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
@@ -4263,7 +4263,7 @@
 
 # sent_id = VIT-4120
 # text = Come nello scorso mese di giugno, quando Infn (Istituto Nazionale di Fisica Nucleare), l'istituzione che meglio li rappresenta, ha ottenuto dal parlamento un ricco finanziamento di mille e 23 miliardi per i prossimi cinque anni, senza un solo voto contrario.
-1	Come	come	ADP	E	_	5	case	_	_
+1	Come	come	ADP	E	ExtPos=ADP	5	case	_	_
 2-3	nello	_	_	_	_	_	_	_	_
 2	in	in	ADP	E	_	1	fixed	_	_
 3	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
@@ -5457,7 +5457,7 @@
 15	ben	bene	ADV	B	_	16	advmod	_	_
 16	poco	poco	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	17	det	_	_
 17	trapela	trapelare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
-18	fuori	fuori	ADV	B	_	22	case	_	_
+18	fuori	fuori	ADV	B	ExtPos=ADP	22	case	_	_
 19-20	della	_	_	_	_	_	_	_	_
 19	di	di	ADP	E	_	18	fixed	_	_
 20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
@@ -5575,13 +5575,13 @@
 48	stato	stato	NOUN	S	Gender=Masc|Number=Sing	45	obl	_	SpaceAfter=No
 49	,	,	PUNCT	FC	_	43	punct	_	_
 50	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	43	advcl	_	_
-51	che	che	SCONJ	CS	_	50	fixed	_	_
+51	che	che	SCONJ	CS	_	57	mark	_	_
 52	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	53	det	_	_
 53	ricerca	ricerca	NOUN	S	Gender=Fem|Number=Sing	57	nsubj	_	_
 54	così	così	ADV	B	_	55	advmod	_	_
 55	avanzata	avanzato	ADJ	A	Gender=Fem|Number=Sing	53	amod	_	_
 56	difficilmente	difficilmente	ADV	B	_	57	advmod	_	_
-57	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	50	advcl	_	_
+57	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	50	ccomp	_	_
 58	immediate	immediato	ADJ	A	Gender=Fem|Number=Plur	59	amod	_	_
 59	ricadute	ricaduta	NOUN	S	Gender=Fem|Number=Plur	57	obj	_	_
 60	applicative	applicativo	ADJ	A	Gender=Fem|Number=Plur	59	amod	_	SpaceAfter=No
@@ -6285,12 +6285,12 @@
 17	fisica	fisica	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
 18	internazionale	internazionale	ADJ	A	Number=Sing	17	amod	_	SpaceAfter=No
 19	,	,	PUNCT	FC	_	6	punct	_	_
-20	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	acl	_	_
-21	che	che	SCONJ	CS	_	20	fixed	_	_
+20	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	advcl	_	_
+21	che	che	SCONJ	CS	_	25	mark	_	_
 22	non	non	ADV	BN	PronType=Neg	25	advmod	_	_
 23	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	cop	_	_
 24	neppure	neppure	ADV	BN	PronType=Neg	25	advmod	_	_
-25	pensabile	pensabile	ADJ	A	Number=Sing	20	advcl	_	_
+25	pensabile	pensabile	ADJ	A	Number=Sing	20	ccomp	_	_
 26	che	che	SCONJ	CS	_	30	mark	_	_
 27	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	28	det	_	SpaceAfter=No
 28	Italia	Italia	PROPN	SP	_	30	nsubj	_	_
@@ -6404,7 +6404,7 @@
 25	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	26	det	_	SpaceAfter=No
 26	attività	attività	NOUN	S	Gender=Fem	23	nsubj	_	SpaceAfter=No
 27	,	,	PUNCT	FF	_	26	punct	_	_
-28	sia	sia	CCONJ	CC	_	30	cc	_	_
+28	sia	sia	CCONJ	CC	ExtPos=ADV	30	cc	_	_
 29	pure	pure	ADV	B	_	28	fixed	_	_
 30	diversa	diverso	ADJ	A	Gender=Fem|Number=Sing	26	amod	_	SpaceAfter=No
 31	,	,	PUNCT	FF	_	26	punct	_	_
@@ -6550,7 +6550,7 @@
 23	urti	urto	NOUN	S	Gender=Masc|Number=Plur	22	obj	_	_
 24	con	con	ADP	E	_	25	case	_	_
 25	energie	energia	NOUN	S	Gender=Fem|Number=Plur	23	nmod	_	_
-26	fino	fino	ADV	B	_	29	case	_	_
+26	fino	fino	ADV	B	ExtPos=ADP	29	case	_	_
 27	a	a	ADP	E	_	26	fixed	_	_
 28	poco	poco	ADV	B	_	29	advmod	_	_
 29	più	più	PRON	PI	PronType=Ind	25	nmod	_	_
@@ -6571,7 +6571,7 @@
 
 # sent_id = VIT-4159
 # text = Fino alla metà degli anni settanta, ricorda Cabibbo, Adone fu importante per la ricerca di frontiera nella fisica delle particelle elementari.
-1	Fino	fino	ADV	B	_	4	case	_	_
+1	Fino	fino	ADV	B	ExtPos=ADP	4	case	_	_
 2-3	alla	_	_	_	_	_	_	_	_
 2	a	a	ADP	E	_	1	fixed	_	_
 3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -6713,7 +6713,7 @@
 16	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 17	fatto	fatto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
 18	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	17	amod	_	_
-19	rispetto	rispetto	ADV	B	_	22	case	_	_
+19	rispetto	rispetto	NOUN	S	ExtPos=ADP|Gender=Masc|Number=Sing	22	case	_	_
 20	a	a	ADP	E	_	19	fixed	_	_
 21	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	22	det	_	_
 22	quadro	quadro	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	_
@@ -6764,13 +6764,13 @@
 # text = Infatti, anche se è ancora in costruzione, riscuote già un notevole successo internazionale come si è visto durante la riunione del comitato scientifico all'Aquila.
 1	Infatti	infatti	ADV	B	_	10	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	FF	_	1	punct	_	_
-3	anche	anche	ADV	B	_	10	advmod	_	_
-4	se	se	SCONJ	CS	_	6	mark	_	_
-5	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
-6	ancora	ancora	ADV	B	_	3	advcl	_	_
+3	anche	anche	ADV	B	ExtPos=SCONJ	8	case	_	_
+4	se	se	SCONJ	CS	_	3	fixed	_	_
+5	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+6	ancora	ancora	ADV	B	_	8	advmod	_	_
 7	in	in	ADP	E	_	8	case	_	_
-8	costruzione	costruzione	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
-9	,	,	PUNCT	FC	_	6	punct	_	_
+8	costruzione	costruzione	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FC	_	8	punct	_	_
 10	riscuote	riscuotere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 11	già	già	ADV	B	_	10	advmod	_	_
 12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
@@ -7135,7 +7135,7 @@
 2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
 3	reazioni	reazione	NOUN	S	Gender=Fem|Number=Plur	4	nsubj	_	_
 4	proseguono	proseguire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	fino	fino	ADV	B	_	7	mark	_	_
+5	fino	fino	ADV	B	ExtPos=ADP	7	mark	_	_
 6	a	a	ADP	E	_	5	fixed	_	_
 7	formare	formare	VERB	V	VerbForm=Inf	4	advcl	_	SpaceAfter=No
 8	,	,	PUNCT	FF	_	7	punct	_	_
@@ -7274,7 +7274,7 @@
 6	particelle	particella	NOUN	S	Gender=Fem|Number=Plur	2	appos	_	_
 7	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
 8	trasportano	trasportare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
-9	fino	fino	ADV	B	_	11	case	_	_
+9	fino	fino	ADV	B	ExtPos=ADP	11	case	_	_
 10	a	a	ADP	E	_	9	fixed	_	_
 11	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	8	obl	_	_
 12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
@@ -7312,7 +7312,7 @@
 39	di	di	ADP	E	_	41	case	_	_
 40	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
 41	stella	stella	NOUN	S	Gender=Fem|Number=Sing	38	nmod	_	_
-42	fino	fino	ADV	B	_	46	case	_	_
+42	fino	fino	ADV	B	ExtPos=ADP	46	case	_	_
 43-44	alla	_	_	_	_	_	_	_	_
 43	a	a	ADP	E	_	42	fixed	_	_
 44	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	46	det	_	_
@@ -7670,7 +7670,7 @@
 2	questi	questo	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	5	nmod	_	_
 3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 4	milanese	milanese	ADJ	A	Number=Sing	5	amod	_	_
-5	Ettore	Ettore	PROPN	SP	_	19	nsubj	_	_
+5	Ettore	Ettore	PROPN	SP	_	0	root	_	_
 6	Fiorini	Fiorini	PROPN	SP	_	5	flat:name	_	SpaceAfter=No
 7	,	,	PUNCT	FF	_	5	punct	_	_
 8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
@@ -7681,15 +7681,15 @@
 12	fisica	fisica	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
 13	sotterranea	sotterranea	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	SpaceAfter=No
 14	,	,	PUNCT	FF	_	12	punct	_	_
-15	anche	anche	ADV	B	_	19	advmod	_	_
+15	anche	anche	ADV	B	ExtPos=SCONJ	19	mark	_	_
 16	se	se	SCONJ	CS	_	15	fixed	_	_
 17	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
 18	appena	appena	ADV	B	_	19	advmod	_	_
-19	passato	passare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+19	passato	passare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	advcl	_	_
 20	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
 21	50	50	NUM	N	NumType=Card	22	nummod	_	_
 22	anni	anno	NOUN	S	Gender=Masc|Number=Plur	19	obl	_	SpaceAfter=No
-23	.	.	PUNCT	FS	_	19	punct	_	_
+23	.	.	PUNCT	FS	_	5	punct	_	_
 
 # sent_id = VIT-4185
 # text = Il lavoro suo e dei suoi predecessori nei tre garage attrezzati sotto la galleria del Monte Bianco può essere considerato la prova generale di quello che si farà sotto il Gran Sasso.
@@ -8226,7 +8226,7 @@
 # sent_id = VIT-4200
 # text = "prima di tutto", risponde Roberto Fieschi, docente di fisica dello stato solido dell'università di Parma, "perché i fisici nucleari e subnucleari hanno il loro istituto, l'Infn, agile ed efficiente malgrado le pastoie del parastato.
 1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
-2	prima	prima	ADV	B	_	4	case	_	_
+2	prima	prima	ADV	B	ExtPos=ADP	4	case	_	_
 3	di	di	ADP	E	_	2	fixed	_	_
 4	tutto	tutto	ADV	B	_	31	advmod	_	SpaceAfter=No
 5	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
@@ -9137,7 +9137,7 @@
 16	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
 17	precedenti	precedente	ADJ	A	Gender=Masc|Number=Plur	18	amod	_	_
 18	commi	comma	NOUN	S	Gender=Masc|Number=Plur	14	nmod	_	_
-19	fino	fino	ADV	B	_	24	mark	_	_
+19	fino	fino	ADV	B	ExtPos=SCONJ	24	mark	_	_
 20	a	a	ADP	E	_	19	fixed	_	_
 21	quando	quando	SCONJ	CS	_	19	fixed	_	_
 22	non	non	ADV	BN	PronType=Neg	24	advmod	_	_
@@ -9563,7 +9563,7 @@
 11	posti	posto	NOUN	S	Gender=Masc|Number=Plur	9	conj	_	_
 12	di	di	ADP	E	_	13	case	_	_
 13	insegnamento	insegnamento	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	_
-14	rispetto	rispetto	ADV	B	_	17	case	_	_
+14	rispetto	rispetto	NOUN	S	ExtPos=ADP|Gender=Masc|Number=Sing	17	case	_	_
 15-16	al	_	_	_	_	_	_	_	_
 15	a	a	ADP	E	_	14	fixed	_	_
 16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
@@ -9645,7 +9645,7 @@
 1	3	3	NOUN	S	_	3	nmod	_	SpaceAfter=No
 2	)	)	PUNCT	FB	_	1	punct	_	_
 3	eccedenza	eccedenza	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
-4	fino	fino	ADV	B	_	7	case	_	_
+4	fino	fino	ADV	B	ExtPos=ADP	7	case	_	_
 5-6	al	_	_	_	_	_	_	_	_
 5	a	a	ADP	E	_	4	fixed	_	_
 6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
@@ -9681,7 +9681,7 @@
 32	,	,	PUNCT	FF	_	31	punct	_	_
 33	e	e	NOUN	S	_	25	conj	_	SpaceAfter=No
 34	,	,	PUNCT	FF	_	12	punct	_	_
-35	rispetto	rispetto	ADV	B	_	38	case	_	_
+35	rispetto	rispetto	NOUN	S	ExtPos=ADP|Gender=Masc|Number=Sing	38	case	_	_
 36-37	al	_	_	_	_	_	_	_	_
 36	a	a	ADP	E	_	35	fixed	_	_
 37	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
@@ -9738,7 +9738,7 @@
 31	,	,	PUNCT	FF	_	30	punct	_	_
 32	e	e	NOUN	S	_	24	conj	_	SpaceAfter=No
 33	,	,	PUNCT	FF	_	11	punct	_	_
-34	rispetto	rispetto	ADV	B	_	37	case	_	_
+34	rispetto	rispetto	NOUN	S	ExtPos=ADP|Gender=Masc|Number=Sing	37	case	_	_
 35-36	al	_	_	_	_	_	_	_	_
 35	a	a	ADP	E	_	34	fixed	_	_
 36	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
@@ -9968,7 +9968,7 @@
 16	altra	altro	ADJ	A	Gender=Fem|Number=Sing	17	amod	_	_
 17	provincia	provincia	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	_
 18	solo	solo	ADV	B	_	35	advmod	_	_
-19	dopo	dopo	ADV	B	_	35	mark	_	_
+19	dopo	dopo	ADV	B	ExtPos=SCONJ	35	mark	_	_
 20	che	che	SCONJ	CS	_	19	fixed	_	_
 21	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
 22	numero	numero	NOUN	S	Gender=Masc|Number=Sing	35	nsubj:pass	_	_
@@ -10164,7 +10164,7 @@
 32	aspiranti	aspirante	NOUN	S	Number=Plur	28	obl	_	_
 33	provenienti	proveniente	VERB	V	Number=Plur	32	advcl	_	_
 34	da	da	ADP	E	_	36	case	_	_
-35	fuori	fuori	ADV	B	_	34	fixed	_	_
+35	fuori	fuori	ADV	B	_	36	advmod	_	_
 36	sede	sede	NOUN	S	Gender=Fem|Number=Sing	33	obl	_	SpaceAfter=No
 37	.	.	PUNCT	FS	_	13	punct	_	_
 
@@ -10188,7 +10188,7 @@
 13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 14	provincia	provincia	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	_
 15	e	e	CCONJ	CC	_	18	cc	_	_
-16	prima	prima	ADV	B	_	18	mark	_	_
+16	prima	prima	ADV	B	ExtPos=ADP	18	mark	_	_
 17	di	di	ADP	E	_	16	fixed	_	_
 18	dar	dare	VERB	V	VerbForm=Inf	3	conj	_	_
 19	corso	corso	NOUN	S	Gender=Masc|Number=Sing	18	xcomp	_	_
@@ -10199,7 +10199,7 @@
 23	di	di	ADP	E	_	24	case	_	_
 24	trasferimento	trasferimento	NOUN	S	Gender=Masc|Number=Sing	22	nmod	_	_
 25	da	da	ADP	E	_	27	case	_	_
-26	fuori	fuori	ADV	B	_	25	fixed	_	_
+26	fuori	fuori	ADV	B	_	27	advmod	_	_
 27	provincia	provincia	NOUN	S	Gender=Fem|Number=Sing	24	nmod	_	SpaceAfter=No
 28	,	,	PUNCT	FF	_	51	punct	_	_
 29	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	30	det	_	_
@@ -10238,7 +10238,7 @@
 58	di	di	ADP	E	_	60	case	_	_
 59	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	60	det	_	_
 60	provincia	provincia	NOUN	S	Gender=Fem|Number=Sing	57	nmod	_	_
-61	fino	fino	ADV	B	_	64	case	_	_
+61	fino	fino	ADV	B	ExtPos=ADP	64	case	_	_
 62-63	alla	_	_	_	_	_	_	_	_
 62	a	a	ADP	E	_	61	fixed	_	_
 63	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	64	det	_	_
@@ -10336,7 +10336,7 @@
 60	da	da	ADP	E	_	62	case	_	_
 61	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	62	det	_	_
 62	amministrazione	amministrazione	NOUN	S	Gender=Fem|Number=Sing	59	obl:agent	_	_
-63	così	così	ADV	B	_	56	mark	_	_
+63	così	così	ADV	B	ExtPos=SCONJ	56	mark	_	_
 64	come	come	SCONJ	CS	_	63	fixed	_	_
 65	previsto	prevedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	56	acl	_	_
 66	per	per	ADP	E	_	68	case	_	_
@@ -10531,7 +10531,7 @@
 39	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	40	det	_	_
 40	trasferimenti	trasferimento	NOUN	S	Gender=Masc|Number=Plur	34	nmod	_	_
 41	da	da	ADP	E	_	43	case	_	_
-42	fuori	fuori	ADV	B	_	41	fixed	_	_
+42	fuori	fuori	ADV	B	_	43	advmod	_	_
 43	provincia	provincia	NOUN	S	Gender=Fem|Number=Sing	40	nmod	_	SpaceAfter=No
 44	.	.	PUNCT	FS	_	32	punct	_	_
 
@@ -10561,7 +10561,7 @@
 19	altra	altro	ADJ	A	Gender=Fem|Number=Sing	20	amod	_	_
 20	provincia	provincia	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	_
 21	soltanto	soltanto	ADV	B	_	30	advmod	_	_
-22	dopo	dopo	ADV	B	_	30	mark	_	_
+22	dopo	dopo	ADV	B	ExtPos=SCONJ	30	mark	_	_
 23	che	che	SCONJ	CS	_	22	fixed	_	_
 24-25	nella	_	_	_	_	_	_	_	_
 24	in	in	ADP	E	_	27	case	_	_
@@ -11326,7 +11326,7 @@
 39	per	per	ADP	E	_	40	case	_	_
 40	trasferimento	trasferimento	NOUN	S	Gender=Masc|Number=Sing	38	obl	_	SpaceAfter=No
 41	,	,	PUNCT	FC	_	50	punct	_	_
-42	in	in	ADP	E	_	50	mark	_	_
+42	in	in	ADP	E	ExtPos=ADV	50	mark	_	_
 43	quanto	quanto	ADV	B	_	42	fixed	_	_
 44-45	nella	_	_	_	_	_	_	_	_
 44	in	in	ADP	E	_	46	case	_	_
@@ -12611,7 +12611,7 @@
 31	II	II	ADJ	NO	Number=Sing|NumType=Ord	32	amod	_	_
 32	grado	grado	NOUN	S	Gender=Masc|Number=Sing	26	nmod	_	_
 33	esistente	esistente	VERB	V	Number=Sing	21	advcl	_	_
-34	prima	prima	ADV	B	_	37	case	_	_
+34	prima	prima	ADV	B	ExtPos=ADP	37	case	_	_
 35-36	dell'	_	_	_	_	_	_	_	SpaceAfter=No
 35	di	di	ADP	E	_	34	fixed	_	_
 36	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	37	det	_	_
@@ -12801,7 +12801,7 @@
 
 # sent_id = VIT-4288
 # text = Oltre che, per i docenti delle scuole ed istituti di istruzione di II grado ed artistica il cui servizio di ruolo prestato come insegnante di scuola media deve essere valutato, i servizi di cui al precedente capoverso dovranno essere valutati anche se alla data di inizio dell'anno in corso, gli interessati non abbiano ancora superato il periodo di prova ai sensi della legge n. 251 del 5/6/1985.
-1	Oltre	oltre	ADV	B	_	6	cc	_	_
+1	Oltre	oltre	ADV	B	ExtPos=CCONJ	6	cc	_	_
 2	che	che	CCONJ	CC	_	1	fixed	_	SpaceAfter=No
 3	,	,	PUNCT	FF	_	1	punct	_	_
 4	per	per	ADP	E	_	6	case	_	_
@@ -12847,8 +12847,8 @@
 42	dovranno	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	44	aux	_	_
 43	essere	essere	AUX	VA	VerbForm=Inf	44	aux:pass	_	_
 44	valutati	valutare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
-45	anche	anche	ADV	B	_	44	advmod	_	_
-46	se	se	SCONJ	CS	_	63	mark	_	_
+45	anche	anche	ADV	B	ExtPos=SCONJ	63	mark	_	_
+46	se	se	SCONJ	CS	_	45	fixed	_	_
 47-48	alla	_	_	_	_	_	_	_	_
 47	a	a	ADP	E	_	49	case	_	_
 48	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	49	det	_	_
@@ -13620,7 +13620,7 @@
 30	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
 31	docente	docente	NOUN	S	Number=Sing	28	nmod	_	SpaceAfter=No
 32	,	,	PUNCT	FF	_	31	punct	_	_
-33	in	in	ADP	E	_	35	case	_	_
+33	in	in	ADP	E	ExtPos=ADV	35	case	_	_
 34	quanto	quanto	ADV	B	_	33	fixed	_	_
 35	soprannumerario	soprannumerario	ADJ	A	Gender=Masc|Number=Sing	31	amod	_	SpaceAfter=No
 36	,	,	PUNCT	FC	_	31	punct	_	_
@@ -14320,7 +14320,7 @@
 34	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	35	det	_	_
 35	trasferimenti	trasferimento	NOUN	S	Gender=Masc|Number=Plur	30	nmod	_	_
 36	da	da	ADP	E	_	38	case	_	_
-37	fuori	fuori	ADV	B	_	36	fixed	_	_
+37	fuori	fuori	ADV	B	_	38	advmod	_	_
 38	sede	sede	NOUN	S	Gender=Fem|Number=Sing	35	nmod	_	_
 39	ivi	ivi	ADV	B	_	40	advmod	_	_
 40	comprese	comprendere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	27	advcl	_	_
@@ -14405,7 +14405,7 @@
 53	comuni	comune	NOUN	S	Gender=Masc|Number=Plur	51	obl	_	_
 54	diversi	diverso	ADJ	A	Gender=Masc|Number=Plur	53	amod	_	SpaceAfter=No
 55	,	,	PUNCT	FF	_	53	punct	_	_
-56	purché	purché	SCONJ	CS	_	60	case	_	_
+56	purché	purché	SCONJ	CS	ExtPos=ADP	60	case	_	_
 57-58	nella	_	_	_	_	_	_	_	_
 57	in	in	ADP	E	_	56	fixed	_	_
 58	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	60	det	_	_
@@ -14909,8 +14909,8 @@
 # sent_id = VIT-4326
 # text = Fatto salvo quanto disposto al precedente comma, i provveditori agli studi procederanno alla valutazione delle domande di movimento sulla base delle apposite tabelle allegate alla presente ordinanza.
 1	Fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	advcl	_	_
-2	salvo	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	xcomp	_	_
-3	quanto	salvo	ADJ	A	Gender=Masc|Number=Sing	2	xcomp	_	_
+2	salvo	salvo	ADJ	A	Gender=Masc|Number=Sing	1	xcomp	_	_
+3	quanto	quanto	PRON	P	Gender=Masc|Number=Sing|PronType=Rel	2	obj	_	_
 4	disposto	disporre	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl:relcl	_	_
 5-6	al	_	_	_	_	_	_	_	_
 5	a	a	ADP	E	_	8	case	_	_
@@ -15050,7 +15050,7 @@
 4	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
 5	studi	studio	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
 6	,	,	PUNCT	FF	_	2	punct	_	_
-7	a	a	ADP	E	_	17	obl	_	_
+7	a	a	ADP	E	ExtPos=ADV	17	obl	_	_
 8	mano	mano	NOUN	S	Gender=Fem|Number=Sing	7	fixed	_	_
 9	a	a	ADP	E	_	7	fixed	_	_
 10	mano	mano	NOUN	S	Gender=Fem|Number=Sing	7	fixed	_	SpaceAfter=No
@@ -16005,7 +16005,7 @@
 52	fasi	fase	NOUN	S	Gender=Fem|Number=Plur	46	obl	_	_
 53	procedurali	procedurale	ADJ	A	Number=Plur	52	amod	_	SpaceAfter=No
 54	,	,	PUNCT	FC	_	52	punct	_	_
-55	anche	anche	ADV	B	_	76	mark	_	_
+55	anche	anche	ADV	B	ExtPos=SCONJ	76	mark	_	_
 56	se	se	SCONJ	CS	_	55	fixed	_	SpaceAfter=No
 57	,	,	PUNCT	FF	_	76	punct	_	_
 58	in	in	ADP	E	_	59	case	_	_
@@ -16498,7 +16498,7 @@
 8	presa	prendere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 9	in	in	ADP	E	_	10	case	_	_
 10	considerazione	considerazione	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
-11	solo	solo	ADV	B	_	16	mark	_	_
+11	solo	solo	ADV	B	ExtPos=SCONJ	16	mark	_	_
 12	se	se	SCONJ	CS	_	11	fixed	_	_
 13	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
 14	interessato	interessato	NOUN	S	Gender=Masc|Number=Sing	16	nsubj	_	_
@@ -18385,7 +18385,7 @@
 11	medesimo	medesimo	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	_
 12	ordine	ordine	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
 13	,	,	PUNCT	FF	_	5	punct	_	_
-14	fino	fino	ADV	B	_	20	mark	_	_
+14	fino	fino	ADV	B	ExtPos=SCONJ	20	mark	_	_
 15	a	a	ADP	E	_	14	fixed	_	_
 16	quando	quando	SCONJ	CS	_	14	fixed	_	_
 17	non	non	ADV	BN	PronType=Neg	20	advmod	_	_
@@ -19047,9 +19047,9 @@
 22	di	di	ADP	E	_	23	case	_	_
 23	trasferimento	trasferimento	NOUN	S	Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No
 24	,	,	PUNCT	FF	_	21	punct	_	_
-25	anche	anche	ADV	B	_	21	advmod	_	_
+25	anche	anche	ADV	B	ExtPos=SCONJ	27	mark	_	_
 26	se	se	SCONJ	CS	_	25	fixed	_	_
-27	condizionata	condizionato	ADJ	A	Gender=Fem|Number=Sing	25	amod	_	SpaceAfter=No
+27	condizionata	condizionato	ADJ	A	Gender=Fem|Number=Sing	21	amod	_	SpaceAfter=No
 28	.	.	PUNCT	FS	_	3	punct	_	_
 
 # sent_id = VIT-4429
@@ -19124,7 +19124,7 @@
 4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
 5	Insegnante	Insegnante	PROPN	SP	_	35	nsubj:pass	_	_
 6	-	-	PUNCT	FB	_	35	punct	_	_
-7	prima	prima	ADV	B	_	10	case	_	_
+7	prima	prima	ADV	B	ExtPos=ADP	10	case	_	_
 8-9	della	_	_	_	_	_	_	_	_
 8	di	di	ADP	E	_	7	fixed	_	_
 9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
@@ -19222,7 +19222,7 @@
 91	predisposta	predisporre	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	85	advcl	_	_
 92	e	e	CCONJ	CC	_	93	cc	_	_
 93	pubblicizzata	pubblicizzare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	91	conj	_	_
-94	prima	prima	ADV	B	_	97	case	_	_
+94	prima	prima	ADV	B	ExtPos=ADP	97	case	_	_
 95-96	dell'	_	_	_	_	_	_	_	SpaceAfter=No
 95	di	di	ADP	E	_	94	fixed	_	_
 96	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	97	det	_	_
@@ -19357,7 +19357,7 @@
 61	sede	sede	NOUN	S	Gender=Fem|Number=Sing	48	conj	_	_
 62	più	più	ADV	B	_	63	advmod	_	_
 63	vicina	vicino	ADJ	A	Gender=Fem|Number=Sing	61	amod	_	_
-64	rispetto	rispetto	ADV	B	_	66	case	_	_
+64	rispetto	rispetto	NOUN	S	ExtPos=ADP|Gender=Masc|Number=Sing	66	case	_	_
 65	a	a	ADP	E	_	64	fixed	_	_
 66	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	61	nmod	_	_
 67	precedentemente	precedentemente	ADV	B	_	68	advmod	_	_
@@ -19486,9 +19486,9 @@
 6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	domanda	domanda	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	SpaceAfter=No
 8	,	,	PUNCT	FF	_	7	punct	_	_
-9	anche	anche	ADV	B	_	7	advmod	_	_
+9	anche	anche	ADV	B	ExtPos=SCONJ	11	mark	_	_
 10	se	se	SCONJ	CS	_	9	fixed	_	_
-11	condizionata	condizionato	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	SpaceAfter=No
+11	condizionata	condizionato	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	SpaceAfter=No
 12	,	,	PUNCT	FF	_	7	punct	_	_
 13	di	di	ADP	E	_	15	case	_	_
 14	tali	tale	DET	DD	Number=Plur|PronType=Dem	15	det	_	_
@@ -19600,7 +19600,7 @@
 6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
 7	Insegnante	Insegnante	PROPN	SP	_	39	nsubj:pass	_	SpaceAfter=No
 8	,	,	PUNCT	FF	_	39	punct	_	_
-9	prima	prima	ADV	B	_	12	case	_	_
+9	prima	prima	ADV	B	ExtPos=ADP	12	case	_	_
 10-11	dell'	_	_	_	_	_	_	_	SpaceAfter=No
 10	di	di	ADP	E	_	9	fixed	_	_
 11	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	_
@@ -20021,7 +20021,7 @@
 73	sede	sede	NOUN	S	Gender=Fem|Number=Sing	32	conj	_	_
 74	più	più	ADV	B	_	75	advmod	_	_
 75	vicina	vicino	ADJ	A	Gender=Fem|Number=Sing	73	amod	_	_
-76	rispetto	rispetto	ADV	B	_	78	case	_	_
+76	rispetto	rispetto	NOUN	S	ExtPos=ADP|Gender=Masc|Number=Sing	78	case	_	_
 77	a	a	ADP	E	_	76	fixed	_	_
 78	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	73	nmod	_	_
 79	precedentemente	precedentemente	ADV	B	_	80	advmod	_	_
@@ -20045,7 +20045,7 @@
 1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
 2	Insegnante	Insegnante	PROPN	SP	_	46	nsubj:pass	_	_
 3	titolare	titolare	ADJ	A	Number=Sing	2	amod	_	_
-4	su	su	ADP	E	_	7	case	_	_
+4	su	su	ADP	E	ExtPos=ADP	7	case	_	_
 5	di	di	ADP	E	_	4	fixed	_	_
 6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	posto	posto	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
@@ -20093,7 +20093,7 @@
 46	trasferito	trasferire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 47	d'	di	ADP	E	_	48	case	_	SpaceAfter=No
 48	ufficio	ufficio	NOUN	S	Gender=Masc|Number=Sing	46	obl	_	_
-49	su	su	ADP	E	_	52	case	_	_
+49	su	su	ADP	E	ExtPos=ADP	52	case	_	_
 50	di	di	ADP	E	_	49	fixed	_	_
 51	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	52	det	_	_
 52	posto	posto	NOUN	S	Gender=Masc|Number=Sing	46	nmod	_	_
@@ -20289,7 +20289,7 @@
 31	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
 32	provincia	provincia	NOUN	S	Gender=Fem|Number=Sing	29	nmod	_	_
 33	e	e	CCONJ	CC	_	38	cc	_	_
-34	prima	prima	ADV	B	_	38	case	_	_
+34	prima	prima	ADV	B	ExtPos=ADP	38	case	_	_
 35-36	della	_	_	_	_	_	_	_	_
 35	di	di	ADP	E	_	34	fixed	_	_
 36	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
@@ -20300,7 +20300,7 @@
 40	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	41	det	_	_
 41	movimenti	movimento	NOUN	S	Gender=Masc|Number=Plur	38	nmod	_	_
 42	da	da	ADP	E	_	44	case	_	_
-43	fuori	fuori	ADV	B	_	42	fixed	_	_
+43	fuori	fuori	ADV	B	_	44	advmod	_	_
 44	provincia	provincia	NOUN	S	Gender=Fem|Number=Sing	41	nmod	_	_
 45	di	di	ADP	E	_	46	case	_	_
 46	cui	cui	PRON	PR	PronType=Rel	41	nmod	_	_
@@ -21527,7 +21527,7 @@
 55	sede	sede	NOUN	S	Gender=Fem|Number=Sing	52	nmod	_	_
 56	definitiva	definitivo	ADJ	A	Gender=Fem|Number=Sing	55	amod	_	SpaceAfter=No
 57	,	,	PUNCT	FC	_	50	punct	_	_
-58	prima	prima	ADV	B	_	61	mark	_	_
+58	prima	prima	ADV	B	ExtPos=SCONJ	61	mark	_	_
 59	che	che	SCONJ	CS	_	58	fixed	_	_
 60	siano	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	61	aux:pass	_	_
 61	effettuate	effettuare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	47	advcl	_	_
@@ -22045,7 +22045,7 @@
 31	dovrà	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	33	aux	_	_
 32	essere	essere	AUX	VA	VerbForm=Inf	33	aux:pass	_	_
 33	effettuata	effettuare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-34	su	su	ADP	E	_	37	case	_	_
+34	su	su	ADP	E	ExtPos=ADP	37	case	_	_
 35	di	di	ADP	E	_	34	fixed	_	_
 36	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
 37	posto	posto	NOUN	S	Gender=Masc|Number=Sing	33	obl	_	_
@@ -22513,12 +22513,12 @@
 7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	trasferimento	trasferimento	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	SpaceAfter=No
 9	,	,	PUNCT	FF	_	14	punct	_	_
-10	sia	sia	CCONJ	CC	_	14	cc	_	_
+10	sia	sia	CCONJ	CC	ExtPos=CCONJ	14	cc	_	_
 11	che	che	CCONJ	CC	_	10	fixed	_	_
 12	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	14	obj	_	SpaceAfter=No
 13	abbia	avere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
 14	ottenuto	ottenere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	conj	_	_
-15	sia	sia	CCONJ	CC	_	20	cc	_	_
+15	sia	sia	CCONJ	CC	ExtPos=CCONJ	20	cc	_	_
 16	che	che	CCONJ	CC	_	15	fixed	_	_
 17	non	non	ADV	BN	PronType=Neg	20	advmod	_	_
 18	l'	il	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|PronType=Prs	20	expl	_	SpaceAfter=No
@@ -23976,7 +23976,7 @@
 19	nuova	nuovo	ADJ	A	Gender=Fem|Number=Sing	20	amod	_	_
 20	istituzione	istituzione	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
 21	,	,	PUNCT	FC	_	26	punct	_	_
-22	dopo	dopo	ADV	B	_	26	cc	_	_
+22	dopo	dopo	ADV	B	ExtPos=SCONJ	26	cc	_	_
 23	che	che	SCONJ	CS	_	22	fixed	_	_
 24	siano	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	26	aux	_	_
 25	state	essere	AUX	VA	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	26	aux:pass	_	_
@@ -24379,7 +24379,7 @@
 11	,	,	PUNCT	FF	_	12	punct	_	_
 12	restano	restare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 13	applicabili	applicabile	ADJ	A	Number=Plur	12	xcomp	_	_
-14	in	in	ADP	E	_	16	case	_	_
+14	in	in	ADP	E	ExtPos=ADV	16	case	_	_
 15	quanto	quanto	ADV	B	_	14	fixed	_	_
 16	compatibili	compatibile	ADJ	A	Number=Plur	12	amod	_	SpaceAfter=No
 17	,	,	PUNCT	FF	_	16	punct	_	_
@@ -24924,7 +24924,7 @@
 18-19	al	_	_	_	_	_	_	_	_
 18	a	a	ADP	E	_	20	case	_	_
 19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
-20	riguardo	riguardo	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	_
+20	riguardo	riguardo	NOUN	S	ExtPos=ADP|Gender=Masc|Number=Sing	17	obl	_	_
 21	con	con	ADP	E	_	20	fixed	_	_
 22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
 23	citata	citato	ADJ	A	Gender=Fem|Number=Sing	24	amod	_	_
@@ -24950,7 +24950,7 @@
 13	situazione	situazione	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	_
 14	iniziale	iniziale	ADJ	A	Number=Sing	13	amod	_	SpaceAfter=No
 15	,	,	PUNCT	FC	_	25	punct	_	_
-16	in	in	ADP	E	_	25	mark	_	_
+16	in	in	ADP	E	ExtPos=ADV	25	mark	_	_
 17	quanto	quanto	ADV	B	_	16	fixed	_	_
 18	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
 19	dati	dato	NOUN	S	Gender=Masc|Number=Plur	25	nsubj	_	_
@@ -25431,7 +25431,7 @@
 15	di	di	ADP	E	_	16	case	_	_
 16	trasferimento	trasferimento	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
 17	,	,	PUNCT	FF	_	21	punct	_	_
-18	così	così	ADV	B	_	21	cc	_	_
+18	così	così	ADV	B	ExtPos=CCONJ	21	cc	_	_
 19	come	come	CCONJ	CC	_	18	fixed	_	_
 20	in	in	ADP	E	_	21	case	_	_
 21	caso	caso	NOUN	S	Gender=Masc|Number=Sing	8	conj	_	_
@@ -25627,7 +25627,7 @@
 22	più	più	ADV	B	_	21	advmod	_	_
 23	vicini	vicino	ADJ	A	Gender=Masc|Number=Plur	21	amod	_	SpaceAfter=No
 24	,	,	PUNCT	FF	_	18	punct	_	_
-25	prima	prima	ADV	B	_	27	mark	_	_
+25	prima	prima	ADV	B	ExtPos=ADP	27	mark	_	_
 26	di	di	ADP	E	_	25	fixed	_	_
 27	procedere	procedere	VERB	V	VerbForm=Inf	18	advcl	_	_
 28-29	al	_	_	_	_	_	_	_	_
@@ -25881,7 +25881,7 @@
 60	sede	sede	NOUN	S	Gender=Fem|Number=Sing	47	conj	_	_
 61	più	più	ADV	B	_	62	advmod	_	_
 62	vicina	vicino	ADJ	A	Gender=Fem|Number=Sing	60	amod	_	_
-63	rispetto	rispetto	ADV	B	_	65	case	_	_
+63	rispetto	rispetto	NOUN	S	ExtPos=ADP|Gender=Masc|Number=Sing	65	case	_	_
 64	a	a	ADP	E	_	63	fixed	_	_
 65	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	60	nmod	_	_
 66	precedentemente	precedentemente	ADV	B	_	67	advmod	_	_
@@ -26078,7 +26078,7 @@
 1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
 2	Insegnante	Insegnante	PROPN	SP	_	47	nsubj:pass	_	_
 3	titolare	titolare	ADJ	A	Number=Sing	2	amod	_	_
-4	su	su	ADP	E	_	7	case	_	_
+4	su	su	ADP	E	ExtPos=ADP	7	case	_	_
 5	di	di	ADP	E	_	4	fixed	_	_
 6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	posto	posto	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
@@ -26127,7 +26127,7 @@
 47	trasferito	trasferire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 48	d'	di	ADP	E	_	49	case	_	SpaceAfter=No
 49	ufficio	ufficio	NOUN	S	Gender=Masc|Number=Sing	47	obl	_	_
-50	su	su	ADP	E	_	53	case	_	_
+50	su	su	ADP	E	ExtPos=ADP	53	case	_	_
 51	di	di	ADP	E	_	50	fixed	_	_
 52	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	53	det	_	_
 53	posto	posto	NOUN	S	Gender=Masc|Number=Sing	47	obl	_	_
@@ -26269,7 +26269,7 @@
 31	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
 32	provincia	provincia	NOUN	S	Gender=Fem|Number=Sing	29	nmod	_	_
 33	e	e	CCONJ	CC	_	38	cc	_	_
-34	prima	prima	ADV	B	_	38	case	_	_
+34	prima	prima	ADV	B	ExtPos=ADP	38	case	_	_
 35-36	della	_	_	_	_	_	_	_	_
 35	di	di	ADP	E	_	34	fixed	_	_
 36	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
@@ -26280,7 +26280,7 @@
 40	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	41	det	_	_
 41	movimenti	movimento	NOUN	S	Gender=Masc|Number=Plur	38	nmod	_	_
 42	da	da	ADP	E	_	44	case	_	_
-43	fuori	fuori	ADV	B	_	42	fixed	_	_
+43	fuori	fuori	ADV	B	_	44	advmod	_	_
 44	provincia	provincia	NOUN	S	Gender=Fem|Number=Sing	41	nmod	_	_
 45	di	di	ADP	E	_	46	case	_	_
 46	cui	cui	PRON	PR	PronType=Rel	41	nmod	_	_
@@ -26938,7 +26938,7 @@
 38	di	di	ADP	E	_	39	case	_	_
 39	sede	sede	NOUN	S	Gender=Fem|Number=Sing	36	nmod	_	SpaceAfter=No
 40	,	,	PUNCT	FC	_	22	punct	_	_
-41	in	in	ADP	E	_	46	mark	_	_
+41	in	in	ADP	E	ExtPos=ADV	46	mark	_	_
 42	quanto	quanto	ADV	B	_	41	fixed	_	_
 43	tali	tale	DET	DD	Number=Plur|PronType=Dem	44	det	_	_
 44	operazioni	operazione	NOUN	S	Gender=Fem|Number=Plur	46	nsubj:pass	_	_
@@ -27402,7 +27402,7 @@
 34	,	,	PUNCT	FC	_	36	punct	_	_
 35	siano	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	36	aux	_	_
 36	cessati	cessare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	5	acl:relcl	_	_
-37	prima	prima	ADV	B	_	40	case	_	_
+37	prima	prima	ADV	B	ExtPos=ADP	40	case	_	_
 38-39	del	_	_	_	_	_	_	_	_
 38	di	di	ADP	E	_	37	fixed	_	_
 39	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
@@ -28487,7 +28487,7 @@
 9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 10	medesimo	medesimo	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	_
 11	ordine	ordine	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
-12	sino	sino	ADV	B	_	18	mark	_	_
+12	sino	sino	ADV	B	ExtPos=SCONJ	18	mark	_	_
 13	a	a	ADP	E	_	12	fixed	_	_
 14	che	che	SCONJ	CS	_	12	fixed	_	_
 15	non	non	ADV	BN	PronType=Neg	18	advmod	_	_
@@ -29837,11 +29837,11 @@
 9	di	di	ADP	E	_	11	case	_	_
 10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	provincia	provincia	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
-12	anche	anche	ADV	B	_	16	advmod	_	_
+12	anche	anche	ADV	B	ExtPos=SCONJ	16	mark	_	_
 13	se	se	SCONJ	CS	_	12	fixed	_	_
 14	non	non	ADV	BN	PronType=Neg	15	advmod	_	_
 15	ancora	ancora	ADV	B	_	16	advmod	_	_
-16	assegnati	assegnare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	5	conj	_	_
+16	assegnati	assegnare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	5	advcl	_	_
 17	ad	a	ADP	E	_	19	case	_	_
 18	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
 19	sede	sede	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	_
@@ -29926,7 +29926,7 @@
 9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	provincia	provincia	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
 11	,	,	PUNCT	FF	_	16	punct	_	_
-12	anche	anche	ADV	B	_	16	mark	_	_
+12	anche	anche	ADV	B	ExtPos=SCONJ	16	mark	_	_
 13	se	se	SCONJ	CS	_	12	fixed	_	_
 14	non	non	ADV	BN	PronType=Neg	16	advmod	_	_
 15	ancora	ancora	ADV	B	_	16	advmod	_	_
@@ -31621,7 +31621,7 @@
 76	di	di	ADP	E	_	77	case	_	_
 77	trasferimento	trasferimento	NOUN	S	Gender=Masc|Number=Sing	75	nmod	_	SpaceAfter=No
 78	,	,	PUNCT	FF	_	75	punct	_	_
-79	anche	anche	ADV	B	_	81	advmod	_	_
+79	anche	anche	ADV	B	ExtPos=SCONJ	81	mark	_	_
 80	se	se	SCONJ	CS	_	79	fixed	_	_
 81	condizionata	condizionato	ADJ	A	Gender=Fem|Number=Sing	75	amod	_	_
 82	prevale	prevalere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	61	ccomp	_	_
@@ -31646,7 +31646,7 @@
 9	trovino	trovare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
 10	in	in	ADP	E	_	11	case	_	_
 11	concorrenza	concorrenza	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
-12	rispetto	rispetto	ADV	B	_	15	case	_	_
+12	rispetto	rispetto	NOUN	S	ExtPos=ADP|Gender=Masc|Number=Sing	15	case	_	_
 13-14	alle	_	_	_	_	_	_	_	_
 13	a	a	ADP	E	_	12	fixed	_	_
 14	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
@@ -32195,7 +32195,7 @@
 55	comune	comune	NOUN	S	Gender=Masc|Number=Sing	37	conj	_	_
 56	più	più	ADV	B	_	57	advmod	_	_
 57	vicino	vicino	ADJ	A	Number=Sing	55	amod	_	_
-58	rispetto	rispetto	ADV	B	_	60	case	_	_
+58	rispetto	rispetto	NOUN	S	ExtPos=ADP|Gender=Masc|Number=Sing	60	case	_	_
 59	a	a	ADP	E	_	58	fixed	_	_
 60	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	55	nmod	_	_
 61	precedentemente	precedentemente	ADV	B	_	62	advmod	_	_
@@ -32441,7 +32441,7 @@
 48	titolo	titolo	NOUN	S	Gender=Masc|Number=Sing	44	obl:agent	_	_
 49	I	I	ADJ	NO	Number=Sing|NumType=Ord	48	amod	_	SpaceAfter=No
 50	,	,	PUNCT	FF	_	43	punct	_	_
-51	in	in	ADP	E	_	53	case	_	_
+51	in	in	ADP	E	ExtPos=ADV	53	case	_	_
 52	quanto	quanto	ADV	B	_	51	fixed	_	_
 53	applicabili	applicabile	ADJ	A	Number=Plur	39	amod	_	SpaceAfter=No
 54	.	.	PUNCT	FS	_	13	punct	_	_
@@ -33059,8 +33059,8 @@
 112	anziani	anziano	ADJ	A	Gender=Masc|Number=Plur	111	amod	_	SpaceAfter=No
 113	,	,	PUNCT	FF	_	99	punct	_	_
 114	così	così	ADV	B	_	115	advmod	_	_
-115	come	come	ADV	B	_	99	appos	_	_
-116	specificato	specificare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	115	advcl	_	_
+115	come	come	ADV	B	_	116	mark	_	_
+116	specificato	specificare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	99	advcl	_	_
 117-118	nell'	_	_	_	_	_	_	_	SpaceAfter=No
 117	in	in	ADP	E	_	120	case	_	_
 118	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	120	det	_	_

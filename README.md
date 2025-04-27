@@ -41,6 +41,9 @@ We are indebted to Rodolfo Del Monte and his collaborators, Antonella Bristot an
 
 # Changelog
 
+* 2025-04-27 v2.16
+  * Added feature ExtPos to fixed expressions
+  
 * 2024-10-27 v2.15
   * Fixed dependencies of determiners
   
