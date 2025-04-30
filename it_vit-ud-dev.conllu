@@ -2213,7 +2213,7 @@
 3	sarà	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	4	aux:pass	_	_
 4	dominato	dominare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 5-6	dalle	_	_	_	_	_	_	_	_
-5	da	da	ADP	E	_	10	mark	_	_
+5	da	da	ADP	E	_	7	case	_	_
 6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
 7	aziende	azienda	NOUN	S	Gender=Fem|Number=Plur	4	obl:agent	_	_
 8	capaci	capace	ADJ	A	Number=Plur	7	amod	_	_
@@ -7116,7 +7116,7 @@
 39	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
 40	notevole	notevole	ADJ	A	Number=Sing	41	amod	_	_
 41	quantità	quantità	NOUN	S	Gender=Fem	35	conj	_	_
-42	di	di	ADP	E	_	46	case	_	_
+42	di	di	ADP	E	_	43	case	_	_
 43	energia	energia	NOUN	S	Gender=Fem|Number=Sing	41	nmod	_	_
 44	emessa	emesso	ADJ	A	Gender=Fem|Number=Sing	43	amod	_	_
 45	sotto	sotto	ADP	E	_	46	case	_	_
@@ -10336,7 +10336,7 @@
 60	da	da	ADP	E	_	62	case	_	_
 61	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	62	det	_	_
 62	amministrazione	amministrazione	NOUN	S	Gender=Fem|Number=Sing	59	obl:agent	_	_
-63	così	così	ADV	B	ExtPos=SCONJ	56	mark	_	_
+63	così	così	ADV	B	ExtPos=SCONJ	65	mark	_	_
 64	come	come	SCONJ	CS	_	63	fixed	_	_
 65	previsto	prevedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	56	acl	_	_
 66	per	per	ADP	E	_	68	case	_	_
@@ -13811,7 +13811,7 @@
 39	attestata	attestare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
 40	,	,	PUNCT	FF	_	39	punct	_	_
 41-42	dai	_	_	_	_	_	_	_	_
-41	da	da	ADP	E	_	45	case	_	_
+41	da	da	ADP	E	_	43	case	_	_
 42	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	45	det	_	_
 43	docenti	docente	NOUN	S	Number=Plur	39	obl:agent	_	_
 44	in	in	ADP	E	_	45	case	_	_
@@ -13835,7 +13835,7 @@
 2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
 3	attribuzione	attribuzione	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
 4-5	dei	_	_	_	_	_	_	_	_
-4	di	di	ADP	E	_	8	case	_	_
+4	di	di	ADP	E	_	6	case	_	_
 5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
 6	punteggi	punteggio	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	_
 7	in	in	ADP	E	_	8	case	_	_
@@ -23089,7 +23089,7 @@
 17	attribuito	attribuire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 18	solo	solo	ADV	B	_	17	advmod	_	_
 19-20	nel	_	_	_	_	_	_	_	_
-19	in	in	ADP	E	_	23	case	_	_
+19	in	in	ADP	E	_	21	case	_	_
 20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
 21	caso	caso	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	_
 22	in	in	ADP	E	_	23	case	_	_
@@ -25921,7 +25921,7 @@
 18	essendo	essere	AUX	VA	VerbForm=Ger	19	cop	_	_
 19	soggetti	soggetto	ADJ	A	Gender=Masc|Number=Plur	27	advcl	_	_
 20-21	al	_	_	_	_	_	_	_	_
-20	a	a	ADP	E	_	24	case	_	_
+20	a	a	ADP	E	_	22	case	_	_
 21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
 22	trasferimento	trasferimento	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	_
 23	d'	di	ADP	E	_	24	case	_	SpaceAfter=No
@@ -25939,7 +25939,7 @@
 33	di	di	ADP	E	_	35	case	_	_
 34	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
 35	situazione	situazione	NOUN	S	Gender=Fem|Number=Sing	32	obl	_	_
-36	di	di	ADP	E	_	37	mark	_	_
+36	di	di	ADP	E	_	37	case	_	_
 37	perdenti	dente	ADJ	A	Gender=Masc|Number=Plur	35	amod	_	_
 38	posto	posto	NOUN	S	Gender=Masc|Number=Sing	37	obj	_	_
 39	ad	a	ADP	E	_	40	mark	_	_
@@ -27969,7 +27969,7 @@
 33	vincita	vincita	NOUN	S	Gender=Fem|Number=Sing	31	nmod	_	_
 34	di	di	ADP	E	_	35	case	_	_
 35	concorso	concorso	NOUN	S	Gender=Masc|Number=Sing	33	nmod	_	_
-36	di	di	ADP	E	_	40	case	_	_
+36	di	di	ADP	E	_	37	case	_	_
 37	nomina	nomina	NOUN	S	Gender=Fem|Number=Sing	35	nmod	_	_
 38-39	dalla	_	_	_	_	_	_	_	_
 38	da	da	ADP	E	_	40	case	_	_
@@ -28661,7 +28661,7 @@
 13	plesso	plesso	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
 14	a	a	ADP	E	_	15	case	_	_
 15	seguito	seguito	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
-16	di	di	ADP	E	_	19	case	_	_
+16	di	di	ADP	E	_	17	case	_	_
 17	trasferimento	trasferimento	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	_
 18	d'	di	ADP	E	_	19	case	_	SpaceAfter=No
 19	ufficio	ufficio	NOUN	S	Gender=Masc|Number=Sing	17	nmod	_	_
@@ -32180,7 +32180,7 @@
 41	o	o	CCONJ	CC	_	43	cc	_	_
 42	a	a	ADP	E	_	43	case	_	_
 43	posto	posto	NOUN	S	Gender=Masc|Number=Sing	37	conj	_	_
-44	di	di	ADP	E	_	48	case	_	_
+44	di	di	ADP	E	_	45	case	_	_
 45	sostegno	sostegno	NOUN	S	Gender=Masc|Number=Sing	43	nmod	_	_
 46-47	al	_	_	_	_	_	_	_	_
 46	a	a	ADP	E	_	48	case	_	_
@@ -32618,7 +32618,7 @@
 7	trasferimenti	trasferimento	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	_
 8	ed	e	CCONJ	CC	_	11	cc	_	_
 9-10	ai	_	_	_	_	_	_	_	_
-9	a	a	ADP	E	_	13	case	_	_
+9	a	a	ADP	E	_	11	case	_	_
 10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
 11	passaggi	passaggio	NOUN	S	Gender=Masc|Number=Plur	7	conj	_	_
 12	in	in	ADP	E	_	13	case	_	_

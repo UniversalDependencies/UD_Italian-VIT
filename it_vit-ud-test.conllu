@@ -345,7 +345,7 @@
 63	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	65	det	_	_
 64	precedenti	precedente	ADJ	A	Gender=Masc|Number=Plur	65	amod	_	_
 65	articoli	articolo	NOUN	S	Gender=Masc|Number=Plur	61	nmod	_	_
-66	in	in	ADP	E	ExtPos=ADV	59	case	_	_
+66	in	in	ADP	E	ExtPos=ADV	59	advmod	_	_
 67	quanto	quanto	ADV	B	_	66	fixed	_	_
 68	applicabili	applicabile	ADJ	A	Number=Plur	59	amod	_	SpaceAfter=No
 69	.	.	PUNCT	FS	_	10	punct	_	_
@@ -2383,7 +2383,7 @@
 39	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
 40	formazione	formazione	NOUN	S	Gender=Fem|Number=Sing	37	nmod	_	_
 41-42	dell'	_	_	_	_	_	_	_	SpaceAfter=No
-41	di	di	ADP	E	_	45	case	_	_
+41	di	di	ADP	E	_	43	case	_	_
 42	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	45	det	_	_
 43	organico	organico	NOUN	S	Gender=Masc|Number=Sing	40	nmod	_	_
 44	di	di	ADP	E	_	45	case	_	_
@@ -4272,8 +4272,8 @@
 22	,	,	PUNCT	FF	_	24	punct	_	_
 23	ma	ma	CCONJ	CC	_	24	cc	_	_
 24	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
-25	dietro	dietro	ADP	E	Gender=Masc	27	case	_	_
-26	di	di	ADP	E	_	27	case	_	_
+25	dietro	dietro	ADP	E	ExtPos=ADP|Gender=Masc	27	case	_	_
+26	di	di	ADP	E	_	25	fixed	_	_
 27	sé	sé	PRON	PE	Number=Sing|Person=3|PronType=Prs	24	obl	_	_
 28	altri	altro	DET	DI	Gender=Masc|Number=Plur|PronType=Dem	29	det	_	_
 29	settori	settore	NOUN	S	Gender=Masc|Number=Plur	24	obj	_	_
@@ -10559,9 +10559,9 @@
 2	prender	prendere	VERB	V	VerbForm=Inf	0	root	_	_
 3	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	2	obj	_	_
 4	anche	anche	ADV	B	_	8	advmod	_	_
-5	fuori	fuori	ADV	B	_	8	case	_	_
+5	fuori	fuori	ADV	B	ExtPos=ADP	8	case	_	_
 6-7	dall'	_	_	_	_	_	_	_	SpaceAfter=No
-6	da	da	ADP	E	_	8	case	_	_
+6	da	da	ADP	E	_	5	fixed	_	_
 7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	_
 8	acqua	acqua	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
 9	,	,	PUNCT	FC	_	2	punct	_	_
