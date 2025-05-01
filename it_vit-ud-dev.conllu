@@ -33059,7 +33059,7 @@
 112	anziani	anziano	ADJ	A	Gender=Masc|Number=Plur	111	amod	_	SpaceAfter=No
 113	,	,	PUNCT	FF	_	99	punct	_	_
 114	così	così	ADV	B	_	115	advmod	_	_
-115	come	come	ADV	B	_	116	mark	_	_
+115	come	come	SCONJ	CS	_	116	mark	_	_
 116	specificato	specificare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	99	advcl	_	_
 117-118	nell'	_	_	_	_	_	_	_	SpaceAfter=No
 117	in	in	ADP	E	_	120	case	_	_
