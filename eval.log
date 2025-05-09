@@ -1,13 +1,13 @@
 Running the following version of UD tools:
-commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
+commit ecbbdff44b15c9b6de4a691e3499c1286459ab2e
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun Nov 10 10:33:45 2024 +0100
+Date:   Fri May 9 21:07:42 2025 +0200
 Evaluating the following revision of UD_Italian-VIT:
-commit dd545d5b9f779ddfe3cf72aa5ae8182cce6f7140
-Merge: fd6de69 476207e
+commit 493448154df220874d38ef396ea676de31a8fc53
+Merge: 48d2ad0 b8b54ac
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Size: counted 280153 of 280153 words (nodes).
-Size: min(0, log((N/1000)**2)) = 11.2706717650059.
+Size: counted 280152 of 280152 words (nodes).
+Size: min(0, log((N/1000)**2)) = 11.2706646260369.
 Size: maximum value 13.815511 is for 1000000 words or more.
 Split: Found more than 10000 training words.
 Split: Found at least 10000 development words.
@@ -15,15 +15,15 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 0.8.
 Universal POS tags: 17 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.8.
-Features: 169274 out of 280153 total words have one or more features.
+Features: 170130 out of 280152 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
 Universal relations: 34 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
 Udapi:
-               TOTAL        904
-Udapi: found 904 bugs.
-Udapi: worst expected case (threshold) is one bug per 10 words. There are 280153 words.
-Genres: found 2 out of 17 known.
+               TOTAL        535
+Udapi: found 535 bugs.
+Udapi: worst expected case (threshold) is one bug per 10 words. There are 280152 words.
+Genres: found 2 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang it --max-err=10 UD_Italian-VIT/it_vit-ud-dev.conllu
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang it --max-err=10 UD_Italian-VIT/it_vit-ud-test.conllu
@@ -32,13 +32,13 @@ Genres: found 2 out of 17 known.
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
-(weight=0.0769230769230769) * (score{genres}=0.117647058823529) = 0.00904977375565611
+(weight=0.0769230769230769) * (score{genres}=0.111111111111111) = 0.00854700854700855
 (weight=0.0769230769230769) * (score{lemmas}=0.8) = 0.0615384615384615
-(weight=0.256410256410256) * (score{size}=0.815798425814141) = 0.209179083542087
+(weight=0.256410256410256) * (score{size}=0.815797909078337) = 0.209178951045727
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.8) = 0.0615384615384615
-(weight=0.307692307692308) * (score{udapi}=0.967731917916281) = 0.297763667051164
+(weight=0.307692307692308) * (score{udapi}=0.980903223964134) = 0.301816376604349
 (weight=0.0769230769230769) * (score{udeprels}=0.735135135135135) = 0.0565488565488566
-(TOTAL score=0.808438816795199) * (availability=1) * (validity=1) = 0.808438816795199
+(TOTAL score=0.811988628643377) * (availability=1) * (validity=1) = 0.811988628643377
 STARS = 4
-UD_Italian-VIT	0.808438816795199	4
+UD_Italian-VIT	0.811988628643377	4
