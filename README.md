@@ -68,6 +68,7 @@ We are indebted to Rodolfo Del Monte and his collaborators, Antonella Bristot an
 Data available since: UD v2.4
 License: CC BY-NC-SA 3.0
 Includes text: yes
+Parallel: no
 Genre: nonfiction news
 Lemmas: converted from manual
 UPOS: converted from manual
