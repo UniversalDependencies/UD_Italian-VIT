@@ -345,7 +345,7 @@
 63	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	65	det	_	_
 64	precedenti	precedente	ADJ	A	Gender=Masc|Number=Plur	65	amod	_	_
 65	articoli	articolo	NOUN	S	Gender=Masc|Number=Plur	61	nmod	_	_
-66	in	in	ADP	E	ExtPos=ADV	59	advmod	_	_
+66	in	in	ADP	E	ExtPos=ADP	59	case	_	_
 67	quanto	quanto	ADV	B	_	66	fixed	_	_
 68	applicabili	applicabile	ADJ	A	Number=Plur	59	amod	_	SpaceAfter=No
 69	.	.	PUNCT	FS	_	10	punct	_	_
@@ -2029,8 +2029,8 @@
 29	terza	terzo	NUM	N	Gender=Fem|Number=Sing|NumType=Card	31	nummod	_	_
 30	eventuale	eventuale	ADJ	A	Number=Sing	31	amod	_	_
 31	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	20	conj	_	_
-32	così	così	ADV	B	ExtPos=SCONJ	35	cc	_	_
-33	come	come	SCONJ	CS	_	32	fixed	_	_
+32	così	così	ADV	B	_	13	advmod	_	_
+33	come	come	SCONJ	CS	_	35	mark	_	_
 34	verrà	venire	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	35	aux:pass	_	_
 35	indicato	indicare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	conj	_	_
 36-37	negli	_	_	_	_	_	_	_	_
@@ -2372,7 +2372,7 @@
 30	più	più	ADV	B	_	29	advmod	_	_
 31	autonoma	autonomo	ADJ	A	Gender=Fem|Number=Sing	32	amod	_	_
 32	rilevanza	rilevanza	NOUN	S	Gender=Fem|Number=Sing	29	obj	_	_
-33	in	in	ADP	E	ExtPos=ADV	48	cc	_	_
+33	in	in	ADP	E	ExtPos=SCONJ	48	mark	_	_
 34	quanto	quanto	ADV	B	_	33	fixed	_	_
 35-36	ai	_	_	_	_	_	_	_	_
 35	a	a	ADP	E	_	37	case	_	_
@@ -2402,12 +2402,12 @@
 56	prolungato	prolungato	ADJ	A	Gender=Masc|Number=Sing	55	amod	_	_
 57	anche	anche	ADV	B	ExtPos=SCONJ	75	mark	_	_
 58	se	se	SCONJ	CS	_	57	fixed	_	_
-59	di	di	ADP	E	ExtPos=ADV	75	advmod	_	_
-60	fatto	fatto	NOUN	S	Gender=Masc|Number=Sing	59	fixed	_	_
+59	di	di	ADP	E	_	60	case	_	_
+60	fatto	fatto	NOUN	S	Gender=Masc|Number=Sing	75	obl	_	_
 61	per	per	ADP	E	_	63	case	_	_
 62	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	63	det	_	_
 63	seconde	seconde	ADJ	NO	NumType=Ord	75	amod	_	_
-64	e	e	CCONJ	CC	_	67	cc	_	_
+64	e	e	CCONJ	CC	_	66	cc	_	_
 65	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	67	det	_	_
 66	terze	terzo	ADJ	NO	Gender=Fem|Number=Plur|NumType=Ord	67	amod	_	_
 67	classi	classe	NOUN	S	Gender=Fem|Number=Plur	63	conj	_	_
@@ -2802,7 +2802,7 @@
 17	scolastico	scolastico	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	_
 18	in	in	ADP	E	_	19	case	_	_
 19	corso	corso	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	_
-20	in	in	ADP	E	ExtPos=ADV	22	case	_	_
+20	in	in	ADP	E	ExtPos=ADP	22	case	_	_
 21	quanto	quanto	ADV	B	_	20	fixed	_	_
 22	soprannumerari	soprannumerario	ADJ	A	Gender=Masc|Number=Plur	10	amod	_	SpaceAfter=No
 23	,	,	PUNCT	FF	_	26	punct	_	_
@@ -2915,7 +2915,7 @@
 18	in	in	ADP	E	_	19	case	_	_
 19	corso	corso	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
 20	,	,	PUNCT	FF	_	10	punct	_	_
-21	in	in	ADP	E	ExtPos=ADV	23	case	_	_
+21	in	in	ADP	E	ExtPos=ADP	23	case	_	_
 22	quanto	quanto	ADV	B	_	21	fixed	_	_
 23	soprannumerari	soprannumerario	ADJ	A	Gender=Masc|Number=Plur	10	amod	_	SpaceAfter=No
 24	,	,	PUNCT	FF	_	23	punct	_	_
@@ -6818,7 +6818,7 @@
 # sent_id = VIT-9266
 # text = sono come in cielo.
 1	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
-2	come	come	ADP	E	ExtPos=ADP	4	case	_	_
+2	come	come	ADV	B	ExtPos=ADP	4	case	_	_
 3	in	in	ADP	E	_	2	fixed	_	_
 4	cielo	cielo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	FS	_	4	punct	_	_
@@ -7312,7 +7312,7 @@
 9	anche	anche	ADV	B	_	12	advmod	_	_
 10-11	nel	_	_	_	_	_	_	_	_
 10	in	in	ADP	E	_	12	case	_	_
-11	il	il	DET	RD	Gender=Masc|Number=Sing	12	det	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	caso	caso	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
 13	passi	passare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
 14-15	al	_	_	_	_	_	_	_	_
@@ -9130,7 +9130,7 @@
 24	super	super	ADJ	A	_	25	amod	_	_
 25	model	model	NOUN	S	_	20	appos	_	_
 26	of	of	ADP	E	_	28	case	_	_
-27	the	the	DET	RD	_	28	det	_	_
+27	the	the	DET	RD	PronType=Art	28	det	_	_
 28	world	world	NOUN	S	_	25	nmod	_	SpaceAfter=No
 29	"	"	PUNCT	FB	_	25	punct	_	SpaceAfter=No
 30	.	.	PUNCT	FS	_	13	punct	_	_
@@ -11504,7 +11504,7 @@
 49	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	50	det	_	_
 50	Prophets	Prophets	PROPN	SP	_	37	nmod	_	_
 51	of	of	ADP	E	_	53	case	_	_
-52	the	the	DET	RD	_	53	det	_	_
+52	the	the	DET	RD	PronType=Art	53	det	_	_
 53	City	City	PROPN	SP	_	50	nmod	_	SpaceAfter=No
 54	,	,	PUNCT	FF	_	55	punct	_	_
 55	Krs	Krs	PROPN	SP	_	50	conj	_	_
@@ -15402,8 +15402,8 @@
 8	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	9	det	_	_
 9	principio	principio	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	SpaceAfter=No
 10	,	,	PUNCT	FF	_	14	punct	_	_
-11	così	così	ADV	B	ExtPos=CCONJ	14	cc	_	_
-12	come	come	CCONJ	CC	_	11	fixed	_	_
+11	così	così	ADV	B	_	14	advmod	_	_
+12	come	come	ADP	E	_	14	mark	_	_
 13	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
 14	accettato	accettare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	conj	_	_
 15	che	che	SCONJ	CS	_	21	mark	_	_
@@ -16780,7 +16780,7 @@
 46	di	di	ADP	E	_	48	case	_	_
 47	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	48	det	_	_
 48	governo	governo	NOUN	S	Gender=Masc|Number=Sing	45	nmod	_	_
-49	e	e	CCONJ	CC	_	45	cc	_	_
+49	e	e	CCONJ	CC	_	55	cc	_	_
 50	a	a	ADP	E	ExtPos=SCONJ	55	mark	_	_
 51	meno	meno	ADV	B	_	50	fixed	_	_
 52	che	che	SCONJ	CS	_	50	fixed	_	_
@@ -20731,7 +20731,7 @@
 17	Farnese	Farnese	PROPN	SP	_	16	flat:name	_	SpaceAfter=No
 18	"	"	PUNCT	FB	_	14	punct	_	_
 19	di	di	ADP	E	_	20	case	_	_
-20	Marina	Marina	PROPN	SP	_	14	obl:agent	_	_
+20	Marina	Marina	PROPN	SP	_	14	nmod	_	_
 21	Ripa	Ripa	PROPN	SP	_	20	flat:name	_	_
 22	Di	Di	PROPN	SP	_	20	flat:name	_	_
 23	Meana	Meana	PROPN	SP	_	20	flat:name	_	_
@@ -21374,8 +21374,8 @@
 37	e	e	CCONJ	CC	_	39	cc	_	_
 38	con	con	ADP	E	_	39	case	_	_
 39	equilibrio	equilibrio	NOUN	S	Gender=Masc|Number=Sing	36	conj	_	_
-40	come	come	CCONJ	CC	_	44	cc	_	_
-41	in	in	ADP	E	_	44	case	_	_
+40	come	come	ADV	B	ExtPos=ADP	44	case	_	_
+41	in	in	ADP	E	_	40	fixed	_	_
 42	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Ind	44	det:predet	_	_
 43	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	44	det	_	_
 44	parchi	parco	NOUN	S	Gender=Masc|Number=Plur	39	nmod	_	_
@@ -28102,7 +28102,7 @@
 15-16	alla	_	_	_	_	_	_	_	_
 15	a	a	ADP	E	_	14	fixed	_	_
 16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
-17	laurea	laurea	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
+17	laurea	laurea	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
 18	?	?	PUNCT	FS	_	2	punct	_	_
 
 # sent_id = VIT-10018

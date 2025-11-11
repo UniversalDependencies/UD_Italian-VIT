@@ -41,6 +41,9 @@ We are indebted to Rodolfo Del Monte and his collaborators, Antonella Bristot an
 
 # Changelog
 
+* 2025-10-21 v2.17
+  * Corrected warnings and errors signalled by the new validator
+    
 * 2025-04-27 v2.16
   * Added feature ExtPos to fixed expressions
   
@@ -68,6 +71,7 @@ We are indebted to Rodolfo Del Monte and his collaborators, Antonella Bristot an
 Data available since: UD v2.4
 License: CC BY-NC-SA 3.0
 Includes text: yes
+Parallel: no
 Genre: nonfiction news
 Lemmas: converted from manual
 UPOS: converted from manual
